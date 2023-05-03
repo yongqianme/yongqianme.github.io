@@ -26,6 +26,6 @@ Speeches
 ====
 
 * Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value, 2018 Beijing, China, Tsinghua University
-* Omniedge: Bring Intranet on the Internet,2022 Milan, Italy, Bocconi University. 
+* Omniedge: Bring Intranet on the Internet,2022 Milan, Italy, Bocconi University
 
 ----
