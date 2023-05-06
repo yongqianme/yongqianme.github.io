@@ -25,10 +25,10 @@ author_profile: true
 出版物
 ======
 
-* [《基于工业互联网的供应链创新与应用白皮书》（编委）](http://www.aii-alliance.org/index/c145/n2702.html)
+* 《基于工业互联网的供应链创新与应用白皮书》（编委）[[Link](http://www.aii-alliance.org/index/c145/n2702.html)]
 
 演讲
 ====
 
-* 工业机器人加持互联科技，如何提高核心附加值，2018年北京，中国清华大学
-* Omniedge：在互联网上实现内部网络，2022年米兰，意大利博科尼大学
+* 工业机器人加持互联科技，如何提高核心附加值，2018年北京，中国清华大学 [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
+* Omniedge：在互联网上实现内部网络，2022年米兰，意大利博科尼大学 [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
