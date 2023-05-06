@@ -20,12 +20,12 @@ Throughout my career, I've held positions like the **Asian Technology && Project
 Publications
 ======
 
-* ["White Paper on Supply Chain Innovation and Application Based on Industrial Internet" (Editorial Board Member)](http://www.aii-alliance.org/index/c145/n2702.html),In Chinese
+* "White Paper on Supply Chain Innovation and Application Based on Industrial Internet" (Editorial Board Member)[[Link](http://www.aii-alliance.org/index/c145/n2702.html)]
 
 Speeches
 ====
 
-* Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value, 2018 Beijing, China, Tsinghua University
-* Omniedge: Bring Intranet on the Internet,2022 Milan, Italy, Bocconi University
+* Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value, 2018 Beijing, China, Tsinghua University [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
+* Omniedge: Bring Intranet on the Internet,2022 Milan, Italy, Bocconi University [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
 
 ----
