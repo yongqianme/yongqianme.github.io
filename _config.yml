@@ -84,7 +84,7 @@ author:
   name             : "Yong Qian"
   avatar           : "yongqian.jpg"
   bio              : "Entrepreneur. <br> Experience working for both large multinational tech corporations and building cutting-edge startups, specially in robotics, automobile, IoT and SaaS."
-  location         : "Travelling"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -103,7 +103,7 @@ author:
   instagram        : 
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : 
+  linkedin         : "yongqian"
   orcid            : 
   pinterest        :
   soundcloud       :
