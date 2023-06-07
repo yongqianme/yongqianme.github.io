@@ -32,6 +32,7 @@ Speeches
 Projects
 ====
 
+* [AquaAI](https://aquaai.net) by OmniEdge Inc -- A zero waste fashion industry with AI. 
 * [OmniEdge](https://github.com/omniedgeio) -- Next-generation private network with mesh VPN , served 7000 + users worldwide.
 * High voltage security IIoT system (CT powered sensor  + CT powered industrial router + SaaS + Apps) for high voltage electricity transmission industry.  
 * Industrial IoT System with AI -- We build IIoT tools(Industrial router + SaaS + AI + full platform Apps) for Manufacturing to improve efficiency.Served customers like **Staubli, Frimo, Adient,Yaskawa,Fanuc,ABB,etc**. 
