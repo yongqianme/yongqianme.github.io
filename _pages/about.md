@@ -28,4 +28,27 @@ Speeches
 * Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value, 2018 Beijing, China, Tsinghua University [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
 * Omniedge: Bring Intranet on the Internet,2022 Milan, Italy, Bocconi University [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
 
+
+Projects:
+
+* [OmniEdge](https://github.com/omniedgeio) -- Next-generation private network with mesh VPN , served 7000 + users worldwide.[Closed]
+* Current Transformer IIoT system (CT powered sensor  + CT powered industrial router + SaaS + Apps) for high voltage electricity transmission industry.  
+* [JIEQI](https://github.com/Jieqiio) -- We build IIoT tools(Industrial router + SaaS + AI + full platform Apps) for Manufacturing to improve efficiency.Served customers like **Staubli, Frimo, Adient,Yaskawa,Fanuc,ABB,etc**. [Closed]
+* Robotics Machines for auto industry globally like **BMW 3,5,X1,X3 Series,Audi A4,Q5,Benz C200,Tesla Model 3/Y, Ford, Hyundai,etc**.
+* Robotics machines for Semi-conductor Wafer handling, auto tracking painting system for Palm Pre, the very first No-code robotics laser cutting system VALLASER worldwide. 
+
+Non-Profit Projects
+====
+
+* roboticsfaq.com Non-profit robotics community 2012.06 — 2016.06
+* xulung.com Non-profit engineer training mooc， 2015.11 – 2017.06，
+
+
+Service I offered
+===
+* Consulting for Robotics, IIoT and enterprise VPN
+* Robotics system design and build (together with R&D team)
+* IIoT system design and build (together with R&D team)
+
+
 ----
