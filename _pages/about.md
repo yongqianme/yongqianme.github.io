@@ -32,9 +32,9 @@ Speeches
 Projects
 ====
 
-* [OmniEdge](https://github.com/omniedgeio) -- Next-generation private network with mesh VPN , served 7000 + users worldwide.[Closed]
+* [OmniEdge](https://github.com/omniedgeio) -- Next-generation private network with mesh VPN , served 7000 + users worldwide.
 * High voltage security IIoT system (CT powered sensor  + CT powered industrial router + SaaS + Apps) for high voltage electricity transmission industry.  
-* [JIEQI](https://github.com/Jieqiio) -- We build IIoT tools(Industrial router + SaaS + AI + full platform Apps) for Manufacturing to improve efficiency.Served customers like **Staubli, Frimo, Adient,Yaskawa,Fanuc,ABB,etc**. [Closed]
+* Industrial IoT System with AI -- We build IIoT tools(Industrial router + SaaS + AI + full platform Apps) for Manufacturing to improve efficiency.Served customers like **Staubli, Frimo, Adient,Yaskawa,Fanuc,ABB,etc**. 
 * Robotics Machines for auto industry globally like **BMW 3,5,X1,X3 Series,Audi A4,Q5,Benz C200,Tesla Model 3/Y, Ford, Hyundai,etc**.
 * Robotics machines for Semi-conductor Wafer handling, auto tracking painting system for Palm Pre, the very first No-code robotics laser cutting system VALLASER worldwide. 
 
