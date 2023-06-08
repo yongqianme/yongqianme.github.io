@@ -49,8 +49,8 @@ Non-Profit Projects
 Service I offered
 ===
 * Consulting for Robotics, IIoT and enterprise VPN
-* Robotics system design and build (together with R&D team)
-* IIoT system design and build (together with R&D team)
+* Robotics system design and build (together with product and R&D team)
+* IIoT system design and build (together with product and R&D team)
 
 
 ----
