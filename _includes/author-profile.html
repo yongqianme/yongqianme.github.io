@@ -82,6 +82,9 @@
       {% if author.foursquare %}
         <li><a href="https://foursquare.com/{{ author.foursquare }}"><i class="fab fa-fw fa-foursquare" aria-hidden="true"></i> Foursquare</a></li>
       {% endif %}
+      {% if author.substack %}
+        <li><a href="https://{{ author.foursquare }}.substack.com"><i class="fab fa-fw fa-typewriter" aria-hidden="true"></i> Substack</a></li>
+      {% endif %}
       {% if author.steam %}
         <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
       {% endif %}
