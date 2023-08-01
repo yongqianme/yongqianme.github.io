@@ -9,6 +9,16 @@ redirect_from:
   - /about.html
 ---
 
+## Selected Highlights
+
+- **Excellent product development skills**, adept at transforming requirements into tangible products, which may encompass mechanical automation equipment, robotic systems, and integrated industrial IoT,  software and hardware applications.
+- Proficient in **integrating knowledge from various domains**, including mechanical, electrical, hardware, and software.
+- Possess a **global perspective** with the ability to operate across international boundaries.
+- Strong aptitude for **rapid learning**, enabling quick adaptation to cross-disciplinary challenges.
+- Comfortable to work asynchronously with different teams, customers and suppliers. 
+
+## Introduction 
+
 Throughout my journey as a **seasoned entrepreneur**, I've founded [OmniEdge](https://omniedge.io) (established in 2021) in the United States and an **EdgeComputing IoT startup** in China (established in 2018). With a decade of **global experience** in the **robotics** and **automobile sectors**, I've honed my skills in **product development** and **interdisciplinary integration**. I've built an **international team** of experts from countries like Australia, Canada, Malaysia, Macao, Germany, the US, and China, successfully managing **remote, cross-functional teams** in my entrepreneurial endeavors.
 
 My wide-ranging expertise in **robotics, AI**, and **IoT**,**SaaS** has paved the way for successful enterprise project implementations across numerous industries. Skilled in handling **cross-national distributed teams**, I've had the privilege of speaking at **Tsinghua University** in China on industrial robots and the industrial internet, as well as at **Bocconi University** in Italy on Peer-to-Peer VPN for enterprises.
@@ -17,13 +27,6 @@ In my previous capacity as an expert for the **National Industrial Robot Cloud P
 
 Throughout my career, I've held positions like the **Asian Technology && Project Lead** in Germany, where I oversaw multinational automotive projects, and a **robotics application engineer**, developing state-of-the-art applications for the semiconductor and automobile industries. My professional experiences span various countries, including Asia, Europe, and the United States.
 
-## Selected Highlights
-
-- Excellent product development skills, adept at transforming requirements into tangible products, which may encompass mechanical automation equipment, robotic systems, and integrated industrial IoT,  software and hardware applications.
-- Proficient in integrating knowledge from various domains, including mechanical, electrical, hardware, and software.
-- Possess a global perspective with the ability to operate across international boundaries.
-- Strong aptitude for rapid learning, enabling quick adaptation to cross-disciplinary challenges.
-- Comfortable to work asynchronously with different teams, customers and suppliers. 
 
 Publications
 ======
