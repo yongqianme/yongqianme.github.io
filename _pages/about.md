@@ -17,13 +17,13 @@ In my previous capacity as an expert for the **National Industrial Robot Cloud P
 
 Throughout my career, I've held positions like the **Asian Technology && Project Lead** in Germany, where I oversaw multinational automotive projects, and a **robotics application engineer**, developing state-of-the-art applications for the semiconductor and automobile industries. My professional experiences span various countries, including Asia, Europe, and the United States.
 
-Unique Skills
-======
+## Selected Highlights
 
-* Excellent product development skills, adept at transforming requirements into tangible products, which may encompass mechanical automation equipment, robotic systems, and integrated industrial IoT software and hardware applications.
-*  Proficient in integrating knowledge from various domains, including mechanical, electrical, hardware, and software.
-* Possess a global perspective with the ability to operate across international boundaries.
-* Strong aptitude for rapid learning, enabling quick adaptation to cross-disciplinary challenges.
+- Excellent product development skills, adept at transforming requirements into tangible products, which may encompass mechanical automation equipment, robotic systems, and integrated industrial IoT,  software and hardware applications.
+- Proficient in integrating knowledge from various domains, including mechanical, electrical, hardware, and software.
+- Possess a global perspective with the ability to operate across international boundaries.
+- Strong aptitude for rapid learning, enabling quick adaptation to cross-disciplinary challenges.
+- Comfortable to work asynchronously with different teams, customers and suppliers. 
 
 Publications
 ======
