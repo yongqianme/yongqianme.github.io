@@ -9,6 +9,13 @@ redirect_from:
   - /about.html
 ---
 
+## Open to work
+
+1. Job Title: Product Manager, Engineering Manager, Robotics Expert
+2. Workplace: onsite, remote, hybrid
+3. Job Location: Flexible
+4. Start date: Flexible, I'm casually browsing
+
 ## Selected Highlights
 
 - **Excellent product development skills**, adept at transforming requirements into tangible products, which may encompass mechanical automation equipment, robotic systems, and integrated industrial IoT,  software and hardware applications.
