@@ -43,7 +43,7 @@ author_profile: true
 项目（落地并有实际用户）
 ====
 
-* [AquaAI](https://aquaai.net) by OmniEdge Inc – A zero waste fashion industry with AI.
+* [DeepFashion](https://deepfashion.us):人工智能推动可持续时尚创新.
 * [OmniEdge](https://github.com/omniedgeio)： 下一代私有网络，具备网状VPN功能，为全球7000多名用户提供服务。
 * 高压电力传输行业的电流互感器工业互联网系统（电流互感器供电传感器+电流互感器供电工业路由器+SaaS+应用程序）。
 * 介器互联： 专为工业机器人制造自动化打造的工业互联网系统（工业路由器+SaaS+AI+完整平台应用程序），以提高效率。为Staubli、Frimo、Adient、Yaskawa、Fanuc、ABB等客户提供服务。
