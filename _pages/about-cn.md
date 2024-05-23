@@ -38,13 +38,15 @@ author_profile: true
 
 * 工业机器人加持互联科技，如何提高核心附加值，2018年北京，中国清华大学 [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
 * Omniedge：在互联网上实现内部网络，2022年米兰，意大利博科尼大学 [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
+* Leveraging the Power of Modular Design for Enhanced Manufacturing Efficiency [[Link](/files/Modular-Design-of-Machine.pdf)]
+* AI 助力新生代设计力量，2024年北京，中国时尚论坛 [[Link](https://www.youtube.com/watch?v=4wSYxFmf4vM&t=10s)]
 
 
 项目（落地并有实际用户）
 ====
 
 * [DeepFashion](https://deepfashion.us):人工智能推动可持续时尚创新.
-* [OmniEdge](https://github.com/omniedgeio)： 下一代私有网络，具备网状VPN功能，为全球7000多名用户提供服务。
+* [OmniEdge](https://github.com/omniedgeio)： 开源下一代私有网络，具备网状VPN功能，为全球7000多名用户提供服务。
 * 高压电力传输行业的电流互感器工业互联网系统（电流互感器供电传感器+电流互感器供电工业路由器+SaaS+应用程序）。
 * 介器互联： 专为工业机器人制造自动化打造的工业互联网系统（工业路由器+SaaS+AI+完整平台应用程序），以提高效率。为Staubli、Frimo、Adient、Yaskawa、Fanuc、ABB等客户提供服务。
 * 工业机器人柔性切割设备，为BMW 3,5,X1,X3系列，Audi A4,Q5，Benz C200，特斯拉Model 3/Y，福特，现代等服务。

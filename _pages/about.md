@@ -46,6 +46,7 @@ Speeches
 * Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value, 2018 Beijing, China, Tsinghua University [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
 * Omniedge: Bring Intranet on the Internet,2022 Milan, Italy, Bocconi University [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
 * Leveraging the Power of Modular Design for Enhanced Manufacturing Efficiency [[Link](/files/Modular-Design-of-Machine.pdf)]
+* AI is facilitating the growth and development of the next generation of designers，2024,Beijing，China Fashion Summit [[Link](https://www.youtube.com/watch?v=4wSYxFmf4vM&t=10s)]
 
 
 Projects
