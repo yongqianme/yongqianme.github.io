@@ -4,8 +4,8 @@ main:
 - title: "About me"
   url: /about/
 
-- title: "关于我"
-  url: /about-cn
+# - title: "关于我"
+#   url: /about-cn
 
   # - title: "Publications"
   #   url: /publications/

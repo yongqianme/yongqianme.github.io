@@ -9,30 +9,27 @@ redirect_from:
   - /about.html
 ---
 
-## Open to work
+Executive Summary
+======
 
-1. Job Title: Product Manager, Engineering Manager, Robotics Expert
-2. Workplace: onsite, remote, hybrid
-3. Job Location: Flexible
-4. Start date: Flexible, I'm casually browsing
+I am a seasoned robotics executive with over 20 years of experience spanning robotics, automobile automation, and IoT. My career has evolved from technical roles at leading companies such as Staubli and Frimo to founding and scaling innovative startups. With a unique fusion of deep technical expertise and strategic vision, I excel at building and leading multinational teams, driving product innovation, and executing transformative solutions that capture global markets.
 
-## Selected Highlights
+Strengths:
+======
 
-- **Excellent product development skills**, adept at transforming requirements into tangible products, which may encompass mechanical automation equipment, robotic systems, and integrated industrial IoT,  software and hardware applications.
-- Proficient in **integrating knowledge from various domains**, including mechanical, electrical, hardware, and software.
-- Possess a **global perspective** with the ability to operate across international boundaries.
-- Strong aptitude for **rapid learning**, enabling quick adaptation to cross-disciplinary challenges.
-- Comfortable to work asynchronously with different teams, customers and suppliers. 
+- **Strategic Vision & Innovation**: I consistently deliver groundbreaking solutions—from next-generation mesh VPN networks to AI-powered creative platforms—disrupting traditional industry paradigms.
+- **Global Leadership & Team Building**: My success in assembling and leading diverse, international teams has been pivotal in executing cross-functional projects across multiple geographies.
+- **Technical Mastery & Versatility**: With expertise in robotics programming, SaaS architecture, cloud computing, and IoT, I effectively navigate and resolve intricate technical challenges.
+- **Customer-Centric Approach**: My extensive experience in technical support and on-site deployment enables me to directly translate customer needs into actionable, high-impact strategies.
 
-## Introduction 
+Exits & Notable Ventures:
+======
 
-Throughout my journey as a **seasoned entrepreneur**, I've founded [OmniEdge](https://omniedge.io) (established in 2021) in the United States and an **EdgeComputing IoT startup** in China (established in 2018). With a decade of **global experience** in the **robotics** and **automobile sectors**, I've honed my skills in **product development** and **interdisciplinary integration**. I've built an **international team** of experts from countries like Australia, Canada, Malaysia, Macao, Germany, the US, and China, successfully managing **remote, cross-functional teams** in my entrepreneurial endeavors.
+I have a strong track record of creating value and executing successful exits in the tech space:
 
-My wide-ranging expertise in **robotics, AI**, and **IoT**,**SaaS** has paved the way for successful enterprise project implementations across numerous industries. Skilled in handling **cross-national distributed teams**, I've had the privilege of speaking at **Tsinghua University** in China on industrial robots and the industrial internet, as well as at **Bocconi University** in Italy on Peer-to-Peer VPN for enterprises.
-
-In my previous capacity as an expert for the **National Industrial Robot Cloud Platform**, I contributed to multiple national-level industry white papers as an editorial board member. My product received a nomination for the esteemed **2019 Golden Pin Design Award**, and my company secured second place in the **Artificial Intelligence Town Incubation Camp**. Additionally, we participated in both the **NVIDIA Inception program** and **AWS Accelerator programs** in China and the United States.
-
-Throughout my career, I've held positions like the **Asian Technology && Project Lead** in Germany, where I oversaw multinational automotive projects, and a **robotics application engineer**, developing state-of-the-art applications for the semiconductor and automobile industries. My professional experiences span various countries, including Asia, Europe, and the United States.
+- **JIEQI (AI+IoT)**: Successfully exited a startup that revolutionized industrial connectivity, integrating AI-enhanced IoT solutions for machine vendors.
+- **DeepFashion.us(AIGC)**: Achieved a successful exit with an AI-driven creative platform that empowered designers through personalized generative models.
+- **OmniEdgeio (OSS)**: Completed a strategic exit from an open-source SaaS platform designed to replace traditional VPN infrastructures with advanced mesh networking.
 
 
 Publications
@@ -52,12 +49,12 @@ Speeches
 Projects
 ====
 
-* [DeepFashion](https://Deepfashion.us) -- Uniting AI for Sustainable Fashion Innovation. 
-* [OmniEdge](https://github.com/omniedgeio) -- Next-generation private network with mesh VPN , served 7000 + users worldwide.
-* High voltage security IIoT system (CT powered sensor  + CT powered industrial router + SaaS + Apps) for high voltage electricity transmission industry.  
-* Industrial IoT System with AI -- We build IIoT tools(Industrial router + SaaS + AI + full platform Apps) for Manufacturing to improve efficiency.Served customers like **Staubli, Frimo, Adient,Yaskawa,Fanuc,ABB,etc**. 
-* Robotics Machines for auto industry globally like **BMW 3,5,X1,X3 Series,Audi A4,Q5,Benz C200,Tesla Model 3/Y, Ford, Hyundai,etc**.
-* Robotics machines for Semi-conductor Wafer handling, auto tracking painting system for Palm Pre, the very first No-code robotics laser cutting system VALLASER worldwide. 
+- **DeepFashion.us**:Pioneered an AI-driven creative platform that empowers artists to design using personalized AI models—a breakthrough in creative technology.
+- **High Voltage Security IIoT System**:Developed an end-to-end system integrating CT-powered sensors, industrial routers, SaaS, and mobile applications tailored for high voltage electricity transmission.
+- **OmniEdge Platform**:Launched a next-generation mesh VPN-based private network, now serving over 7,000 users worldwide.
+- **Industrial IoT System with AI**:Engineered advanced IIoT tools (combining industrial routers, SaaS platforms, and AI) to boost manufacturing efficiency, serving globally recognized companies such as Staubli, Frimo, Adient, Yaskawa, Fanuc, and ABB.
+- **Robotics Deployments for Global Auto Industry**:Delivered automation solutions for leading automobile manufacturers including BMW, Audi, Mercedes-Benz, Tesla, Ford, and Hyundai.
+- **Innovative Industrial Solutions**:Developed robotics systems for semiconductor wafer handling and auto-tracking painting, and executed the first global rollout of a no-code robotics laser cutting system (VAL LASER).
 
 Non-Profit Projects
 ====
