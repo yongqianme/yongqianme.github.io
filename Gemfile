@@ -23,6 +23,7 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
+  gem 'jekyll-figure'
   gem 'hawkins'
 end
 gem 'jekyll-commonmark-ghpages'
