@@ -9,6 +9,7 @@ tags:
   - geological exploration
   - startups
 ---
+![Why I Walked Away from a $7 Million Robotics Deal](/images/posts/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal.png)
 
 In the world of emerging technology, few things are more tempting than a high-value contract with bold ambitions. 
 
