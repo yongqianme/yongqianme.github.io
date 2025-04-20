@@ -81,9 +81,11 @@ Education
 ### MBA, Master in Commerce Management and marketing, 2023-2024 [Online]
 	
   - ENEB - Escuela de Negocios Europea de Barcelona, Spain
+  
 	- Universidad Isabel I, Spain
 
 ### Bachelor’s Degree in Machine Design and its Automation, 2002-2006 [In-Person]
+
 	- Henan University of Science & Technology, China
 
 Language
@@ -91,5 +93,3 @@ Language
 
 - Chinese (Native language) 
 - English (Full Professional Proficiency in oral and writing)
-
-====
