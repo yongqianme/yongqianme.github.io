@@ -3,6 +3,10 @@ main:
 
 - title: "About me"
   url: /about/
+- title: "CV"
+  url: /cv/
+- title: "Blog"
+  url: /categories/
 
 # - title: "关于我"
 #   url: /about-cn
@@ -19,8 +23,7 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
 
-  # - title: "CV"
-  #   url: /cv/
+  
 
   # - title: "Blog Posts"
   #   url: /year-archive/
