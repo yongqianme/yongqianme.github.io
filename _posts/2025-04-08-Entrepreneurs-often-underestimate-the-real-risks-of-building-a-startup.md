@@ -1,6 +1,6 @@
 ---
 title: 'Entrepreneurs often underestimate the real risks of building a startup. '
-date: 2025-08-08
+date: 2025-04-08
 permalink: /posts/2025/04/Entrepreneurs-often-underestimate-the-real-risks-of-building-a-startup/
 categories:
   - Entrepreneurs
