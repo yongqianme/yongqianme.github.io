@@ -1,6 +1,6 @@
 ---
 title: 'Why I Walked Away from a $7 Million Robotics Deal'
-date: 2015-08-14
+date: 2015-08-08
 permalink: /posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/
 tags:
   - quadruped robot
