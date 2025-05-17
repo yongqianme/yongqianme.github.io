@@ -7,7 +7,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@billraymonde" />
 <meta name="twitter:title" content="{{- page.title -}}">
-<meta name="twitter:image" content="{{- card-filename -}}">
+<meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ base_path }}{{ page.image }}{% else %}{{ site.url }}{{ base_path }}/images/posts/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration.png{% endif %}">
 <meta property="og:image" content="{{- card-filename -}}">
 <meta property="og:description" content="{{- page.title -}}"/>
 <meta property="og:image:type" content="image/png">
@@ -18,6 +18,9 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{{ base_path }}/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ base_path }}/images/favicon-16x16.png">
 <link rel="manifest" href="{{ base_path }}/images/site.webmanifest">
+
+
+
 
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>

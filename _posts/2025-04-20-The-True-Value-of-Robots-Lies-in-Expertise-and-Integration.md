@@ -1,6 +1,7 @@
 ---
 title: 'The True Value of Robots Lies in Expertise and Integration'
 date: 2025-04-20
+image: /images/posts/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration.png
 permalink: /posts/2025/04/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration/
 categories:
   - Robotics

@@ -1,6 +1,7 @@
 ---
 title: 'Why I Walked Away from a $7 Million Robotics Deal'
 date: 2025-04-08
+image: /images/posts/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal.png
 permalink: /posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/
 categories:
   - Entrepreneurs

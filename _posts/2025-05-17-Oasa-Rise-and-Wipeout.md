@@ -1,6 +1,7 @@
 ---
 title: 'Oasa‘s Rise and Wipeout'
 date: 2025-05-17
+image: /images/posts/oasa.webp
 permalink: /posts/2025/04/Oasa-Rise-and-Wipeout/
 categories:
   - Robotics

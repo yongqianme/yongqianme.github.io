@@ -1,6 +1,7 @@
 ---
 title: 'Richard Branson on Disruptive Entrepreneurship and Making a Positive Impact'
 date: 2023-08-02
+image: /images/posts/Richard-Branson-on-Disruptive-Entrepreneurship-and-Making-a-Positive-Impact.png
 permalink: /posts/2023/08/Richard-Branson-on-Disruptive-Entrepreneurship-and-Making-a-Positive-Impact/
 categories:
   - Entrepreneurs
