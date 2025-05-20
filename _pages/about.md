@@ -36,8 +36,8 @@ Publications
 ======
 
 * "White Paper on Supply Chain Innovation and Application Based on Industrial Internet" (Editorial Board Member)[[Link](http://www.aii-alliance.org/index/c145/n2702.html)]
-* How to Build Fashion AI SaaS From Scratch: Learn the step-by-step process to create a cutting-edge Fashion AI SaaS platform.[Link](https://books.omniedge.io/fashion-ai-book)
-* Building Your Enterprise Peer-to-Peer VPN SaaS from Scratch:A comprehensive guide based on open source OmniEdge implementations.[Link](https://books.omniedge.io/vpn-saas-book)
+* How to Build Fashion AI SaaS From Scratch: Learn the step-by-step process to create a cutting-edge Fashion AI SaaS platform.[Amazon Link](https://www.amazon.com/build-Fashion-Scratch-step-step-ebook/dp/B0F8WBNSPP)
+* Building Your Enterprise Peer-to-Peer VPN SaaS from Scratch:A comprehensive guide based on open source OmniEdge implementations.[Amazon Link](https://www.amazon.com/Building-Enterprise-Peer-Peer-Scratch-ebook/dp/B0F8YSG1WW)
 
 Speeches
 ====
