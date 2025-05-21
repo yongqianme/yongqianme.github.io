@@ -2,7 +2,7 @@
 title: Why Unitree's Robot Boxing Isn't Just a Gimmick—It's Strategic Brilliance
 date: 2025-05-22
 image: /images/posts/unitree-robot-combat.webp
-permalink: /posts/2025/04/Why-Unitree-Robot-Boxing-Is-not-Just-a-Gimmick—its-Strategic-Brilliance
+permalink: /posts/2025/04/Why-Unitree-Robot-Boxing-Is-not-Just-a-Gimmick-its-Strategic-Brilliance
 categories:
   - Robotics
 tags:
