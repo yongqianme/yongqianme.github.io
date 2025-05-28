@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "YONG QIAN (钱涌)"
+title                    : "YONG QIAN"
 title_separator          : "-"
-name                     : &name "YONG QIAN (钱涌)"
+name                     : &name "YONG QIAN"
 description              : &description "personal description"
 url                      : https://qianyong.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -81,7 +81,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "YONG QIAN (钱涌)"
+  name             : "YONG QIAN"
   avatar           : "yongqian.jpg"
   bio              : "Robotics Executive | 20+ Years in Robotics, Automation & IoT | Led Global Teams & Innovative Product Development | Founder & Technical Expert | Driving High-Impact Solutions"
   location         : "Aisa & North America"
@@ -99,7 +99,7 @@ author:
   facebook         :
   foursquare       :
   substack         :        
-  github           : 
+  github           : "yongqianme"
   google_plus      :
   keybase          :
   instagram        : 
