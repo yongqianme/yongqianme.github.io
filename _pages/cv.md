@@ -7,12 +7,13 @@ redirect_from:
   - /resume
 ---
 
-Summary
+SUMMARY
 ====
 
-I am a seasoned executive with over 20 years of experience in robotics, automobile automation, and IoT. My career has spanned from being a core technical expert at pioneering companies like Staubli and Frimo to founding and leading my own startups. With a deep technical background complemented by strong business acumen, I have led international, cross-functional teams, driven innovative product development, and delivered high-impact solutions to global markets.
+I’m an engineer,entrepreneur and product leader with over a decade of experience in robotics, IoT, and SaaS. My journey has taken me from founding startups in the U.S. and China to leading cross-functional teams that bring innovative solutions to market. At OmniEdge and my EdgeComputing IoT startup, I’ve built and scaled products that integrate physical devices with cloud-based AI, achieving significant growth and market impact. My passion lies in transforming complex technical challenges into market-ready solutions, and I thrive on collaborating with diverse teams to make that happen. 
 
-Professional Experience
+
+PROFESSIONAL EXPERIENCE
 ====
 
 ## OmniEdge Inc, Austin, US, September 2021 to now, FOUNDER & CEO, CPO
@@ -75,13 +76,28 @@ Cultivated multinational business opportunities, engaging with key customers suc
 - Provided both pre-sales and technical support, including requirements refinement, feasibility studies, and detailed technical training for integrators.
 - Designed and developed China’s first no-code industrial robotics laser cutting system, demonstrating early leadership in robotics innovation.
 
+
+KEY ACHIEVEMENTS
+===
+
+- **Product Launch & Growth**: I’ve successfully launched and scaled two startups with 6 projects in the IoT, AI and SaaS sectors, achieving significant user growth and market penetration.  
+- **GTM Strategy**: My go-to-market strategies have driven a 25% increase in market share for OmniEdge,  a 40% revenue increase for my EdgeComputing IoT startup, sucessfully exit two projects. 
+- **Team Leadership**: I’ve built and managed international, cross-functional teams of up to 20+ members, delivering complex products on time and within budget.  
+- **Industry Recognition**: I was nominated for the 2019 Golden Pin Design Award and secured second place in the Artificial Intelligence Town Incubation Camp. I’ve also participated in the NVIDIA Inception and AWS Accelerator programs.  
+
+
+SKILLS
+===
+- **Go-to-Market Strategy**: I excel at customer discovery, market analysis, pricing, and sales enablement for physical AI and IoT products.  
+- **Product Development**: I’m skilled at transforming technical requirements into market-ready solutions, especially in AI, robotics, and cloud integration.  
+- **Interdisciplinary Integration**: I bring together mechanical, electrical, hardware, and software knowledge to develop cohesive systems.  
+- **Cloud-Based AI Services**: I have experience with AWS, Azure, and Google Cloud, using them to enhance my past applications.  
+- **Team Management**: I’ve led remote, cross-functional teams across multiple countries and time zones, ensuring collaboration and success.  
+- **Technical Proficiency**: My expertise includes robotics, IoT, SaaS, edge computing, AI integration, and automation.  
+
+
 Education
 ====
-
-### MBA, Master in Commerce Management and marketing, 2023-2024 [Online]
-	
-- ENEB - Escuela de Negocios Europea de Barcelona, Spain
-- Universidad Isabel I, Spain
 
 ### Bachelor’s Degree in Machine Design and its Automation, 2002-2006 [In-Person]
 
@@ -92,3 +108,4 @@ Language
 
 - Chinese (Native language) 
 - English (Full Professional Proficiency in oral and writing)
+- Spanish (Beginner)
