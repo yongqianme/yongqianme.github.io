@@ -12,7 +12,7 @@ redirect_from:
 Executive Summary
 ======
 
-I am a seasoned robotics executive with over 20 years of experience spanning robotics, automobile automation, and IoT. My career has evolved from technical roles at leading companies such as Staubli and Frimo to founding and scaling innovative startups. With a unique fusion of deep technical expertise and strategic vision, I excel at building and leading multinational teams, driving product innovation, and executing transformative solutions that capture global markets.
+I’m an engineer,entrepreneur and product leader with over a decade of experience in robotics, IoT, and SaaS. My journey has taken me from founding startups in the U.S. and China to leading cross-functional teams that bring innovative solutions to market. At OmniEdge and my EdgeComputing IoT startup, I’ve built and scaled products that integrate physical devices with cloud-based AI, achieving significant growth and market impact. My passion lies in transforming complex technical challenges into market-ready solutions, and I thrive on collaborating with diverse teams to make that happen. 
 
 Strengths:
 ======
