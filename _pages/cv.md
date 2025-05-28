@@ -1,10 +1,12 @@
 ---
-layout: archive
-title: "My resume"
+permalink: /
+title: "Yong's Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /about/
+  - /about.html
 ---
 
 SUMMARY

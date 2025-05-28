@@ -1,5 +1,5 @@
 ---
-permalink: /
+# permalink: /
 title: ""
 excerpt: "About me"
 # permalink: /about/
