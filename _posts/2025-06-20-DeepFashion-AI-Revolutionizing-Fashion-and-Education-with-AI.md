@@ -1,6 +1,6 @@
 ---
 title: DeepFashion AI Revolutionizing Fashion and Education with AI
-date: 2025-06-21
+date: 2025-06-20
 image: 
 permalink: /posts/2025/06/DeepFashion-AI-Revolutionizing-Fashion-and-Education-with-AI
 youtubeId: X45gxCDBUXA
