@@ -3,7 +3,6 @@ title: DeepFashion: My Journey from Idea to Sale
 date: 2025-06-25
 image: 
 permalink: /posts/2025/06/DeepFashion-My-Journey-from-Idea-to-Sale
-youtubeId: Vj9PKCIYXqc
 categories:
   - Startups
 tags:
@@ -16,7 +15,7 @@ tags:
 My entrepreneurial journey with DeepFashion, an AI-powered clothing design platform, was a rollercoaster of challenges, pivots, and triumphs. As the founder, I navigated the startup process from a spark of inspiration to a successful sale, learning invaluable lessons along the way. This story, drawn from my own reflections, offers a firsthand account of building DeepFashion, blending my background in fashion with cutting-edge AI technologies.
 
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubePlayer.html id=Vj9PKCIYXqc %}
 
 
 ## The Spark That Started It All
