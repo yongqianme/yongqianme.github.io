@@ -24,23 +24,23 @@ Yong’s career began in 2005 as an intern at Staubli, a Swiss industrial roboti
 
 Yong has led several impactful projects throughout his career. Here are some notable examples:
 
-1. Automotive Dashboard Weakening Equipment
+### Automotive Dashboard Weakening Equipment
 
 As an independent consultant, Yong contributed to the development of weakening equipment for passenger-side airbag dashboards in the automotive industry. Using cold knife, hot knife, or laser technology, this equipment reduces the strength of specific dashboard areas to ensure airbags deploy effectively. The project addressed the entire processing chain, from surface skin to foam layers and plastic skeletons, and was adopted by numerous car brands, including Tesla’s Model 3 and Model Y. Yong’s confidence in Tesla’s safety standards stems from his deep involvement in this project.
 
-2. Industrial Internet Remote Service Platform
+### Industrial Internet Remote Service Platform
 
 After leaving the German company, Yong founded a startup and launched an Industrial Internet product focused on remote service, diagnostics, and preventive maintenance for industrial equipment. The product featured self-developed hardware and software, built from PCB design to cloud infrastructure. Serving clients across Asia and Europe, it reduced travel costs by 70%, improved response times by 80%, and boosted engineer efficiency by over 50%. Notably, both of Yong’s former employers, including the German company, became clients.
 
-3. OmniEdge IoT Secure Networking Product
+### OmniEdge IoT Secure Networking Product
 
 Building on the Industrial Internet product, Yong developed OmniEdge, an open-source IoT secure networking solution. Using peer-to-peer (P2P) technology, it supports cross-platform device connectivity, including Apple, Android, Windows, Linux, Docker, Kubernetes, and router systems like OpenWRT and Synology. OmniEdge serves over 10,000 users across 26 countries, with all code available on GitHub. Yong also authored an English-language book about the project, available on Amazon.
 
-4. DeepFashion AI Fashion Design Platform
+### DeepFashion AI Fashion Design Platform
 
 Launched in late 2023, DeepFashion is an AI platform for global fashion designers. Serving over 10,000 designers in 80+ countries, it generated more than 600,000 fashion design drafts, saving 70% of design time and achieving over 100x innovation output. The project’s innovation earned coverage from the Associated Press and was acquired in early 2024.
 
-5. Low-Code Laser Cutting System
+### Low-Code Laser Cutting System
 
 Early in his career, Yong collaborated with CKY to develop China’s first low-code/no-code laser cutting system for industrial robots. Designed for simplicity, the system allowed high school students to operate it, significantly lowering the barrier to laser cutting programming. Extensively tested in places like Baoying, Jiangsu, it contributed to the democratization of industrial automation.
 
