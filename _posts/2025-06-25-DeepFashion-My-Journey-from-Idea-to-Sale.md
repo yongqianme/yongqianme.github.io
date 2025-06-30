@@ -15,9 +15,6 @@ tags:
 My entrepreneurial journey with DeepFashion, an AI-powered clothing design platform, was a rollercoaster of challenges, pivots, and triumphs. As the founder, I navigated the startup process from a spark of inspiration to a successful sale, learning invaluable lessons along the way. This story, drawn from my own reflections, offers a firsthand account of building DeepFashion, blending my background in fashion with cutting-edge AI technologies.
 
 
-{% include youtubePlayer.html id=Vj9PKCIYXqc %}
-
-
 ## The Spark That Started It All
 
 In April 2023, I was captivated by a new release from MidJourney, an AI tool that could generate images from text prompts. Paired with the power of ChatGPT, it ignited an idea for DeepFashion—a platform to revolutionize fashion design through AI. Growing up with family in Hangzhou’s fashion industry, I’d absorbed enough insights to know this was a field ripe for innovation. After running feasibility studies, I confirmed AI could transform tasks like creating product descriptions, social media content, video scripts, customer service chatbots, and even clothing designs.
