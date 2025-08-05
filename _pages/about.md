@@ -12,12 +12,16 @@ redirect_from:
 SUMMARY
 ====
 
-I’m an engineer,entrepreneur and product leader with over a decade of experience in robotics, IoT, and SaaS. My journey has taken me from founding startups in the U.S. and China to leading cross-functional teams that bring innovative solutions to market. At OmniEdge and my EdgeComputing IoT startup, I’ve built and scaled products that integrate physical devices with cloud-based AI, achieving significant growth and market impact. My passion lies in transforming complex technical challenges into market-ready solutions, and I thrive on collaborating with diverse teams to make that happen. 
+AI & Robotics Product Leader with 20+ years driving global, cross-functional teams to build, launch and scale deep-tech solutions. Founded and led two SaaS/IoT startups to exits, grew user bases to 10,000+, and delivered $1–5M+ consulting engagements. Now eager to join a high-growth product or innovation team as an operator, combining hands-on technical expertise with strategic GTM execution.
 
 PROFESSIONAL EXPERIENCE
 ====
+## Director of Products
+## Steath Startups
+- Turning requirement into a real product(0-1)
 
-## OmniEdge Inc, Austin, US, September 2021 to now, FOUNDER & CEO, CPO
+## Head of Product (Founder & CEO)
+## OmniEdge Inc, Austin, US, September 2021 to April 2025
 
 **Strategic Innovation & Global Consulting:**
 
@@ -36,7 +40,9 @@ PROFESSIONAL EXPERIENCE
 - Drove business development via social media channels (LinkedIn and Twitter), growing the user base to 6,000+ from 26 countries, with significant traction in the paid segment.
 - Contributed hands-on technical expertise by programming critical components—Github Actions, OpenWrt, Docker applications, front-end interfaces, and comprehensive documentation systems.
 
-## JIEQI EdgeComputing, Co, LTD, Hangzhou, China, September 2018 to February 2021, FOUNDER & CEO
+## Head of Product & Technology (Founder & CEO)
+
+## JIEQI EdgeComputing, Co, LTD, Hangzhou, China, September 2018 to February 2021
 
 **Market-Driven Innovation:**
 
@@ -53,14 +59,16 @@ PROFESSIONAL EXPERIENCE
 - Secured investments from private funds and venture capital, underscoring confidence in strategic market potential.
 Cultivated multinational business opportunities, engaging with key customers such as Frimo GmbH, Staubli Group, Adient, and Group Antolin.
 
-## Frimo (Germany) GmbH, December 2012 to September 2018, ROBOT PROGRAMER
+## ROBOT PROGRAMER(Asia-Pacific Leader)
+## Frimo (Germany) GmbH, December 2012 to September 2018
 
 **Global Operations & Coordination:**
 
 - Provided comprehensive customer support and technical solutions on a global scale, coordinating efforts across Asia, headquarters, and international clients.
 - Played a key role in deploying automotive automation systems by integrating robotics with PLC technology, precision RL algorithms, and vision-based AI systems.
 
-## Frimo (Shanghai), April 2010 to May 2012, AUTOMATION ENGINEER
+## AUTOMATION ENGINEER
+## Frimo (Shanghai), April 2010 to May 2012
 
 **Project Leadership & Execution:**
 
@@ -69,7 +77,8 @@ Cultivated multinational business opportunities, engaging with key customers suc
 - Delivered on-site customer support and ensured successful deployment and integration of advanced automation systems.
 - Independently developed technical localization solutions.
 
-## Staubli Hangzhou, Hangzhou, China, April 2006 to March 2010 , ROBOTICS TECHNICAL SUPPORT
+## ROBOTICS TECHNICAL SUPPORT
+## Staubli Hangzhou, Hangzhou, China, April 2006 to March 2010
 
 **Core Technical Contributions:**
 
@@ -133,7 +142,6 @@ I’ve worked in Asia, Europe, and the United States, giving me a deep understan
 
 **Projects**
 - **DeepFashion.us**:Pioneered an AI-driven creative platform that empowers artists to design using personalized AI models—a breakthrough in creative technology.
-- **High Voltage Security IIoT System**:Developed an end-to-end system integrating CT-powered sensors, industrial routers, SaaS, and mobile applications tailored for high voltage electricity transmission.
 - **OmniEdge Platform**:Launched a next-generation mesh VPN-based private network, now serving over 7,000 users worldwide.
 - **Industrial IoT System with AI**:Engineered advanced IIoT tools (combining industrial routers, SaaS platforms, and AI) to boost manufacturing efficiency, serving globally recognized companies such as Staubli, Frimo, Adient, Yaskawa, Fanuc, and ABB.
 - **Robotics Deployments for Global Auto Industry**:Delivered automation solutions for leading automobile manufacturers including BMW, Audi, Mercedes-Benz, Tesla, Ford, and Hyundai.
