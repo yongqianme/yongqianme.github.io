@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-SUMMARY
+SUMMARY(Open to Work,Contact in the end)
 ====
 
 AI & Robotics Product Leader with 20+ years driving global, cross-functional teams to build, launch and scale deep-tech solutions. Founded and led two SaaS/IoT startups to exits, grew user bases to 10,000+, and delivered $1–5M+ consulting engagements. Now eager to join a high-growth product or innovation team as an operator, combining hands-on technical expertise with strategic GTM execution.
@@ -150,3 +150,8 @@ I’ve worked in Asia, Europe, and the United States, giving me a deep understan
 **Non-Profit Projects**
 * roboticsfaq.com Non-profit robotics community 2012.06 — 2016.06
 * xulung.com Non-profit engineer training mooc 2015.11 – 2017.06，
+
+
+## Contact
+- WhatsAPP: +1 (218) 384-1417
+- Email: qianyong@qianyong.me
