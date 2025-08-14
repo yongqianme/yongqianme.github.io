@@ -8,56 +8,49 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-SUMMARY(Open to Work,Contact in the end)
+Robotics Executive & Product Leader — Hardware + SaaS + AI
 ====
 
-AI & Robotics Product Leader with 20+ years driving global, cross-functional teams to build, launch and scale deep-tech solutions. Founded and led two SaaS/IoT startups to exits, grew user bases to 10,000+, and delivered $1–5M+ consulting engagements. Now eager to join a high-growth product or innovation team as an operator, combining hands-on technical expertise with strategic GTM execution.
+Seasoned product leader with 20+ years building and scaling robotics, industrial IoT, and cloud-connected SaaS products. Proven track record founding and scaling startups, driving product strategy and GTM for complex physical + software systems, and leading international engineering and product teams to deliver measurable customer and revenue outcomes. Now eager to join a high-growth product or innovation team, combining hands-on technical expertise with strategic GTM execution.
+
+CORE STRENGTHS
+====
+- Product strategy & roadmapping for hardware+software platforms
+-  Go-to-market (GTM), pricing, and enterprise sales enablement
+- Cross-functional leadership: engineering, UX, operations, sales
+- Edge/Cloud architecture, IIoT, SaaS, mesh networking, WireGuard/VPN solutions
+- Customer discovery, field deployments, and P&L mindset
+- Fundraising, partner ecosystems, and enterprise customer success
+
+SELECTED IMPACTS & METRICS
+====
+- Launched and scaled multiple startups and products across IIoT, robotics, and AIGC; built user bases of thousands across 26+ countries. 
+- Led consulting engagements and automation programs that produced multimillion-dollar savings for automotive suppliers. 
+- Delivered GTM strategies that increased market share and revenue.
+- Built and managed distributed international teams (hiring across AMD, Alibaba, Oxford/Cambridge talent) and scaled teams of 20+ to deliver cross-continent launches.
 
 PROFESSIONAL EXPERIENCE
 ====
 ## Director of Products
 ## Steath Startups
-- Turning requirement into a real product(0-1)
+- Transform customer needs into real-world products—leveraging IoT, SaaS, and AI—taking them from concept to launch.
 
 ## Head of Product (Founder & CEO)
 ## OmniEdge Inc, Austin, US, September 2021 to April 2025
 
-**Strategic Innovation & Global Consulting:**
-
-- Led consulting projects focused on improving robotic processes for top-tier automotive suppliers in the U.S., Mexico, and China, boosting equipment stability and yield rates. Helped clients save tens of millions of dollars.
-- Spearheaded the development of DeepFashion.us, an AI-driven platform enabling designers to train personalized creative models—positioning OmniEdge as a pioneer in merging AI with creative design.
-- Conceptualized and launched a next-generation SaaS solution that replaces traditional VPN infrastructures with peer-to-peer mesh VPN technology.
-
-**Leadership & Team Building:**
-
-- Built and led a diverse, multi-national team drawn from organizations such as AMD, Alibaba, and others across Australia, Canada, Malaysia, Macao, Germany, the US, and China.
-- Successfully managed cross-functional teams in a remote setting, ensuring agile collaboration among product, engineering, and business development units.
-
-**Product Development & Growth:**
-
-- Oversaw end-to-end product design and market strategy, including the development of multi-platform applications (Linux, Windows, macOS, iOS, Android, Docker, Synology, OpenWrt, Github Actions) running on AWS.
-- Drove business development via social media channels (LinkedIn and Twitter), growing the user base to 6,000+ from 26 countries, with significant traction in the paid segment.
-- Contributed hands-on technical expertise by programming critical components—Github Actions, OpenWrt, Docker applications, front-end interfaces, and comprehensive documentation systems.
+1. Directed product vision and roadmap for a next-generation mesh VPN and edge networking SaaS platform(OmniEdge Mesh VPN) that integrates device firmware, cloud orchestration, and multi-platform clients (Linux, Windows, macOS, iOS, Android, Docker, Synology, OpenWrt).
+2. Built and launched DeepFashion AIGC platform — enabled designers/trainers to create and deploy custom generative models; scaled to thousands of active users across 26+ countries and converted pilot customers to paid plans.
+3. Defined enterprise product bundles (edge + cloud + support) and ran pilot programs with manufacturing and design houses that turned into repeatable enterprise deals.
+4. Owned GTM strategy: product positioning, pricing, enterprise pilot programs, and social growth channels, growing active users to thousands worldwide and converting paid users for both DeepFashion and OmniEdge Mesh VPN.
+5. Hands-on contribution to CI/CD, containerized deployments, and device integrations — reduced friction for enterprise pilots and accelerated time-to-first-value.
 
 ## Head of Product & Technology (Founder & CEO)
 
 ## JIEQI EdgeComputing, Co, LTD, Hangzhou, China, September 2018 to February 2021
 
-**Market-Driven Innovation:**
-
-- Founded and scaled a SaaS-based solution enabling machine vendors (PLC, robotics, industrial vision systems) to connect and service equipment remotely via a WireGuard-based VPN network.
-- Led the design and deployment of an integrated IoT hardware and software solution on AWS, including native apps (iOS, Windows, Android).
-
-**Team & Stakeholder Leadership:**
-
-- Assembled a robust, multi-national team with talent from the UK, Germany, the US, and China—including top-tier recruits from University of Oxford and Cambridge.
-- Coordinated cross-functional teams remotely, ensuring seamless product development and operational execution.
-
-**Fundraising & Business Development:**
-
-- Secured investments from private funds and venture capital, underscoring confidence in strategic market potential.
-Cultivated multinational business opportunities, engaging with key customers such as Frimo GmbH, Staubli Group, Adient, and Group Antolin.
+1. Built an IIoT SaaS product enabling remote connectivity and servicing for PLCs, robotics, and industrial vision systems using WireGuard-based VPN connectivity. 
+2. Led product design and hardware+software integration on AWS; directed mobile/native client development and cloud orchestration. 
+3. Secured institutional investment, established enterprise partnerships, and executed customer pilots that validated product-market fit.
 
 ## ROBOT PROGRAMER(Asia-Pacific Leader)
 ## Frimo (Germany) GmbH, December 2012 to September 2018
@@ -70,41 +63,42 @@ Cultivated multinational business opportunities, engaging with key customers suc
 ## AUTOMATION ENGINEER
 ## Frimo (Shanghai), April 2010 to May 2012
 
-**Project Leadership & Execution:**
-
-- Directed the complete lifecycle of industrial robotics automation projects, from initial concept through deployment and post-launch analysis.
-- Conducted in-depth feasibility studies, virtual simulations, and offline programming to meet pre-market requirements.
-- Delivered on-site customer support and ensured successful deployment and integration of advanced automation systems.
-- Independently developed technical localization solutions.
+- End-to-end delivery of industrial automation projects: feasibility, simulation, offline programming, and on-site commissioning.
 
 ## ROBOTICS TECHNICAL SUPPORT
 ## Staubli Hangzhou, Hangzhou, China, April 2006 to March 2010
 
-**Core Technical Contributions:**
-
-- Integral member of the early robotics division, responsible for post-sale service, troubleshooting, and repair across China and other key Asia-Pacific markets.
-- Provided both pre-sales and technical support, including requirements refinement, feasibility studies, and detailed technical training for integrators.
-- Designed and developed China’s first no-code industrial robotics laser cutting system, demonstrating early leadership in robotics innovation.
-
+- Post-sale service, troubleshooting, and integrator training across China and APAC; developed the country’s first no-code robotics laser cutting system (VAL LASER).
 
 KEY ACHIEVEMENTS
 ===
 
-- **Product Launch & Growth**: I’ve successfully launched and scaled two startups with 6 projects in the IoT, AI and SaaS sectors, achieving significant user growth and market penetration.  
-- **GTM Strategy**: My go-to-market strategies have driven a 25% increase in market share for OmniEdge,  a 40% revenue increase for my EdgeComputing IoT startup, sucessfully exit two projects. 
-- **Team Leadership**: I’ve built and managed international, cross-functional teams of up to 20+ members, delivering complex products on time and within budget.  
-- **Industry Recognition**: I was nominated for the 2019 Golden Pin Design Award and secured second place in the Artificial Intelligence Town Incubation Camp. I’ve also participated in the NVIDIA Inception and AWS Accelerator programs.  
+- Founded and exited multiple ventures spanning IIoT, AIGC, and open-source networking, delivering commercial deployments and repeatable GTM playbooks. 
+- Industry recognition: Golden Pin Design Award nominee; participant in NVIDIA Inception and AWS Accelerator programs. 
+- Publications & talks on industrial internet, modular design, and AI in fashion; authored books on building Fashion AI SaaS and peer-to-peer VPN SaaS.
 
+
+TECH STACK & TOOLS
+====
+
+WireGuard, OpenWrt, Docker, AWS, Kubernetes patterns, GitHub Actions, Python / Go, telemetry & analytics, product metrics (Mixpanel/Amplitude), CI/CD, AI model ops.
 
 SKILLS
 ===
 
-- **Go-to-Market Strategy**: I excel at customer discovery, market analysis, pricing, and sales enablement for physical AI and IoT products.  
-- **Product Development**: I’m skilled at transforming technical requirements into market-ready solutions, especially in AI, robotics, and cloud integration.  
-- **Interdisciplinary Integration**: I bring together mechanical, electrical, hardware, and software knowledge to develop cohesive systems.  
-- **Cloud-Based AI Services**: I have experience with AWS, Azure, and Google Cloud, using them to enhance my past applications.  
-- **Team Management**: I’ve led remote, cross-functional teams across multiple countries and time zones, ensuring collaboration and success.  
-- **Technical Proficiency**: My expertise includes robotics, IoT, SaaS, edge computing, AI integration, and automation.  
+## Industrial Systems:
+- Deep expertise in robotic systems integration, programming, and troubleshooting (ABB, Staubli, etc.).
+Familiar with CAD systems (AutoCAD, UG/Unigraphics, Rhinoceros) and industrial automation software (Siemens TIA, Staubli Robotics Studio, ABB Robotics Studio).
+- Knowledgeable in industrial communication protocols (DeviceNet, ProfiBus, Modbus, CANBUS, OPC-UA) and other industry-standard products.
+
+## Information Technology:
+- Programming Languages: Python, C/C++, TypeScript
+- AI: Deep Learning, Stable Diffusion, 2D/3D Computer Vision
+- Frameworks: Node.js, React
+- Tools: Docker, AWS, Git, 
+
+## Business: 
+- Product Strategy, GTM, Monetization, Fundraising, Investor Decks, Agile, Remote Team Management
 
 
 Education
@@ -128,6 +122,8 @@ I’ve worked in Asia, Europe, and the United States, giving me a deep understan
 - **JIEQI (AI+IoT)**: Successfully exited a startup that revolutionized industrial connectivity, integrating AI-enhanced IoT solutions for machine vendors.
 - **DeepFashion.us(AIGC)**: Achieved a successful exit with an AI-driven creative platform that empowered designers through personalized generative models.
 - **OmniEdgeio (OSS)**: Completed a strategic exit from an open-source SaaS platform designed to replace traditional VPN infrastructures with advanced mesh networking.
+- **Confidential Project(Robotics project for automotive)**
+- **Confidential Project(AI+Hardware+Software)**
 
 
 **Publications & Speeches**
@@ -146,6 +142,7 @@ I’ve worked in Asia, Europe, and the United States, giving me a deep understan
 - **Industrial IoT System with AI**:Engineered advanced IIoT tools (combining industrial routers, SaaS platforms, and AI) to boost manufacturing efficiency, serving globally recognized companies such as Staubli, Frimo, Adient, Yaskawa, Fanuc, and ABB.
 - **Robotics Deployments for Global Auto Industry**:Delivered automation solutions for leading automobile manufacturers including BMW, Audi, Mercedes-Benz, Tesla, Ford, and Hyundai.
 - **Innovative Industrial Solutions**:Developed robotics systems for semiconductor wafer handling and auto-tracking painting, and executed the first global rollout of a no-code robotics laser cutting system (VAL LASER).
+- **Confidential Project(AI+Hardware+Software and robotics projects)**
 
 **Non-Profit Projects**
 * roboticsfaq.com Non-profit robotics community 2012.06 — 2016.06
