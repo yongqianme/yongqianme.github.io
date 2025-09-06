@@ -131,6 +131,7 @@ I’ve worked in Asia, Europe, and the United States, giving me a deep understan
 * How to Build Fashion AI SaaS From Scratch: Learn the step-by-step process to create a cutting-edge Fashion AI SaaS platform.[Amazon Link](https://www.amazon.com/build-Fashion-Scratch-step-step-ebook/dp/B0F8WBNSPP)
 * Building Your Enterprise Peer-to-Peer VPN SaaS from Scratch:A comprehensive guide based on open source OmniEdge implementations.[Amazon Link](https://www.amazon.com/Building-Enterprise-Peer-Peer-Scratch-ebook/dp/B0F8YSG1WW)
 * Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value, 2018 Beijing, China, Tsinghua University [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
+* The Complete Guide to Former Founder Employment Success: Overcoming Bias and Landing Your Dream Role [Amazon Link](https://www.amazon.com/dp/B0FNRZP9DD)
 * Omniedge: Bring Intranet on the Internet,2022 Milan, Italy, Bocconi University [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
 * Leveraging the Power of Modular Design for Enhanced Manufacturing Efficiency [[Link](/files/Modular-Design-of-Machine.pdf)]
 * AI is facilitating the growth and development of the next generation of designers，2024,Beijing，China Fashion Summit [[Link](https://www.youtube.com/watch?v=4wSYxFmf4vM&t=10s)]
