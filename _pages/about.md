@@ -31,8 +31,16 @@ SELECTED IMPACTS & METRICS
 
 PROFESSIONAL EXPERIENCE
 ====
+
+## Vice President of Products
+## Spirit AI, September 2025 -
+
+- Driving the vision, strategy, and roadmap for next-generation humanoid robots.
+- Bridging hardware, AI, and real-world applications to deliver scalable, commercially viable solutions.
+- Transforming cutting-edge R&D into products that impact multiple industries.
+
 ## Director of Products
-## Steath Startups
+## Steath Startups,July 2025 to August 2025
 - Transform customer needs into real-world products—leveraging IoT, SaaS, and AI—taking them from concept to launch.
 
 ## Head of Product (Founder & CEO)
