@@ -32,8 +32,8 @@ SELECTED IMPACTS & METRICS
 PROFESSIONAL EXPERIENCE
 ====
 
-## Vice President of Products
-## Spirit AI, September 2025 -
+## Head of Products
+## Spirit AI, September 2025 - November 2025
 
 - Driving the vision, strategy, and roadmap for next-generation humanoid robots.
 - Bridging hardware, AI, and real-world applications to deliver scalable, commercially viable solutions.
