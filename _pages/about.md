@@ -143,6 +143,7 @@ I’ve worked in Asia, Europe, and the United States, giving me a deep understan
 * Omniedge: Bring Intranet on the Internet,2022 Milan, Italy, Bocconi University [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
 * Leveraging the Power of Modular Design for Enhanced Manufacturing Efficiency [[Link](/files/Modular-Design-of-Machine.pdf)]
 * AI is facilitating the growth and development of the next generation of designers，2024,Beijing，China Fashion Summit [[Link](https://www.youtube.com/watch?v=4wSYxFmf4vM&t=10s)]
+* Embodied AI The Next Global Industrial Race[[Link](https://yongqianme.substack.com/api/v1/file/788836d5-0be3-4fce-bedb-b4077bf54fa3.pdf)]
 
 
 **Projects**
