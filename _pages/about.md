@@ -17,7 +17,7 @@ Seasoned product executive with 20+ years building robotics, AI platforms, and c
 
 ## Core Strengths
 
-- **Humanoid Product Leadership** — Defined humanoid robots + data infrastructure at Spirit AI
+- **Humanoid Product Leadership** — Defined humanoid robots + data infrastructure at Humanoid Startups (Series A Round)
 - **Robotics Systems** — 12+ years hands-on (Staubli, ABB, Fanuc) deploying for BMW, Tesla, Mercedes
 - **Mesh Networking** — Founded OmniEdge P2P VPN platform (7K+ users, 26 countries)
 - **Startup Execution** — 3 founded, 3 exited (IIoT, AIGC, OSS)
