@@ -8,26 +8,32 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Robotics Executive & Product Leader — Hardware + SaaS + AI
+
+# Humanoid Robotics Product Leader
 ====
 
-Seasoned product leader with 20+ years building and scaling robotics, industrial IoT, and cloud-connected SaaS products. Proven track record founding and scaling startups, driving product strategy and GTM for complex physical + software systems, and leading international engineering and product teams to deliver measurable customer and revenue outcomes. Now eager to join a high-growth product or innovation team, combining hands-on technical expertise with strategic GTM execution.
+Seasoned product executive with 20+ years building robotics, AI platforms, and connected SaaS products at scale. Former **Head of Product at Spirit AI** (humanoid robotics). Founder of 3 startups with successful exits. Deep expertise bridging hardware, AI, and enterprise deployment.
 
-CORE STRENGTHS
-====
-- Product strategy & roadmapping for hardware+software platforms
--  Go-to-market (GTM), pricing, and enterprise sales enablement
-- Cross-functional leadership: engineering, UX, operations, sales
-- Edge/Cloud architecture, IIoT, SaaS, mesh networking, WireGuard/VPN solutions
-- Customer discovery, field deployments, and P&L mindset
-- Fundraising, partner ecosystems, and enterprise customer success
 
-SELECTED IMPACTS & METRICS
-====
-- Launched and scaled multiple startups and products across IIoT, robotics, and AIGC; built user bases of thousands across 26+ countries. 
-- Led consulting engagements and automation programs that produced multimillion-dollar savings for automotive suppliers. 
-- Delivered GTM strategies that increased market share and revenue.
-- Built and managed distributed international teams (hiring across AMD, Alibaba, Oxford/Cambridge talent) and scaled teams of 20+ to deliver cross-continent launches.
+## Core Strengths
+
+- **Humanoid Product Leadership** — Defined humanoid robots + data infrastructure at Spirit AI
+- **Robotics Systems** — 12+ years hands-on (Staubli, ABB, Fanuc) deploying for BMW, Tesla, Mercedes
+- **Mesh Networking** — Founded OmniEdge P2P VPN platform (7K+ users, 26 countries)
+- **Startup Execution** — 3 founded, 3 exited (IIoT, AIGC, OSS)
+- **Global GTM** — Scaled products to 26+ countries, enterprise pilots → production
+
+
+## Selected Impact
+
+| Achievement | Scope |
+|:---|:---|
+| Defined 2 humanoid robot platforms | Spirit AI |
+| Built OmniEdge to 7K+ users | 26 countries |
+| Deployed automation for major OEMs | BMW, Tesla, Mercedes, Audi, Ford |
+| Led consulting programs | Multi-million dollar savings |
+| Built international teams | AMD, Alibaba, Oxford/Cambridge talent |
+
 
 PROFESSIONAL EXPERIENCE
 ====
@@ -78,18 +84,13 @@ PROFESSIONAL EXPERIENCE
 
 - Post-sale service, troubleshooting, and integrator training across China and APAC; developed the country’s first no-code robotics laser cutting system (VAL LASER).
 
-KEY ACHIEVEMENTS
-===
 
-- Founded and exited multiple ventures spanning IIoT, AIGC, and open-source networking, delivering commercial deployments and repeatable GTM playbooks. 
-- Industry recognition: Golden Pin Design Award nominee; participant in NVIDIA Inception and AWS Accelerator programs. 
-- Publications & talks on industrial internet, modular design, and AI in fashion; authored books on building Fashion AI SaaS and peer-to-peer VPN SaaS.
+## Tech Stack
 
-
-TECH STACK & TOOLS
-====
-
-WireGuard, OpenWrt, Docker, AWS, Kubernetes patterns, GitHub Actions, Python / Go, telemetry & analytics, product metrics (Mixpanel/Amplitude), CI/CD, AI model ops.
+**Robotics**: ABB, Staubli, Fanuc, PLC (Siemens TIA), DeviceNet, ProfiBus, CANBUS, OPC-UA
+**Software**: Python, Go, TypeScript, Node.js, React, Docker, AWS, Kubernetes
+**AI/ML**: Deep Learning, Stable Diffusion, 2D/3D Computer Vision, VLA Concepts
+**Networking**: WireGuard, P2P Mesh, OpenWrt, Edge Computing
 
 SKILLS
 ===
@@ -115,6 +116,19 @@ Education
 **Bachelor’s Degree in Machine Design and its Automation, 2002-2006**
 - Henan University of Science & Technology, China
 
+**Master of Business Administration - MBA**
+- Universidad Isabel I, Spain
+
+
+## Recognition
+
+| Recognition | Organization |
+|:---|:---|
+| NVIDIA Inception | Member |
+| AWS Accelerator | Alumni |
+| Golden Pin Design Award | Nominee |
+| Industrial Internet White Paper | Editorial Board |
+
 ADDITIONAL INFORMATION
 === 
 
@@ -122,16 +136,6 @@ ADDITIONAL INFORMATION
 - Chinese (Native language) 
 - English (Full Professional Proficiency in oral and writing)
 - Spanish (Beginner)
-
-**Global Experience:**
-I’ve worked in Asia, Europe, and the United States, giving me a deep understanding of international markets and cross-cultural collaboration.
-
-**Exits & Notable Ventures:**
-- **JIEQI (AI+IoT)**: Successfully exited a startup that revolutionized industrial connectivity, integrating AI-enhanced IoT solutions for machine vendors.
-- **DeepFashion.us(AIGC)**: Achieved a successful exit with an AI-driven creative platform that empowered designers through personalized generative models.
-- **OmniEdgeio (OSS)**: Completed a strategic exit from an open-source SaaS platform designed to replace traditional VPN infrastructures with advanced mesh networking.
-- **Confidential Project(Robotics project for automotive)**
-- **Confidential Project(AI+Hardware+Software)**
 
 
 **Publications & Speeches**
@@ -160,5 +164,8 @@ I’ve worked in Asia, Europe, and the United States, giving me a deep understan
 
 
 ## Contact
+
+Looking for product leadership in humanoid robotics, AI platforms, or connected robotics systems.
+
 - WhatsAPP: +1 (218) 384-1417
 - Email: qianyong@qianyong.me
