@@ -11,7 +11,6 @@ redirect_from:
 
 # Humanoid Robotics Product Leader
 
-===
 
 Seasoned product executive with 20+ years building robotics, AI platforms, and connected SaaS products at scale. Former **Head of Product at Spirit AI** (humanoid robotics). Founder of 3 startups with successful exits. Deep expertise bridging hardware, AI, and enterprise deployment.
 
