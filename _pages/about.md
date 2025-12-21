@@ -28,7 +28,7 @@ Seasoned product executive with 20+ years building robotics, AI platforms, and c
 
 | Achievement | Scope |
 |:---|:---|
-| Defined 2 humanoid robot platforms | Spirit AI |
+| Defined humanoid robots and data collector platforms | Spirit AI |
 | Built OmniEdge to 7K+ users | 26 countries |
 | Deployed automation for major OEMs | BMW, Tesla, Mercedes, Audi, Ford |
 | Led consulting programs | Multi-million dollar savings |
