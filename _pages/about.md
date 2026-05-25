@@ -135,13 +135,13 @@ ADDITIONAL INFORMATION
 - English (Full Professional Proficiency in oral and writing)
 - Spanish (Beginner)
 
-
 **Publications & Speeches**
 * "White Paper on Supply Chain Innovation and Application Based on Industrial Internet" (Editorial Board Member) [[Link](http://www.aii-alliance.org/index/c145/n2702.html)]
 * How to Build Fashion AI SaaS From Scratch [Amazon](https://www.amazon.com/build-Fashion-Scratch-step-step-ebook/dp/B0F8WBNSPP)
 * Building Your Enterprise Peer-to-Peer VPN SaaS from Scratch [Amazon](https://www.amazon.com/Building-Enterprise-Peer-Peer-Scratch-ebook/dp/B0F8YSG1WW)
 * Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value, 2018, Tsinghua University [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
 * The Complete Guide to Former Founder Employment Success [Amazon](https://www.amazon.com/dp/B0FNRZP9DD)
+* [前創始人求職成功完全指南：克服偏見，獲得夢想職位 (Traditional Chinese Edition)](https://www.amazon.com/dp/B0H2JPTLJL)
 * OmniEdge: Bring Intranet on the Internet, 2022, Bocconi University, Milan [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
 * Leveraging the Power of Modular Design for Enhanced Manufacturing Efficiency [[Link](/files/Modular-Design-of-Machine.pdf)]
 * AI is Facilitating the Growth of Next-Generation Designers, 2024, China Fashion Summit, Beijing [[Link](https://www.youtube.com/watch?v=4wSYxFmf4vM&t=10s)]
