@@ -1,0 +1,40 @@
+services:
+  site:
+    image: ruby:2.7.8
+    working_dir: /srv/jekyll
+    command: >
+      sh -lc "
+        bundle config set path /usr/local/bundle &&
+        bundle install &&
+        bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 0.0.0.0 --port 4000 --livereload --livereload-port 35729 --force_polling
+      "
+    environment:
+      BUNDLE_PATH: /usr/local/bundle
+      JEKYLL_ENV: development
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+
+  test:
+    image: ruby:2.7.8
+    profiles:
+      - test
+    working_dir: /srv/jekyll
+    command: >
+      sh -lc "
+        bundle config set path /usr/local/bundle &&
+        bundle install &&
+        bundle exec jekyll build --trace --destination /tmp/jekyll-test-site
+      "
+    environment:
+      BUNDLE_PATH: /usr/local/bundle
+      JEKYLL_ENV: production
+    volumes:
+      - .:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+
+volumes:
+  bundle_cache:

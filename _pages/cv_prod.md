@@ -1,12 +1,8 @@
 ---
-permalink: /
 title: "Yong's Resume"
-permalink: /cv/
+permalink: /cv-prod/
 author_profile: true
-redirect_from:
-  - /resume
-  - /about/
-  - /about.html
+published: false
 ---
 
 SUMMARY

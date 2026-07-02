@@ -5,10 +5,10 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="theme-color" content="#ffffff">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@billraymonde" />
+<meta name="twitter:creator" content="@yongqianme" />
 <meta name="twitter:title" content="{{- page.title -}}">
-<meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ base_path }}{{ page.image }}{% else %}{{ site.url }}{{ base_path }}/images/posts/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration.png{% endif %}">
-<meta property="og:image" content="{{- card-filename -}}">
+<meta name="twitter:image" content="{{ page.image | default: '/images/posts/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration.png' | absolute_url }}">
+<meta property="og:image" content="{{ page.image | default: '/images/posts/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration.png' | absolute_url }}">
 <meta property="og:description" content="{{- page.title -}}"/>
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">

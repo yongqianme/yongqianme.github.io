@@ -1,12 +1,9 @@
 ---
-permalink: /
-title: ""
+permalink: /about-copy/
+title: "Archived About Copy"
 excerpt: "About me"
-# permalink: /about/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+published: false
 ---
 
 # Humanoid Robotics Product Leader
