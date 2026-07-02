@@ -2,6 +2,9 @@
 title: "Executive Profile"
 permalink: /cv/
 author_profile: true
+lang: en
+translation:
+  zh_url: /zh/cv/
 redirect_from:
   - /resume
 ---

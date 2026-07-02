@@ -3,6 +3,9 @@ layout: single
 title: "Contact"
 permalink: /contact/
 author_profile: false
+lang: en
+translation:
+  zh_url: /zh/contact/
 ---
 
 I am open to early-stage investment opportunities, technical advisory roles, senior product/technology leadership, and hands-on contribution in Physical AI, robotics, edge computing, industrial automation, and AI infrastructure.

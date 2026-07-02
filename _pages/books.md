@@ -3,6 +3,9 @@ layout: single
 title: "Books"
 permalink: /books/
 author_profile: false
+lang: en
+translation:
+  zh_url: /zh/books/
 ---
 
 These books document products and transitions Yong Qian has personally built, led, released, or lived through: Fashion AI SaaS, enterprise P2P VPN SaaS, and the founder-to-leadership career transition.

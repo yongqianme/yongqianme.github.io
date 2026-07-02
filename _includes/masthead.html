@@ -1,4 +1,14 @@
 {% include base_path %}
+{% assign nav_key = "main" %}
+{% assign home_url = "/" %}
+{% assign lang_label = "中文" %}
+{% assign lang_url = page.translation.zh_url | default: "/zh/" %}
+{% if page.lang == "zh" %}
+  {% assign nav_key = "zh" %}
+  {% assign home_url = "/zh/" %}
+  {% assign lang_label = "EN" %}
+  {% assign lang_url = page.translation.en_url | default: "/" %}
+{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -6,8 +16,8 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{{ home_url }}">{{ site.title }}</a></li>
+          {% for link in site.data.navigation[nav_key] %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
@@ -15,6 +25,7 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item masthead__menu-item--language"><a href="{{ base_path }}{{ lang_url }}">{{ lang_label }}</a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

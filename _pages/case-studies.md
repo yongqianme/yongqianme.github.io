@@ -3,6 +3,9 @@ layout: single
 title: "Case Studies"
 permalink: /case-studies/
 author_profile: true
+lang: en
+translation:
+  zh_url: /zh/case-studies/
 ---
 
 These case studies show how Yong Qian approaches Physical AI product leadership: defining the right robot use case, building the data and deployment loop, judging field readiness, and turning complex robotics, AI, and industrial technology into products customers can trust.

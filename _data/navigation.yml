@@ -12,3 +12,17 @@ main:
   url: /cv/
 - title: "Contact"
   url: /contact/
+
+zh:
+- title: "简介"
+  url: /zh/
+- title: "项目"
+  url: /zh/work/
+- title: "案例"
+  url: /zh/case-studies/
+- title: "写作"
+  url: /zh/writing/
+- title: "履历"
+  url: /zh/cv/
+- title: "联系"
+  url: /zh/contact/

@@ -3,6 +3,9 @@ permalink: /
 title: ""
 excerpt: "Global Robotics & Physical AI Product Executive"
 author_profile: true
+lang: en
+translation:
+  zh_url: /zh/
 redirect_from:
   - /about/
   - /about.html

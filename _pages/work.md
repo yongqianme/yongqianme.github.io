@@ -3,6 +3,9 @@ layout: single
 title: "Work"
 permalink: /work/
 author_profile: true
+lang: en
+translation:
+  zh_url: /zh/work/
 ---
 
 Yong's work shows a rare operator arc: industrial robotics field deployment, hardware/software product building, and Physical AI product leadership across global markets. The projects below are not a complete archive; they are the strongest evidence for senior robotics, Physical AI, and deep-tech product leadership.

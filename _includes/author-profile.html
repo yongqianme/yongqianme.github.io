@@ -3,6 +3,20 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+{% assign author_bio = author.bio %}
+{% assign author_location = author.location %}
+{% assign author_focus = author.employer %}
+{% assign email_label = site.data.ui-text[site.locale].email_label | default: "Email" %}
+{% assign intro_label = "Introduction" %}
+{% assign writing_label = "Writing" %}
+{% if page.lang == "zh" %}
+  {% assign author_bio = "机器人与 Physical AI 产品负责人。20+ 年将自动化、边缘基础设施与 AI 转化为可落地产品。" %}
+  {% assign author_location = "中国 | 德国 | 美国 | 全球交付" %}
+  {% assign author_focus = "Physical AI、人形机器人、工业自动化" %}
+  {% assign email_label = "邮件" %}
+  {% assign intro_label = "预约沟通" %}
+  {% assign writing_label = "写作" %}
+{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
 
@@ -16,32 +30,32 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author_bio %}<p class="author__bio">{{ author_bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Connect</button>
     <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li class="author__meta"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% if author_location %}
+        <li class="author__meta"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author_location }}</li>
       {% endif %}
-      {% if author.employer %}
-        <li class="author__meta author__meta--focus"><i class="fas fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% if author_focus %}
+        <li class="author__meta author__meta--focus"><i class="fas fa-fw fa-briefcase" aria-hidden="true"></i> {{ author_focus }}</li>
       {% endif %}
       {% if author.uri %}
         <li class="author__link"><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li class="author__link"><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li class="author__link"><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ email_label }}</a></li>
       {% endif %}
       {% if author.calendar %}
-      <li class="author__link"><a href="{{ author.calendar }}"><i class="fas fa-fw fa-calendar" aria-hidden="true"></i> Introduction</a></li>
+      <li class="author__link"><a href="{{ author.calendar }}"><i class="fas fa-fw fa-calendar" aria-hidden="true"></i> {{ intro_label }}</a></li>
       {% endif %}
       {% if author.linkedin %}
         <li class="author__link"><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
       {% endif %}
       {% if author.substack %}
-        <li class="author__link"><a href="https://{{ author.substack }}.substack.com"><i class="fas fa-fw fa-pen" aria-hidden="true"></i> Writing</a></li>
+        <li class="author__link"><a href="https://{{ author.substack }}.substack.com"><i class="fas fa-fw fa-pen" aria-hidden="true"></i> {{ writing_label }}</a></li>
       {% endif %}
     </ul>
   </div>
