@@ -1,0 +1,60 @@
+name: Sync Substack posts
+
+on:
+  schedule:
+    - cron: "25 3 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum Substack archive posts to inspect; use 0 for the full archive"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: substack-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Sync posts from Substack
+        run: bundle exec ruby scripts/sync_substack_posts.rb
+        env:
+          SUBSTACK_SYNC_LIMIT: ${{ github.event.inputs.limit || '0' }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain _posts)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build site
+        if: steps.changes.outputs.changed == 'true'
+        run: bundle exec jekyll build --trace
+        env:
+          JEKYLL_ENV: production
+
+      - name: Commit synced posts
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts
+          git commit -m "Sync Substack posts"
+          git push
