@@ -1,11 +1,23 @@
 {% include base_path %}
+{% assign footer_contact_url = "/contact/" %}
+{% assign footer_cv_url = "/cv/" %}
+{% assign footer_contact_label = "Contact" %}
+{% assign footer_writing_label = "Writing" %}
+{% assign footer_cv_label = "Resume" %}
+{% if page.lang == "zh" %}
+  {% assign footer_contact_url = "/zh/contact/" %}
+  {% assign footer_cv_url = "/zh/cv/" %}
+  {% assign footer_contact_label = "联系" %}
+  {% assign footer_writing_label = "写作" %}
+  {% assign footer_cv_label = "履历" %}
+{% endif %}
 
 <div class="page__footer-follow">
   <ul class="social-icons">
-    <li><a href="{{ base_path }}/contact/">Contact</a></li>
+    <li><a href="{{ base_path }}{{ footer_contact_url }}">{{ footer_contact_label }}</a></li>
     <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a></li>
-    <li><a href="https://{{ site.author.substack }}.substack.com">Writing</a></li>
-    <li><a href="{{ base_path }}/cv/">Resume</a></li>
+    <li><a href="https://{{ site.author.substack }}.substack.com">{{ footer_writing_label }}</a></li>
+    <li><a href="{{ base_path }}{{ footer_cv_url }}">{{ footer_cv_label }}</a></li>
   </ul>
 </div>
 

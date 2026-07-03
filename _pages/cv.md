@@ -56,6 +56,17 @@ SELECTED PHYSICAL AI EXPERIENCE
 OPERATING EXPERIENCE
 ----
 
+### Spirit AI, Beijing, China, September 2025 to November 2025, Head of Products & Robotics Product Manager
+
+- Owned product vision, strategy, roadmap, requirements, and execution planning for next-generation humanoid robots, Data Collector products, and supporting system infrastructure.
+- Translated hardware, AI, and real-world application requirements into collection and product specifications for deployable robotics systems.
+- Bridged R&D, engineering, and product execution to convert advanced robotics concepts into deployable multi-industry solutions.
+
+### Stealth Startups, July 2025 to August 2025, Director of Products (Contract)
+
+- Converted customer needs into launchable product concepts using IoT, SaaS, and AI capabilities.
+- Defined early product direction, user needs, implementation scope, and practical launch requirements for startup-stage products.
+
 ### OmniEdge Inc, Austin, U.S., September 2021 to April 2025, Founder & CEO / CPO
 
 #### Ventures Built And Exited
@@ -177,6 +188,10 @@ NOTABLE PROJECTS
 
 EDUCATION
 ----
+
+### Master in Commerce Management and Marketing, 2023-2024
+
+- Escuela de Negocios Europea de Barcelona / Universidad Isabel I, Spain
 
 ### Bachelor's Degree in Machine Design and its Automation, 2002-2006
 
