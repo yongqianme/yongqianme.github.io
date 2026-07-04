@@ -17,6 +17,14 @@ I am open to early-stage investment opportunities, technical advisory roles, sen
 - **Companies:** senior product or technology leadership for robotics, industrial AI, edge computing, AIGC, and automation platforms.
 - **Media and events:** talks on robotics deployment, Physical AI, industrial automation, hardware startups, and founder transitions.
 
+## Executive Advisory Session
+
+For focused advisory conversations on robotics product strategy, Physical AI deployment, industrial automation, edge infrastructure, SaaS, or founder execution:
+
+**Strategy Advisory Session: USD $1,000 / 30 minutes**
+
+Best suited for investors, founders, and companies seeking direct senior-level judgment on product direction, deployment readiness, GTM, technical-commercial risk, or cross-border industrial strategy.
+
 ## Contact
 
 - Email: [qianyong@qianyong.me](mailto:qianyong@qianyong.me)

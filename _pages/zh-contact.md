@@ -17,6 +17,14 @@ translation:
 - **公司：** 机器人、工业 AI、边缘计算、AIGC 和自动化平台的产品或技术管理岗位。
 - **媒体与活动：** 机器人部署、Physical AI、工业自动化、硬件创业和创始人职业转型。
 
+## 专项顾问沟通
+
+适合围绕机器人产品策略、Physical AI 落地、工业自动化、边缘基础设施、SaaS 或创始人执行问题进行集中讨论。
+
+**Strategy Advisory Session：USD $1,000 / 30 分钟**
+
+适合投资人、创始人和公司管理团队，用于判断产品方向、部署可行性、GTM、技术与商业风险，以及跨境工业市场策略。
+
 ## 联系方式
 
 - 邮件：[qianyong@qianyong.me](mailto:qianyong@qianyong.me)
