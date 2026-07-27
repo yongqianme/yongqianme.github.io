@@ -30,6 +30,9 @@ jobs:
           ruby-version: "3.1"
           bundler-cache: true
 
+      - name: Test Substack sync
+        run: bundle exec ruby -Itest test/sync_substack_posts_test.rb
+
       - name: Sync posts from Substack
         run: bundle exec ruby scripts/sync_substack_posts.rb
         env:

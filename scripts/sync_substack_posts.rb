@@ -11,8 +11,10 @@ require "fileutils"
 require "json"
 require "net/http"
 require "optparse"
+require "rexml/document"
 require "set"
 require "time"
+require "timeout"
 require "uri"
 require "yaml"
 
@@ -38,51 +40,134 @@ OPTIONS = {
   overwrite: false
 }.freeze
 
-options = OPTIONS.dup
+REQUEST_ATTEMPTS = 3
+RETRYABLE_HTTP_CODES = [403, 408, 425, 429, 500, 502, 503, 504].freeze
+BROWSER_USER_AGENT = [
+  "Mozilla/5.0 (X11; Linux x86_64)",
+  "AppleWebKit/537.36 (KHTML, like Gecko)",
+  "Chrome/126.0.0.0 Safari/537.36"
+].join(" ").freeze
 
-OptionParser.new do |parser|
-  parser.banner = "Usage: ruby scripts/sync_substack_posts.rb [options]"
+class FetchError < StandardError
+  attr_reader :code
 
-  parser.on("--base-url URL", "Substack publication URL") do |value|
-    options[:base_url] = value.sub(%r{/\z}, "")
+  def initialize(url, response)
+    @code = response.code.to_i
+    super("Request failed for #{url}: #{response.code} #{response.message}")
   end
+end
 
-  parser.on("--limit N", Integer, "Maximum archive posts to inspect; use 0 for the full archive") do |value|
-    options[:limit] = value.positive? ? value : nil
-  end
+def parse_options(argv)
+  options = OPTIONS.dup
 
-  parser.on("--all", "Inspect the full Substack archive") do
-    options[:limit] = nil
-  end
+  OptionParser.new do |parser|
+    parser.banner = "Usage: ruby scripts/sync_substack_posts.rb [options]"
 
-  parser.on("--posts-dir DIR", "Jekyll posts directory") do |value|
-    options[:posts_dir] = value
-  end
+    parser.on("--base-url URL", "Substack publication URL") do |value|
+      options[:base_url] = value.sub(%r{/\z}, "")
+    end
 
-  parser.on("--dry-run", "Show what would be imported without writing files") do
-    options[:dry_run] = true
-  end
+    parser.on("--limit N", Integer, "Maximum archive posts to inspect; use 0 for the full archive") do |value|
+      options[:limit] = value.positive? ? value : nil
+    end
 
-  parser.on("--overwrite", "Overwrite previously imported Substack posts") do
-    options[:overwrite] = true
+    parser.on("--all", "Inspect the full Substack archive") do
+      options[:limit] = nil
+    end
+
+    parser.on("--posts-dir DIR", "Jekyll posts directory") do |value|
+      options[:posts_dir] = value
+    end
+
+    parser.on("--dry-run", "Show what would be imported without writing files") do
+      options[:dry_run] = true
+    end
+
+    parser.on("--overwrite", "Overwrite previously imported Substack posts") do
+      options[:overwrite] = true
+    end
+  end.parse!(argv)
+
+  options
+end
+
+def request_for(uri, accept)
+  request = Net::HTTP::Get.new(uri)
+  request["Accept"] = accept
+  request["Accept-Language"] = "en-US,en;q=0.9"
+  request["Referer"] = "#{uri.scheme}://#{uri.host}/"
+  request["User-Agent"] = BROWSER_USER_AGENT
+  request
+end
+
+def fetch_body(url, accept:)
+  uri = URI(url)
+  attempt = 0
+
+  loop do
+    attempt += 1
+    response = Net::HTTP.start(
+      uri.host,
+      uri.port,
+      use_ssl: uri.scheme == "https",
+      open_timeout: 10,
+      read_timeout: 30
+    ) do |http|
+      http.request(request_for(uri, accept))
+    end
+
+    return response.body if response.is_a?(Net::HTTPSuccess)
+
+    if RETRYABLE_HTTP_CODES.include?(response.code.to_i) && attempt < REQUEST_ATTEMPTS
+      sleep(2**(attempt - 1))
+      next
+    end
+
+    raise FetchError.new(url, response)
+  rescue IOError, SocketError, SystemCallError, Timeout::Error => error
+    raise error if attempt >= REQUEST_ATTEMPTS
+
+    sleep(2**(attempt - 1))
   end
-end.parse!
+end
 
 def fetch_json(url)
-  uri = URI(url)
-  request = Net::HTTP::Get.new(uri)
-  request["Accept"] = "application/json"
-  request["User-Agent"] = "qianyong.me-substack-sync/1.0"
+  JSON.parse(fetch_body(url, accept: "application/json"))
+end
 
-  response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https") do |http|
-    http.request(request)
-  end
+def element_text(item, name)
+  item.elements[name]&.text.to_s
+end
 
-  unless response.is_a?(Net::HTTPSuccess)
-    raise "Request failed for #{url}: #{response.code} #{response.message}"
-  end
+def parse_feed(xml, limit)
+  document = REXML::Document.new(xml)
+  items = REXML::XPath.match(document, "//item")
 
-  JSON.parse(response.body)
+  posts = items.map do |item|
+    canonical_url = element_text(item, "link")
+    slug = URI(canonical_url).path[%r{/p/([^/?#]+)}, 1]
+    next if slug.to_s.empty?
+
+    enclosure = item.elements["enclosure"]
+    {
+      "id" => element_text(item, "guid").empty? ? canonical_url : element_text(item, "guid"),
+      "title" => element_text(item, "title"),
+      "slug" => slug,
+      "post_date" => Time.parse(element_text(item, "pubDate")).utc.iso8601,
+      "canonical_url" => canonical_url,
+      "description" => element_text(item, "description"),
+      "cover_image" => enclosure&.attributes&.fetch("url", "").to_s,
+      "body_html" => element_text(item, "content:encoded"),
+      "postTags" => item.get_elements("category").map { |category| { "name" => category.text.to_s } }
+    }
+  end.compact
+
+  limit ? posts.first(limit) : posts
+end
+
+def feed_posts(base_url, limit)
+  xml = fetch_body("#{base_url}/feed", accept: "application/rss+xml, application/xml;q=0.9, */*;q=0.8")
+  parse_feed(xml, limit)
 end
 
 def archive_posts(base_url, limit)
@@ -104,6 +189,9 @@ def archive_posts(base_url, limit)
   end
 
   limit ? posts.first(limit) : posts
+rescue FetchError, JSON::ParserError => error
+  warn "Substack archive API unavailable (#{error.message}); falling back to the RSS feed (latest 20 posts)."
+  feed_posts(base_url, limit)
 end
 
 def normalize_title(value)
@@ -251,41 +339,62 @@ def post_markdown(post)
   "#{yaml_front_matter(metadata)}---\n\n#{body}"
 end
 
-FileUtils.mkdir_p(options[:posts_dir]) unless options[:dry_run]
-index = existing_posts(options[:posts_dir])
-archive = archive_posts(options[:base_url], options[:limit])
+def run(options)
+  FileUtils.mkdir_p(options[:posts_dir]) unless options[:dry_run]
+  index = existing_posts(options[:posts_dir])
+  archive = archive_posts(options[:base_url], options[:limit])
 
-created = []
-skipped = []
-updated = []
+  created = []
+  feed_by_slug = nil
+  skipped = []
+  updated = []
 
-archive.each do |archive_post|
-  if !options[:overwrite] && imported?(archive_post, index)
-    skipped << archive_post["title"]
-    next
+  archive.each do |archive_post|
+    if !options[:overwrite] && imported?(archive_post, index)
+      skipped << archive_post["title"]
+      next
+    end
+
+    post =
+      if archive_post["body_html"].to_s.empty?
+        begin
+          fetch_json("#{options[:base_url]}/api/v1/posts/#{archive_post.fetch("slug")}")
+        rescue FetchError, JSON::ParserError => error
+          feed_by_slug ||= feed_posts(options[:base_url], nil).each_with_object({}) do |feed_post, index|
+            index[feed_post["slug"]] = feed_post
+          end
+          feed_post = feed_by_slug[archive_post.fetch("slug")]
+          raise error unless feed_post
+
+          warn "Substack post API unavailable for #{archive_post.fetch("slug")} (#{error.message}); using RSS content."
+          feed_post
+        end
+      else
+        archive_post
+      end
+    date = Time.parse(post.fetch("post_date")).utc.to_date
+    path = post_filename(options[:posts_dir], date, post.fetch("slug"))
+    existed = File.exist?(path)
+
+    if existed && !options[:overwrite]
+      skipped << post["title"]
+      next
+    end
+
+    if options[:dry_run]
+      puts "[dry-run] #{existed ? "update" : "create"} #{path}"
+    else
+      File.write(path, post_markdown(post), encoding: "UTF-8")
+    end
+
+    existed ? updated << path : created << path
   end
 
-  post = fetch_json("#{options[:base_url]}/api/v1/posts/#{archive_post.fetch("slug")}")
-  date = Time.parse(post.fetch("post_date")).utc.to_date
-  path = post_filename(options[:posts_dir], date, post.fetch("slug"))
-  existed = File.exist?(path)
-
-  if existed && !options[:overwrite]
-    skipped << post["title"]
-    next
-  end
-
-  if options[:dry_run]
-    puts "[dry-run] #{existed ? "update" : "create"} #{path}"
-  else
-    File.write(path, post_markdown(post), encoding: "UTF-8")
-  end
-
-  existed ? updated << path : created << path
+  puts "Substack sync complete"
+  puts "  inspected: #{archive.length}"
+  puts "  created:   #{created.length}"
+  puts "  updated:   #{updated.length}"
+  puts "  skipped:   #{skipped.length}"
 end
 
-puts "Substack sync complete"
-puts "  inspected: #{archive.length}"
-puts "  created:   #{created.length}"
-puts "  updated:   #{updated.length}"
-puts "  skipped:   #{skipped.length}"
+run(parse_options(ARGV)) if $PROGRAM_NAME == __FILE__
