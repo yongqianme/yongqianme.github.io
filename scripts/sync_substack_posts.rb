@@ -11,7 +11,6 @@ require "fileutils"
 require "json"
 require "net/http"
 require "optparse"
-require "rexml/document"
 require "set"
 require "time"
 require "timeout"
@@ -47,6 +46,8 @@ BROWSER_USER_AGENT = [
   "AppleWebKit/537.36 (KHTML, like Gecko)",
   "Chrome/126.0.0.0 Safari/537.36"
 ].join(" ").freeze
+DEFAULT_READER_URL = "https://r.jina.ai"
+READER_CONTENT_MARKER = /^Markdown Content:\s*$/
 
 class FetchError < StandardError
   attr_reader :code
@@ -56,6 +57,8 @@ class FetchError < StandardError
     super("Request failed for #{url}: #{response.code} #{response.message}")
   end
 end
+
+class ReaderError < StandardError; end
 
 def parse_options(argv)
   options = OPTIONS.dup
@@ -91,16 +94,17 @@ def parse_options(argv)
   options
 end
 
-def request_for(uri, accept)
+def request_for(uri, accept, headers = {})
   request = Net::HTTP::Get.new(uri)
   request["Accept"] = accept
   request["Accept-Language"] = "en-US,en;q=0.9"
   request["Referer"] = "#{uri.scheme}://#{uri.host}/"
   request["User-Agent"] = BROWSER_USER_AGENT
+  headers.each { |name, value| request[name] = value }
   request
 end
 
-def fetch_body(url, accept:)
+def fetch_body(url, accept:, headers: {})
   uri = URI(url)
   attempt = 0
 
@@ -113,7 +117,7 @@ def fetch_body(url, accept:)
       open_timeout: 10,
       read_timeout: 30
     ) do |http|
-      http.request(request_for(uri, accept))
+      http.request(request_for(uri, accept, headers))
     end
 
     return response.body if response.is_a?(Net::HTTPSuccess)
@@ -135,42 +139,33 @@ def fetch_json(url)
   JSON.parse(fetch_body(url, accept: "application/json"))
 end
 
-def element_text(item, name)
-  item.elements[name]&.text.to_s
+def reader_url(url)
+  base_url = ENV.fetch("SUBSTACK_READER_URL", DEFAULT_READER_URL).sub(%r{/+\z}, "")
+  "#{base_url}/#{url}"
 end
 
-def parse_feed(xml, limit)
-  document = REXML::Document.new(xml)
-  items = REXML::XPath.match(document, "//item")
+def reader_content(response_body)
+  utf8_body = response_body.to_s.dup.force_encoding(Encoding::UTF_8)
+  raise ReaderError, "Reader response was not valid UTF-8" unless utf8_body.valid_encoding?
 
-  posts = items.map do |item|
-    canonical_url = element_text(item, "link")
-    slug = URI(canonical_url).path[%r{/p/([^/?#]+)}, 1]
-    next if slug.to_s.empty?
+  _metadata, content = utf8_body.split(READER_CONTENT_MARKER, 2)
+  raise ReaderError, "Reader response did not contain a Markdown Content section" unless content
 
-    enclosure = item.elements["enclosure"]
-    {
-      "id" => element_text(item, "guid").empty? ? canonical_url : element_text(item, "guid"),
-      "title" => element_text(item, "title"),
-      "slug" => slug,
-      "post_date" => Time.parse(element_text(item, "pubDate")).utc.iso8601,
-      "canonical_url" => canonical_url,
-      "description" => element_text(item, "description"),
-      "cover_image" => enclosure&.attributes&.fetch("url", "").to_s,
-      "body_html" => element_text(item, "content:encoded"),
-      "postTags" => item.get_elements("category").map { |category| { "name" => category.text.to_s } }
-    }
-  end.compact
-
-  limit ? posts.first(limit) : posts
+  content.strip
 end
 
-def feed_posts(base_url, limit)
-  xml = fetch_body("#{base_url}/feed", accept: "application/rss+xml, application/xml;q=0.9, */*;q=0.8")
-  parse_feed(xml, limit)
+def fetch_reader_content(url, respond_with:, target_selector: nil)
+  headers = { "X-Respond-With" => respond_with }
+  headers["X-Target-Selector"] = target_selector if target_selector
+  response = fetch_body(reader_url(url), accept: "text/plain", headers: headers)
+  reader_content(response)
 end
 
-def archive_posts(base_url, limit)
+def fetch_reader_json(url)
+  JSON.parse(fetch_reader_content(url, respond_with: "content"))
+end
+
+def collect_archive(base_url, limit)
   posts = []
   offset = 0
   page_size = 50
@@ -181,7 +176,7 @@ def archive_posts(base_url, limit)
     remaining = limit ? limit - posts.length : page_size
     batch_size = [remaining, page_size].min
     url = "#{base_url}/api/v1/archive?sort=new&search=&offset=#{offset}&limit=#{batch_size}"
-    page = fetch_json(url)
+    page = yield(url)
     break if page.empty?
 
     posts.concat(page)
@@ -189,9 +184,27 @@ def archive_posts(base_url, limit)
   end
 
   limit ? posts.first(limit) : posts
+end
+
+def archive_posts(base_url, limit)
+  collect_archive(base_url, limit) { |url| fetch_json(url) }
 rescue FetchError, JSON::ParserError => error
-  warn "Substack archive API unavailable (#{error.message}); falling back to the RSS feed (latest 20 posts)."
-  feed_posts(base_url, limit)
+  warn "Substack archive API unavailable (#{error.message}); retrying through Jina Reader."
+  collect_archive(base_url, limit) { |url| fetch_reader_json(url) }
+end
+
+def fetch_post_via_reader(archive_post)
+  canonical_url = archive_post["canonical_url"].to_s
+  raise ReaderError, "Archive post has no canonical URL" if canonical_url.empty?
+
+  markdown = fetch_reader_content(
+    canonical_url,
+    respond_with: "markdown",
+    target_selector: "article .body.markup"
+  )
+  raise ReaderError, "Reader returned an empty post body for #{canonical_url}" if markdown.empty?
+
+  archive_post.merge("body_markdown" => markdown)
 end
 
 def normalize_title(value)
@@ -328,12 +341,15 @@ def post_markdown(post)
   metadata["excerpt"] = post["description"].to_s unless post["description"].to_s.empty?
   metadata["image"] = post["cover_image"].to_s unless post["cover_image"].to_s.empty?
 
-  body_html = clean_body_html(post["body_html"])
-  body_html = CGI.escapeHTML(post["truncated_body_text"].to_s) if body_html.empty?
+  post_body = post["body_markdown"].to_s.strip
+  if post_body.empty?
+    post_body = clean_body_html(post["body_html"])
+    post_body = CGI.escapeHTML(post["truncated_body_text"].to_s) if post_body.empty?
+  end
 
   body = +""
   body << "> Originally published on [Substack](#{canonical_url}).\n\n" unless canonical_url.empty?
-  body << body_html
+  body << post_body
   body << "\n"
 
   "#{yaml_front_matter(metadata)}---\n\n#{body}"
@@ -345,7 +361,6 @@ def run(options)
   archive = archive_posts(options[:base_url], options[:limit])
 
   created = []
-  feed_by_slug = nil
   skipped = []
   updated = []
 
@@ -360,14 +375,8 @@ def run(options)
         begin
           fetch_json("#{options[:base_url]}/api/v1/posts/#{archive_post.fetch("slug")}")
         rescue FetchError, JSON::ParserError => error
-          feed_by_slug ||= feed_posts(options[:base_url], nil).each_with_object({}) do |feed_post, index|
-            index[feed_post["slug"]] = feed_post
-          end
-          feed_post = feed_by_slug[archive_post.fetch("slug")]
-          raise error unless feed_post
-
-          warn "Substack post API unavailable for #{archive_post.fetch("slug")} (#{error.message}); using RSS content."
-          feed_post
+          warn "Substack post API unavailable for #{archive_post.fetch("slug")} (#{error.message}); using Jina Reader."
+          fetch_post_via_reader(archive_post)
         end
       else
         archive_post
