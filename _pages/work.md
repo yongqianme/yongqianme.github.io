@@ -22,6 +22,16 @@ Yong's work shows a rare operator arc: industrial robotics field deployment, har
 
 Yong's current Physical AI work builds on two decades of field robotics experience. The core question is not only whether a robot can move, but what it should do first, what data it needs, how much autonomy belongs on-device, and how the product survives real homes, care settings, factories, and customer workflows.
 
+### OmniEdge Humanoid Foundry
+
+![OmniEdge Humanoid Foundry configurable humanoid robot](/images/humanoid-foundry.png)
+
+Created a configurable humanoid launch program that brings robot hardware, integrated controls, bounded AI demonstrations, and industrial design into one accountable delivery path. Teams can start with a complete bipedal robot and add launch-ready AI demos or a brand-specific exterior without rebuilding the platform from zero.
+
+The program is structured around a paid architecture sprint, fixed acceptance criteria, documented configurations, and evidence for every demo—turning humanoid R&D into a credible alpha launch milestone.
+
+[Visit OmniEdge Humanoid Foundry](https://humanoid.omniedge.io/){: .btn}
+
 ### Spirit AI Humanoid Robotics
 
 Led product vision, strategy, and roadmap work for next-generation humanoid robots, bridging hardware capability, AI readiness, deployment constraints, and market-facing product definition.

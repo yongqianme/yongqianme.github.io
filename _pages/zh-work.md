@@ -23,6 +23,17 @@ Yong 的工作经历主要分为三条线：工业机器人现场部署、软硬
 
 Yong 的 Physical AI 工作建立在多年机器人现场经验之上。重点不是简单判断机器人能否完成动作，而是判断它先做什么、在哪些场景中使用、需要什么数据、哪些能力适合放在端侧，以及产品能否被部署和维护。
 
+### OmniEdge Humanoid Foundry
+{: #omniedge-humanoid-foundry }
+
+![OmniEdge Humanoid Foundry 可配置人形机器人](/images/humanoid-foundry.png)
+
+创建可配置的人形机器人产品启动方案，将机器人本体、集成控制系统、边界清晰的 AI 演示和工业设计整合为一条由单一团队负责的交付路径。客户可以从完整的双足机器人开始，并按需加入面向发布的 AI 演示或品牌化外观设计，无需从零重建平台。
+
+项目采用付费架构冲刺、明确的验收标准、完整的配置记录和可验证的演示证据，帮助团队将人形机器人研发转化为可信的 Alpha 产品发布里程碑。
+
+[访问 OmniEdge Humanoid Foundry](https://humanoid.omniedge.io/zh/){: .btn}
+
 ### Spirit AI 人形机器人
 
 参与人形机器人相关的产品规划和路线图工作，连接硬件能力、AI 成熟度、部署限制和客户需求。
