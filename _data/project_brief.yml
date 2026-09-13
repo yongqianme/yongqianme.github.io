@@ -1,4 +1,7 @@
 en:
+  optional: "Add project details (optional)"
+  referral: "How did you hear about me?"
+  attribution: "Your brief includes a reference number and the source of this visit, when available, to help me follow up. Please keep confidential production data out of the inquiry."
   intro: "A short brief helps me understand fit before we discuss scope. Required fields are marked (required)."
   name: "Your name (required)"
   email: "Work email (required)"
@@ -25,6 +28,9 @@ en:
   subject: "Robotics project inquiry"
   no_js: "To share a brief, email your name, company, process, problem, and deadline to qianyong@qianyong.me. You can also book an introduction using the calendar link above."
 zh:
+  optional: "补充项目详情（选填）"
+  referral: "您通过什么渠道了解到我？"
+  attribution: "简报会附带咨询编号及可获取的访问来源，便于后续跟进。请勿在咨询中填写生产机密数据。"
   intro: "简短的项目说明有助于判断合作是否合适。标注“必填”的内容需要填写。"
   name: "您的姓名（必填）"
   email: "工作邮箱（必填）"

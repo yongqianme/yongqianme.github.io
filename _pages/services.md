@@ -44,9 +44,29 @@ A high-level description is enough for the first conversation. Detailed logs, la
 
 ## From diagnosis to implementation
 
-The diagnostic is a standalone engagement. Your team can implement the findings, or we can discuss a separate recovery program covering agreed interventions, commissioning support, performance checks, and handover. Ongoing reliability reviews and remote-support scope can follow where useful.
+The diagnostic is a standalone engagement. Your team can implement the findings, or we can scope a production-recovery program together. If the problem is already understood, we can start by reviewing your evidence and defining the intervention directly.
 
-Staffing, site coverage, specialist involvement, equipment purchases, and support hours are agreed for each project. A proposal will distinguish what I deliver from what your team and equipment suppliers own.
+### Production-recovery program
+
+For a bounded process with an agreed baseline, the planning starting point is a three-month program. Site access, engineering complexity, and production windows determine the final schedule.
+
+| Phase | Work and deliverable | Decision gate |
+|---|---|---|
+| Define | Confirm root-cause evidence, scope, owners, cost, and acceptance tests | Approve the intervention and production window |
+| Implement | Execute agreed changes, review test evidence, and track unresolved issues | Confirm readiness for a controlled production trial |
+| Validate and hand over | Compare results with the baseline under agreed conditions; document recovery procedures and remaining issues | Customer acceptance and handover |
+
+I lead technical scoping, review, and coordination. Where a project needs additional controls, vision, robot, or local field specialists, the proposal identifies the required roles and confirms availability before commitment. Your team owns site access, production authorization, and customer acceptance. Equipment suppliers retain the responsibilities agreed in their contracts.
+
+Equipment purchases and major third-party work are separately identified. Every proposal defines included assets, support hours, change control, payment milestones, and acceptance responsibilities. Operational targets are agreed against evidence and the conditions we can control.
+
+[Discuss a recovery program](/contact/?service=recovery#project-brief){: .btn .btn--primary}
+
+### Reliability support after handover
+
+For teams that need continuity after implementation, we can agree a three-month support block covering scheduled reliability reviews, a prioritized issue backlog, and bounded remote troubleshooting. Covered assets, response windows, included hours, site visits, and escalation responsibilities are written into the scope. An extension follows a review of the remaining need.
+
+[Discuss ongoing support](/contact/?service=support#project-brief){: .btn}
 
 ## Questions before we start
 
