@@ -1,7 +1,9 @@
 # main links links
 main:
-- title: "Profile"
+- title: "Home"
   url: /
+- title: "Services"
+  url: /services/
 - title: "Work"
   url: /work/
 - title: "Case Studies"
@@ -10,12 +12,14 @@ main:
   url: /categories/
 - title: "Resume"
   url: /cv/
-- title: "Contact"
+- title: "Discuss a Project"
   url: /contact/
 
 zh:
-- title: "简介"
+- title: "首页"
   url: /zh/
+- title: "服务"
+  url: /zh/services/
 - title: "项目"
   url: /zh/work/
 - title: "案例"
@@ -24,5 +28,5 @@ zh:
   url: /zh/writing/
 - title: "履历"
   url: /zh/cv/
-- title: "联系"
+- title: "沟通项目"
   url: /zh/contact/

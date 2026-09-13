@@ -1,37 +1,39 @@
 ---
-layout: single
-title: "Contact"
+layout: conversion
+title: "Discuss Your Robotics Project"
 permalink: /contact/
-author_profile: false
+excerpt: "Share a robotics production problem or book an introduction with Yong Qian. Prepare a brief with your process, business impact, and deadline."
 lang: en
 translation:
   zh_url: /zh/contact/
 ---
 
-I am open to early-stage investment opportunities, technical advisory roles, senior product/technology leadership, and hands-on contribution in Physical AI, robotics, edge computing, industrial automation, and AI infrastructure.
+<p class="eyebrow">Start a conversation</p>
 
-## Best-Fit Conversations
+# What needs to work better?
 
-- **Investors:** technical diligence, Physical AI thesis review, robotics readiness, industrial data engines, edge infrastructure, and founder assessment.
-- **Founders:** field-readiness evaluation, product architecture, hardware/software/SaaS integration, GTM, fundraising story, and cross-border industrial strategy.
-- **Companies:** senior product or technology leadership for robotics, industrial AI, edge computing, AIGC, and automation platforms.
-- **Media and events:** talks on robotics deployment, Physical AI, industrial automation, hardware startups, and founder transitions.
+<p class="conversion-lead">Tell me which process is affected, what your team is seeing, and the decision you need to make. We can establish whether a diagnostic, a scoped intervention, or an advisory conversation is the right next step.</p>
 
-## Executive Advisory Session
+<div class="conversion-actions"><a class="btn btn--primary" href="https://calendly.com/yongqian/introduction">Book an introduction</a><a class="btn" href="mailto:qianyong@qianyong.me">Email Yong directly</a></div>
 
-For focused advisory conversations on robotics product strategy, Physical AI deployment, industrial automation, edge infrastructure, SaaS, or founder execution:
+Prefer email? Write to [qianyong@qianyong.me](mailto:qianyong@qianyong.me), or use the brief builder below. You can also connect on [LinkedIn](https://www.linkedin.com/in/yongqian).
 
-**Strategy Advisory Session: USD $1,000 / 30 minutes**
+<h2 id="project-brief">Prepare a project brief</h2>
 
-Best suited for investors, founders, and companies seeking direct senior-level judgment on product direction, deployment readiness, GTM, technical-commercial risk, or cross-border industrial strategy.
+{% include project-brief.html %}
 
-## Contact
+## What happens next
 
-- Email: [qianyong@qianyong.me](mailto:qianyong@qianyong.me)
-- Calendar: [Book an introduction](https://calendly.com/yongqian/introduction)
-- LinkedIn: [linkedin.com/in/yongqian](https://www.linkedin.com/in/yongqian)
-- Writing: [yongqianme.substack.com](https://yongqianme.substack.com)
+I will review your inquiry to understand the problem and fit. We can then clarify the scope and information needed in a conversation. If a paid engagement makes sense, you will receive a written proposal covering deliverables, responsibilities, timing, and fee before work starts.
 
-## Short Bio
+[Review the diagnostic scope](/services/)
 
-Yong Qian is a Global Robotics & Physical AI Product Executive with 20+ years across robotics deployment, automotive automation, industrial IoT, edge networking, SaaS, AIGC, and humanoid robotics. He has founded and exited ventures across JIEQI, OmniEdge, and DeepFashion, and helps teams move from prototypes to products that survive real-world deployment.
+<h2 id="other-conversations">Other conversations</h2>
+
+I also work on Physical AI product strategy, field-readiness assessment, technical diligence, and industrial infrastructure. Investors, founders, and teams can email the decision they need help making. For speaking or media inquiries, include the topic and timing.
+
+**Strategy Advisory Session: USD $1,000 / 30 minutes.** This is a separate, focused advisory engagement; the introduction link above is for discussing fit and scope.
+
+## About Yong
+
+Yong Qian has 20+ years of experience across robotics deployment, automotive automation, industrial IoT, edge networking, SaaS, and Physical AI. He has founded and exited ventures including JIEQI, OmniEdge, and DeepFashion. [Read the full background](/cv/).

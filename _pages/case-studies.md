@@ -80,3 +80,7 @@ DeepFashion shows Yong's ability to move beyond his original robotics base and c
 **Executive signal:** Yong can cross domains quickly, validate markets, build with modern AI tooling, and commercialize AI products under real constraints.
 
 [Read the build story](/posts/2025/06/DeepFashion-My-Journey-from-Idea-to-Sale){: .btn}
+
+## Discuss a similar challenge
+
+If a production or deployment problem needs a clear next step, [explore the diagnostic](/services/) or [share your project brief](/contact/#project-brief).

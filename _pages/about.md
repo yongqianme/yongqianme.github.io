@@ -1,8 +1,8 @@
 ---
+layout: conversion
 permalink: /
-title: ""
-excerpt: "Global Robotics & Physical AI Product Executive"
-author_profile: true
+title: "Robotics Deployment & Production Recovery"
+excerpt: "Resolve costly robotics deployment and production problems with Yong Qian. Start with a focused diagnostic and a measurable recovery plan."
 lang: en
 translation:
   zh_url: /zh/
@@ -11,63 +11,61 @@ redirect_from:
   - /about.html
 ---
 
-# Global Robotics & Physical AI Product Executive
-
-I help robotics, AI, and industrial technology teams turn complex technology into field-ready products and scalable businesses. Over 20+ years, I have deployed automation for global automotive manufacturers, built and exited ventures across IIoT, edge networking, and AIGC SaaS, and worked hands-on across hardware, software, cloud, and robotics.
-
-[Contact](/contact/){: .btn .btn--primary}
-[View Work](/work/){: .btn}
-
-<div class="proof-strip" aria-label="Executive proof points">
-  <div><strong>20+ years</strong><span>robotics and automation deployment</span></div>
-  <div><strong>3 exits</strong><span>IIoT, edge networking, and AIGC SaaS</span></div>
-  <div><strong>26 countries</strong><span>users reached through OmniEdge</span></div>
-  <div><strong>Global OEMs</strong><span>BMW, Tesla, Mercedes, Audi, Ford, Hyundai</span></div>
-  <div><strong>Physical AI</strong><span>humanoid product strategy and robot concepts</span></div>
+<div class="conversion-hero">
+  <div>
+    <p class="eyebrow">Yong Qian · Robotics & Industrial Automation</p>
+    <h1>Get your robots ready for real production.</h1>
+    <p class="conversion-lead">Recurring downtime. Unstable cycle times. A deployment that cannot pass acceptance. I help manufacturing teams find the cause and define a practical path to reliable operation.</p>
+    <div class="conversion-actions">
+      <a class="btn btn--primary" href="/contact/#project-brief">Discuss your production problem</a>
+      <a class="btn" href="/services/">Explore the diagnostic</a>
+    </div>
+    <p class="conversion-note">For plant leaders, machine builders, and robotics teams.</p>
+  </div>
+  <aside class="conversion-panel" aria-label="The first engagement">
+    <p class="eyebrow">Start with clarity</p>
+    <h2>One process. A focused diagnostic.</h2>
+    <ol>
+      <li>Establish the operating baseline and cost of the problem.</li>
+      <li>Identify likely causes and the evidence needed to test them.</li>
+      <li>Leave with prioritized actions and an acceptance plan.</li>
+    </ol>
+    <a href="/services/sample-diagnostic/">See what the deliverable looks like →</a>
+  </aside>
 </div>
 
-## What I Help With
+<div class="conversion-proof" aria-label="Relevant experience">
+  <div><strong>20+ years</strong><span>Robotics and automation experience</span></div>
+  <div><strong>Field to cloud</strong><span>Robots, PLCs, industrial connectivity, and software</span></div>
+  <div><strong>Global experience</strong><span>China, Germany, and the United States</span></div>
+</div>
 
-- **Field-readiness evaluation** for robotics, humanoid, and Physical AI products before large deployment commitments.
-- **Robotics product strategy** that connects hardware capability, system integration, customer workflow, serviceability, and commercial reality.
-- **Hardware/software/SaaS architecture** across industrial connectivity, edge networking, device orchestration, cloud, and AI infrastructure.
-- **Technical due diligence** for investors and founders evaluating robotics, industrial automation, embodied intelligence, and edge-to-cloud systems.
-- **Cross-border industrial GTM** across China, Europe, and North America, especially for teams selling into automotive, manufacturing, and robotics ecosystems.
+## Where I can help
 
-## Selected Work
+<div class="conversion-grid">
+  <section class="conversion-card"><h3>Stabilize a production process</h3><p>Investigate recurring faults, cycle-time variation, and difficult handoffs between robots, controls, vision, and operators.</p></section>
+  <section class="conversion-card"><h3>Move toward acceptance</h3><p>Clarify commissioning blockers, technical responsibilities, and the tests needed to establish deployment readiness.</p></section>
+  <section class="conversion-card"><h3>Make equipment serviceable</h3><p>Review diagnostics, remote access, and support workflows so the right expert can act on the right information.</p></section>
+</div>
 
-### Physical AI Product Leadership
+## Experience grounded in the field
 
-Led product strategy and roadmap work for next-generation humanoid robotics, including Spirit AI experience, stealth startup product definition, and AroOne / 77z, a privacy-first elder-care companion robot concept.
+<div class="conversion-grid">
+  <section class="conversion-card"><h3>Automotive deployment</h3><p>Robotics programming, commissioning, troubleshooting, and customer support through Stäubli, Frimo, and global automotive programs.</p><a href="/case-studies/#global-automotive-robotics-deployment">Read the deployment background →</a></section>
+  <section class="conversion-card"><h3>Industrial infrastructure</h3><p>Built JIEQI / Jaybox for industrial remote service and OmniEdge for distributed-device connectivity.</p><a href="/work/#industrial-to-cloud-infrastructure">Explore the products →</a></section>
+  <section class="conversion-card"><h3>Independent technical judgment</h3><p>Declined a $7M robotics opportunity when the required field performance exceeded the available technology.</p><a href="/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/">Read the decision →</a></section>
+</div>
 
-[View Physical AI work](/work/#physical-ai-product-leadership){: .btn}
+## A clear first step
 
-### Automotive Robotics And Field Deployment
+Start with a conversation about the process, the business impact, and what your team has already tried. If there is a fit, I will propose a bounded diagnostic with agreed access requirements, deliverables, timing, and fee. You can use the findings with your own team or discuss a separately scoped implementation.
 
-Delivered robotics automation, troubleshooting, programming, and commissioning work across high-pressure automotive environments. Robot value is created by integration, uptime, safety, acceptance, and field reliability, not movement demos alone.
+[View scope and deliverables](/services/){: .btn}
 
-[Read the field perspective](/posts/2025/04/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration/){: .btn}
+<div class="conversion-cta">
+  <h2>Which production problem needs a clear next step?</h2>
+  <p>Share the process, the issue, and the deadline. An initial brief is enough to start.</p>
+  <div class="conversion-actions"><a class="btn btn--primary" href="/contact/#project-brief">Prepare a project brief</a><a class="btn" href="https://calendly.com/yongqian/introduction">Book an introduction</a></div>
+</div>
 
-### Industrial-To-Cloud Infrastructure
-
-Built JIEQI / Jaybox for industrial IoT remote service and OmniEdge for open-source peer-to-peer mesh networking. Both products connect the same executive thread: distributed machines, secure access, and deployable infrastructure.
-
-[View Work](/work/#industrial-to-cloud-infrastructure){: .btn}
-
-## Writing And Publications
-
-The writing that best explains my point of view:
-
-- [Why I Walked Away from a $7 Million Robotics Deal](/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/)
-- [The True Value of Robots Lies in Expertise and Integration](/posts/2025/04/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration/)
-- [The Struggles of the Chinese Machine Vendors](/posts/2025/06/The-Struggles-of-the-Chinese-Machine-Vendors)
-- [How to Choose AI Cloud Platforms for Physical AI](/posts/2025/06/How-to-Choose-AI-Cloud-Platforms-for-Physical-AI(2025))
-
-[Publications](/publications/){: .btn}
-[Books](/books/){: .btn}
-
-## Executive Fit
-
-I am open to early-stage investment opportunities, technical advisory roles, senior product/technology leadership, and hands-on contribution in Physical AI, robotics, edge computing, industrial automation, and AI infrastructure.
-
-[Contact](/contact/){: .btn .btn--primary}
+For Physical AI product strategy, investor diligence, or executive advisory, [get in touch](/contact/#other-conversations). Explore my [full work history](/work/), [résumé](/cv/), and [writing](/categories/).

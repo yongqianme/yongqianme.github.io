@@ -56,3 +56,7 @@ translation:
 DeepFashion 展示了 Yong 在机器人之外的 AI 产品经验：验证需求、构建产品、获取用户，并完成退出。
 
 [阅读构建故事](/posts/2025/06/DeepFashion-My-Journey-from-Idea-to-Sale){: .btn}
+
+## 沟通类似的问题
+
+如果您的生产或部署问题需要明确下一步，可[了解专项诊断](/zh/services/)或[准备项目简报](/zh/contact/#project-brief)。
