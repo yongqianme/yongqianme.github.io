@@ -10,6 +10,20 @@ translation:
 
 These case studies show how Yong Qian approaches Physical AI product leadership: defining the right robot use case, building the data and deployment loop, judging field readiness, and turning complex robotics, AI, and industrial technology into products customers can trust.
 
+[Review founder and investor engagements](/physical-ai/){: .btn .btn--primary}
+
+## Humanoid Alpha Definition: OmniEdge Humanoid Foundry
+
+**Situation:** A team seeking an early humanoid product can lose time coordinating a robot platform, controls, demonstrations, industrial design, configuration records, and customer acceptance across separate vendors.
+
+**Decision:** Create a configurable launch program around a paid architecture sprint, one documented robot configuration, bounded AI demonstrations, explicit dependencies, and acceptance evidence for the alpha milestone.
+
+**Outcome:** Defined OmniEdge Humanoid Foundry as an accountable path from platform selection to a customer-reviewable alpha configuration. Public customer deployment results are not claimed here.
+
+**Founder/investor signal:** Yong frames the product around what can be specified, demonstrated, and accepted now, while making future capability and dependencies visible.
+
+[Explore Humanoid Foundry](https://humanoid.omniedge.io/){: .btn}
+
 ## Physical AI Product Leadership: Humanoid Robots, Data Loops, And Elder-Care Robot Concepts
 
 Yong's Physical AI work connects humanoid robotics, embedded AI, data infrastructure, and real-world product strategy. The common question is not simply "Can the robot move?" It is: what should the robot do first, what data does it need, where should intelligence run, and what customer workflow makes the concept worth building?
@@ -18,7 +32,7 @@ Yong's Physical AI work connects humanoid robotics, embedded AI, data infrastruc
 
 **Decision:** Connect hardware capability, AI readiness, data-loop design, privacy constraints, care scenarios, and customer value into product direction.
 
-**Outcome:** Clearer first use cases, task boundaries, autonomy expectations, and data-collection strategy for Physical AI products.
+**Outcome:** Produced clearer first-use-case direction, task boundaries, autonomy expectations, and data-collection strategy for Physical AI products. Customer names, metrics, and internal artifacts are not published.
 
 **Executive signal:** Yong can operate before the Physical AI product is obvious, bringing senior product judgment to the middle between research capability, robot hardware, real users, and commercialization strategy.
 
@@ -80,3 +94,7 @@ DeepFashion shows Yong's ability to move beyond his original robotics base and c
 **Executive signal:** Yong can cross domains quickly, validate markets, build with modern AI tooling, and commercialize AI products under real constraints.
 
 [Read the build story](/posts/2025/06/DeepFashion-My-Journey-from-Idea-to-Sale){: .btn}
+
+## Discuss a similar decision
+
+If a humanoid roadmap, robotics investment, production problem, or deployment commitment needs a clear next step, [review the engagement paths](/physical-ai/) or [share your brief](/contact/#project-brief).

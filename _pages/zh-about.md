@@ -1,69 +1,57 @@
 ---
-layout: single
+layout: conversion
 permalink: /zh/
-title: ""
-excerpt: "全球机器人与 Physical AI 产品负责人"
-author_profile: true
+title: "Physical AI 部署与生产恢复"
+excerpt: "推动 Physical AI 系统从客户试点走向可衡量的生产验收与稳定运行。"
 lang: zh
 translation:
   en_url: /
 ---
 
-# 全球机器人与 Physical AI 产品负责人
-
-我长期从事机器人、工业自动化、边缘网络和 AI 产品工作。过去 20 多年，我参与过全球汽车制造场景中的机器人自动化部署，也创立并退出过工业 IoT、开源边缘网络和 AIGC SaaS 公司。我的经验覆盖现场交付、软硬件产品、云服务、SaaS 和机器人产品定义。
-
-[联系我](/zh/contact/){: .btn .btn--primary}
-[查看项目](/zh/work/){: .btn}
-
-<div class="proof-strip" aria-label="核心经历">
-  <div><strong>20+ 年</strong><span>机器人与自动化现场经验</span></div>
-  <div><strong>3 次退出</strong><span>工业 IoT、边缘网络、AIGC SaaS</span></div>
-  <div><strong>26 个国家</strong><span>OmniEdge 用户覆盖</span></div>
-  <div><strong>全球 OEM</strong><span>BMW、Tesla、Mercedes、Audi、Ford、Hyundai</span></div>
-  <div><strong>Physical AI</strong><span>人形机器人产品定义与机器人概念</span></div>
+<div class="conversion-hero">
+  <div>
+    <p class="eyebrow">Yong Qian · Physical AI 部署与生产恢复</p>
+    <h1>推动 Physical AI 从试点走向生产。</h1>
+    <p class="conversion-lead">我帮助机器人公司和工业团队诊断部署缺口，恢复受阻或不稳定的系统，并达到可衡量的客户验收。从一个范围明确的诊断开始，再决定实施与可靠性支持。</p>
+    <div class="conversion-actions"><a class="btn btn--primary" href="/zh/services/">了解部署支持</a><a class="btn" href="/zh/contact/?service=diagnostic#project-brief">沟通部署需求</a></div>
+    <p class="conversion-note">具体范围与商务条款在私下沟通中确认。</p>
+  </div>
+  <aside class="conversion-panel" aria-label="首次合作">
+    <p class="eyebrow">首次付费合作</p>
+    <h2>两周部署诊断</h2>
+    <ol><li>建立客户流程与经济影响基线。</li><li>区分已观察到的系统缺口与假设。</li><li>交付包含成本的恢复与验收方案。</li></ol>
+    <a href="/zh/services/#diagnostic">沟通合作范围 →</a>
+  </aside>
 </div>
 
-## 我能提供的支持
+<div class="conversion-proof" aria-label="相关经验">
+  <div><strong>20+ 年</strong><span>机器人部署与工业自动化</span></div>
+  <div><strong>3 次退出</strong><span>工业 IoT、边缘网络与应用 AI</span></div>
+  <div><strong>中国 · 欧洲 · 美国</strong><span>跨市场产品建设与现场交付</span></div>
+</div>
 
-- **机器人现场可行性评估**：在签约或大规模投入前，判断技术成熟度、交付风险和客户场景是否匹配。
-- **机器人产品定义**：把硬件能力、系统集成、客户流程、维护方式和商业目标放在一起评估。
-- **硬件 / 软件 / SaaS 架构**：涉及工业连接、边缘网络、设备管理、云服务和 AI 基础设施。
-- **技术尽调**：面向投资人和创始人，评估机器人、工业自动化、Physical AI 和边云系统。
-- **跨境工业市场经验**：覆盖中国、欧洲和北美，尤其是汽车、制造和机器人相关市场。
+## 我可以提供的帮助
 
-## 代表性工作
+<div class="conversion-grid">
+  <section class="conversion-card"><p class="eyebrow">诊断</p><h3>了解部署现状</h3><p>建立运行基线、量化问题、验证根因与准备度证据，并形成包含成本的验收方案。</p><a href="/zh/services/#diagnostic">查看诊断 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">恢复</p><h3>解决部署阻碍</h3><p>与合格交付伙伴协调范围明确的干预、调试、测量、客户验收与交接。</p><a href="/zh/services/#recovery">查看恢复项目 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">稳定</p><h3>改善运行可靠性</h3><p>交接后提供定期可靠性复盘、范围明确的排障、部署审核和问题清单管理。</p><a href="/zh/services/#support">查看可靠性支持 →</a></section>
+</div>
 
-### Physical AI 产品领导力
+## 来自一线运营者的视角
 
-参与下一代人形机器人相关的产品规划，包括 Spirit AI 相关经验、隐身创业项目产品定义，以及 AroOne / 77z 老人陪伴机器人概念。
+<div class="conversion-grid">
+  <section class="conversion-card"><h3>人形机器人产品定义</h3><p>产品愿景、路线图、数据采集策略、边界清晰的演示，以及注重隐私的机器人概念。</p><a href="/zh/work/#physical-ai-product-leadership">查看 Physical AI 工作 →</a></section>
+  <section class="conversion-card"><h3>汽车制造现场部署</h3><p>在安全、稼动率与质量都直接影响结果的环境中，完成编程、调试、排障与验收。</p><a href="/zh/case-studies/#全球汽车机器人部署">了解部署经历 →</a></section>
+  <section class="conversion-card"><h3>创业与基础设施经验</h3><p>创立并退出工业 IoT、边缘网络和应用 AI 产品；OmniEdge 覆盖 26 个国家、7K+ 用户。</p><a href="/zh/work/#industrial-to-cloud-infrastructure">查看运营经历 →</a></section>
+</div>
 
-[查看 Physical AI 工作](/zh/work/#physical-ai-product-leadership){: .btn}
+## 在承诺之前做出判断
 
-### 汽车机器人与现场部署
+在评估一个 700 万美元四足机器人项目时，我将平台能力与地形、续航、感知及支持要求逐项比较，最终选择放弃。商业机会不能让技术突然具备现场交付能力。同样的判断标准也适用于产品路线图、投资尽调与生产决策。
 
-在汽车制造环境中交付机器人自动化、故障排查、编程、调试和客户验收。机器人项目的价值主要来自系统集成、稳定运行、安全、验收和后续支持，而不是演示动作本身。
+[阅读现场可行性决策（英文）](/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/){: .btn}
 
-[阅读现场视角](/posts/2025/04/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration/){: .btn}
+<div class="conversion-cta"><h2>您的团队下一步必须做出什么决策？</h2><p>介绍正在评估的机器人、技术主张或客户流程、已有证据与决策时间。</p><div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/?service=physical-ai#project-brief">准备项目简报</a><a class="btn" href="https://calendly.com/yongqian/introduction">预约初次沟通</a></div></div>
 
-### 工业到云基础设施
-
-创立 JIEQI / Jaybox，服务工业设备远程运维；创立 OmniEdge，构建开源 P2P Mesh 网络。两类产品都围绕分布式设备、安全访问和远程服务展开。
-
-[查看项目](/zh/work/#industrial-to-cloud-infrastructure){: .btn}
-
-## 写作与出版
-
-- [为什么我放弃了一个 700 万美元机器人项目](/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/)
-- [机器人的真正价值在于专业知识与集成能力](/posts/2025/04/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration/)
-- [中国机械设备厂商的困境](/posts/2025/06/The-Struggles-of-the-Chinese-Machine-Vendors)
-- [如何为 Physical AI 选择 AI 云平台](/posts/2025/06/How-to-Choose-AI-Cloud-Platforms-for-Physical-AI(2025))
-
-[出版与演讲](/zh/publications/){: .btn}
-[书籍](/zh/books/){: .btn}
-
-## 当前方向
-
-我关注早期投资、技术顾问、资深产品 / 技术管理岗位，以及 Physical AI、机器人、边缘计算、工业自动化和 AI 基础设施相关工作。
-
-[联系我](/zh/contact/){: .btn .btn--primary}
+查看[完整项目经历](/zh/work/)、[案例](/zh/case-studies/)、[履历](/zh/cv/)和[写作](/zh/writing/)。

@@ -1,0 +1,74 @@
+---
+layout: conversion
+title: "Physical AI 部署与生产恢复"
+permalink: /zh/physical-ai/
+excerpt: "一个专业业务，推动高价值机器人流程从试点阻碍走向可衡量的生产验收。"
+lang: zh
+translation:
+  en_url: /physical-ai/
+---
+
+<p class="eyebrow">Physical AI 实践</p>
+
+# 在失败会造成经济损失的场景部署 Physical AI。
+
+<p class="conversion-lead">Physical AI 部署与生产恢复业务帮助机器人公司和工业客户诊断高成本部署缺口，实施范围明确的恢复项目，并让已验收系统稳定运行。</p>
+
+<div class="conversion-actions"><a class="btn btn--primary" href="/zh/services/">了解部署支持</a><a class="btn" href="/zh/contact/?service=diagnostic#project-brief">沟通部署需求</a></div>
+
+<p class="conversion-note"><strong>最适合：</strong>有明确负责人、一个机器人流程、可访问运行证据、重大经济影响，并需要在 90 天内决策。</p>
+
+## 我帮助解决的关键问题
+
+<div class="conversion-grid">
+  <section class="conversion-card"><h3>使用场景</h3><p>哪个任务具有足够的客户价值、可以明确测试，而且适合当前的硬件与自主能力？</p></section>
+  <section class="conversion-card"><h3>能力证据</h3><p>哪些能力已在什么条件下得到验证？哪些结果仍依赖操作员、工装、网络或未来数据？</p></section>
+  <section class="conversion-card"><h3>实际部署</h3><p>客户现场需要完成哪些安装、安全审核、验收、异常恢复、服务与重复运行工作？</p></section>
+</div>
+
+<span id="founder-sprint"></span><span id="flagship-sprint"></span>
+## 合作方式
+
+当问题或干预措施尚不明确时，从付费部署诊断开始。已有同等运行证据的团队可以直接界定实施范围。诊断可以转化为部署恢复项目，再进入范围明确的可靠性支持；诊断结果也可独立使用。
+
+范围、周期、费用与交付安排在初次沟通后私下确认。
+
+[查看完整核心方案](/zh/services/){: .btn .btn--primary}
+
+<h2 id="technical-diligence">面向创始人与投资人：同一种证据方法</h2>
+
+对于创始人，诊断会检验所选流程、系统架构、部署负担和客户价值是否足以支持生产承诺。对于投资人或董事会，同一种方法会形成关于能力、依赖、交付经济性和商业计划证据的决策判断。
+
+### 审核范围
+
+| 领域 | 需要验证的问题 |
+|---|---|
+| 能力证据 | 展示了什么、成功多少次、在什么条件下，以及依赖多少人工或环境辅助？ |
+| 系统成熟度 | 哪些硬件、控制、感知、数据、连接与供应商依赖可能阻碍产品？ |
+| 部署现实 | 每个现场需要多少安装、安全、集成、验收、支持与恢复工作？ |
+| 产品与路线图 | 第一个场景是否适合当前能力？路线图是否优先消除最高风险假设？ |
+| 商业假设 | 试点范围、客户价值、毛利逻辑、服务负担与规模化主张是否符合交付模式？ |
+
+### 交付物
+
+书面备忘录会区分已验证证据、管理层主张、分析推断、待确认问题与风险信号，并提供成熟度判断、后续证据请求的优先级，以及推进下一项决策前应满足的技术与商业条件。结论受约定的访问范围、材料、演示与专家能力限制。
+
+我会披露相关商业关系；如需更深入的安全、法律、财务或行业认证判断，会明确所需专家范围。如果尽调对象涉及我之后可能支持的平台或实施项目，会在合作开始前说明这一关系。
+
+[沟通诊断](/zh/contact/?service=diagnostic#project-brief){: .btn .btn--primary}
+
+## 业务聚焦范围
+
+我承接人形机器人、智能机器人和工业机器人中已经接近部署或部署失败的真实客户流程。通用 AI 战略、融资顾问、独立产品工作坊、硬件转售、零部件采购、开放式工程人力，以及与机器人部署无关的工厂优化不在本业务范围内。
+
+## 为什么是这个视角
+
+我的经验连接了经常被分开评估的三层问题：
+
+- 机器人现场部署，包括调试、排障、生产支持、安全、稼动率与验收。
+- 创立并退出工业 IoT、边缘网络与应用 AI 产品的经历。
+- 人形机器人与 Physical AI 产品工作，包括路线图、数据采集、端侧智能、隐私及边界清晰的演示。
+
+我也曾在评估一个 700 万美元机器人项目后选择放弃，因为当时平台无法负责地满足地形、续航、感知与支持要求。有效的决策，是在合同把能力缺口变成现场失败之前识别它。[阅读决策过程（英文）](/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/)。
+
+<div class="conversion-cta"><h2>从一个高成本部署问题开始。</h2><p>介绍机器人、客户流程、运营影响、已有证据和决策时间。</p><div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/?service=diagnostic#project-brief">准备诊断简报</a><a class="btn" href="https://calendly.com/yongqian/introduction">预约初次沟通</a></div></div>

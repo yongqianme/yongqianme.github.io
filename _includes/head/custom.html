@@ -6,10 +6,8 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@yongqianme" />
-<meta name="twitter:title" content="{{- page.title -}}">
 <meta name="twitter:image" content="{{ page.image | default: '/images/posts/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration.png' | absolute_url }}">
 <meta property="og:image" content="{{ page.image | default: '/images/posts/The-True-Value-of-Robots-Lies-in-Expertise-and-Integration.png' | absolute_url }}">
-<meta property="og:description" content="{{- page.title -}}"/>
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="675">
@@ -25,6 +23,7 @@
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+{% unless page.layout == 'conversion' %}
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -35,5 +34,6 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+{% endunless %}
 
 <!-- end custom head snippets -->

@@ -1,37 +1,41 @@
 ---
-layout: single
-title: "Contact"
+layout: conversion
+title: "Discuss a Physical AI Deployment"
 permalink: /contact/
-author_profile: false
+excerpt: "Qualify one costly Physical AI deployment problem for a paid diagnostic."
 lang: en
 translation:
   zh_url: /zh/contact/
 ---
 
-I am open to early-stage investment opportunities, technical advisory roles, senior product/technology leadership, and hands-on contribution in Physical AI, robotics, edge computing, industrial automation, and AI infrastructure.
+<p class="eyebrow">Start a conversation</p>
 
-## Best-Fit Conversations
+# Is there a costly robot deployment we can diagnose?
 
-- **Investors:** technical diligence, Physical AI thesis review, robotics readiness, industrial data engines, edge infrastructure, and founder assessment.
-- **Founders:** field-readiness evaluation, product architecture, hardware/software/SaaS integration, GTM, fundraising story, and cross-border industrial strategy.
-- **Companies:** senior product or technology leadership for robotics, industrial AI, edge computing, AIGC, and automation platforms.
-- **Media and events:** talks on robotics deployment, Physical AI, industrial automation, hardware startups, and founder transitions.
+<p class="conversion-lead">Share one robot workflow, its operating impact, the evidence available, the accountable owner, and the decision deadline. We will assess fit for a paid deployment diagnostic, or scope implementation directly when equivalent evidence already exists.</p>
 
-## Executive Advisory Session
+<div class="conversion-actions"><a class="btn btn--primary" href="https://calendly.com/yongqian/introduction">Book an introduction</a><a class="btn" href="mailto:qianyong@qianyong.me">Email Yong directly</a></div>
 
-For focused advisory conversations on robotics product strategy, Physical AI deployment, industrial automation, edge infrastructure, SaaS, or founder execution:
+Prefer email? Write to [qianyong@qianyong.me](mailto:qianyong@qianyong.me), or use the secure form below. You can also connect on [LinkedIn](https://www.linkedin.com/in/yongqian).
 
-**Strategy Advisory Session: USD $1,000 / 30 minutes**
+<h2 id="project-brief">Submit a confidential project brief</h2>
 
-Best suited for investors, founders, and companies seeking direct senior-level judgment on product direction, deployment readiness, GTM, technical-commercial risk, or cross-border industrial strategy.
+Use the standalone intake form for project details. Submissions are protected by Cloudflare Turnstile, stored privately, and automatically deleted after 12 months.
 
-## Contact
+<a class="btn btn--primary" href="https://inquiry.omniedge.io/?lang=en&amp;service=diagnostic">Open secure submission form</a>
 
-- Email: [qianyong@qianyong.me](mailto:qianyong@qianyong.me)
-- Calendar: [Book an introduction](https://calendly.com/yongqian/introduction)
-- LinkedIn: [linkedin.com/in/yongqian](https://www.linkedin.com/in/yongqian)
-- Writing: [yongqianme.substack.com](https://yongqianme.substack.com)
+Please do not include passwords, access tokens, export-controlled material, or other secrets. If the brief is a fit, I will reply by email to arrange the next step.
 
-## Short Bio
+## What happens next
 
-Yong Qian is a Global Robotics & Physical AI Product Executive with 20+ years across robotics deployment, automotive automation, industrial IoT, edge networking, SaaS, AIGC, and humanoid robotics. He has founded and exited ventures across JIEQI, OmniEdge, and DeepFashion, and helps teams move from prototypes to products that survive real-world deployment.
+I will review your inquiry to understand the problem and fit. We can then clarify the scope and information needed in a conversation. If a paid engagement makes sense, you will receive a written proposal covering deliverables, responsibilities, timing, and fee before work starts.
+
+[Discuss project scope](/services/)
+
+<h2 id="other-conversations">Other conversations</h2>
+
+For a robot company, describe the priority customer workflow, current capability, pilot or production milestone, and the deployment assumption creating the most uncertainty. For an industrial operator, describe the affected workflow, economic impact, prior interventions, and acceptance deadline. For investor diligence, explain the deployment claim under review and the operating evidence available; it will be scoped only as a diagnostic variant.
+
+## About Yong
+
+Yong Qian has 20+ years of experience across robotics deployment, automotive automation, industrial IoT, edge networking, SaaS, and Physical AI. He has founded and exited ventures including JIEQI, OmniEdge, and DeepFashion. [Read the full background](/cv/).

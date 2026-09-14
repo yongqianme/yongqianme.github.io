@@ -1,0 +1,99 @@
+/* Scoped to the service and project-inquiry journey. */
+#main.conversion-main {
+  margin-top: 0;
+  padding-top: 3.5em;
+  padding-bottom: 2em;
+}
+
+.conversion-page {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+  overflow-wrap: anywhere;
+
+  .page__content { float: none; }
+  table { display: block; max-width: 100%; overflow-x: auto; }
+  .btn { max-width: 100%; white-space: normal; }
+  .eyebrow {
+    color: #0066cc;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    margin: 0 0 1.2em;
+  }
+  h1 { max-width: 850px; font-size: clamp(2.1em, 4.5vw, 3.2em); line-height: 1.08; letter-spacing: -0.035em; }
+  .conversion-lead { max-width: 730px; font-size: 1.12em; line-height: 1.65; }
+  h2 { margin-top: 2.8em; }
+  .conversion-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.65em; margin: 1.5em 0 0.8em; }
+  .conversion-actions .btn { margin: 0; padding: 0.85em 1.25em; white-space: normal; }
+  .conversion-note { font-size: 0.8em; color: #595960; }
+  .conversion-hero { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 3em; align-items: center; }
+  .conversion-hero h1 { font-size: clamp(2.1em, 4.2vw, 3em); }
+  .conversion-panel { padding: 1.7em; border: 1px solid #dbe3ed; border-radius: 16px; background: #f0f5fc; }
+  .conversion-panel h2 { margin: 0.5em 0 1em; padding: 0; border: 0; font-size: 1.25em; }
+  .conversion-panel ol { padding-left: 1.3em; margin-bottom: 1.2em; }
+  .conversion-panel li { margin-bottom: 0.7em; font-size: 0.87em; }
+  .conversion-panel a { font-size: 0.85em; }
+  .conversion-proof { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 2.8em 0; border-block: 1px solid #d2d2d7; padding: 1.4em 0; gap: 1.5em; }
+  .conversion-proof strong { display: block; font-size: 1.3em; }
+  .conversion-proof span { display: block; font-size: 0.8em; color: #595960; }
+  .conversion-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1em; margin: 1.4em 0; }
+  .conversion-card { min-width: 0; padding: 1.5em; background: #fff; border: 1px solid #e0e0e6; border-radius: 12px; }
+  .conversion-card h3 { margin-top: 0; font-size: 1em; }
+  .conversion-card p, .conversion-card li { font-size: 0.87em; }
+  .conversion-card p:last-child { margin-bottom: 0; }
+  .conversion-card a { font-size: 0.87em; }
+  .conversion-cta { margin-top: 3em; padding: 2em; background: #edf4fc; border: 1px solid #dbe3ed; border-radius: 16px; }
+  .conversion-cta h2 { margin-top: 0; padding: 0; border: 0; }
+  .conversion-cta p:last-child { margin-bottom: 0; }
+  .conversion-copy { max-width: 800px; }
+  details { border-bottom: 1px solid #d2d2d7; padding: 1em 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 0.8em 0 0; }
+  a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #0066cc; outline-offset: 4px; }
+}
+
+.project-brief {
+  margin: 1.5em 0;
+  padding: 1.8em;
+  border: 1px solid #d2d2d7;
+  border-radius: 16px;
+  background: #fff;
+  .brief-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1em 1.3em; }
+  .brief-wide { grid-column: 1 / -1; }
+  label { display: block; margin: 0 0 0.4em; font-size: 0.85em; font-weight: 600; }
+  input, select, textarea { box-sizing: border-box; width: 100%; min-width: 0; padding: 0.75em; margin: 0; border: 1px solid #86868b; border-radius: 6px; background: #fff; color: #1d1d1f; font: inherit; font-size: 16px; }
+  textarea { min-height: 130px; resize: vertical; }
+  input:focus, select:focus, textarea:focus { outline: 2px solid #0066cc; outline-offset: 2px; }
+  .brief-help { font-size: 0.78em; margin: 0.5em 0 1em; }
+  .brief-result { margin-top: 1.5em; padding-top: 1em; border-top: 1px solid #d2d2d7; }
+  .brief-result textarea { min-height: 260px; }
+  .brief-optional { margin: 0 0 1.2em; }
+  .brief-optional .brief-fields { margin-top: 1em; }
+  [hidden] { display: none !important; }
+}
+
+@media print {
+  body.acceptance-print .masthead, body.acceptance-print .page__footer,
+  body.acceptance-print .conversion-actions { display: none; }
+  body.acceptance-print #main { margin: 0; padding: 0; max-width: none; }
+  body.acceptance-print .page__content { font-size: 10pt; line-height: 1.35; }
+  body.acceptance-print h1 { font-size: 22pt; }
+  body.acceptance-print h2 { margin-top: 1em; font-size: 12pt; }
+  body.acceptance-print li { break-inside: avoid; }
+}
+
+@media (max-width: 760px) {
+  #main.conversion-main { padding-top: 2em; }
+  .conversion-page {
+    .conversion-hero, .conversion-grid { grid-template-columns: 1fr; gap: 1em; }
+    .conversion-hero { gap: 1.6em; }
+    .conversion-proof { gap: 0.8em; }
+    .conversion-proof strong { font-size: 1.05em; }
+    .conversion-proof span { font-size: 0.72em; }
+    .conversion-cta { padding: 1.3em; }
+  }
+  .project-brief { padding: 1.1em; }
+  .project-brief .brief-fields { grid-template-columns: 1fr; }
+}

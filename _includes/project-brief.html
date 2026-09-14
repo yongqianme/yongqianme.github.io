@@ -1,0 +1,33 @@
+{% assign brief = site.data.project_brief[page.lang] | default: site.data.project_brief.en %}
+<p>{{ brief.intro }}</p>
+<noscript><p>{{ brief.no_js }}</p></noscript>
+<form class="project-brief" id="project-brief-form" hidden aria-label="{{ brief.result }}" data-subject="{{ brief.subject }}" data-ready="{{ brief.ready }}" data-copied="{{ brief.copied }}" data-copy-failed="{{ brief.copy_failed }}">
+  <div class="brief-fields">
+    <div><label for="brief-name">{{ brief.name }}</label><input id="brief-name" name="name" autocomplete="name" required maxlength="100"></div>
+    <div><label for="brief-email">{{ brief.email }}</label><input id="brief-email" name="email" type="email" autocomplete="email" required maxlength="160"></div>
+    <div><label for="brief-company">{{ brief.company }}</label><input id="brief-company" name="company" autocomplete="organization" required maxlength="160"></div>
+    <div class="brief-wide"><label for="brief-problem">{{ brief.problem }}</label><textarea id="brief-problem" name="problem" required maxlength="2000" aria-describedby="brief-problem-help"></textarea><p class="brief-help" id="brief-problem-help">{{ brief.problem_help }}</p></div>
+  </div>
+  <details class="brief-optional"><summary>{{ brief.optional }}</summary>
+  <div class="brief-fields">
+    <div><label for="brief-location">{{ brief.location }}</label><input id="brief-location" name="location" maxlength="160"></div>
+    <div class="brief-wide"><label for="brief-impact">{{ brief.impact }}</label><input id="brief-impact" name="impact" maxlength="400" aria-describedby="brief-impact-help"><p class="brief-help" id="brief-impact-help">{{ brief.impact_help }}</p></div>
+    <div><label for="brief-deadline">{{ brief.deadline }}</label><input id="brief-deadline" name="deadline" maxlength="160"></div>
+    <div><label for="brief-budget">{{ brief.budget }}</label><input id="brief-budget" name="budget" maxlength="200"></div>
+    <div class="brief-wide"><label for="brief-data">{{ brief.data }}</label><input id="brief-data" name="data" maxlength="400" aria-describedby="brief-data-help"><p class="brief-help" id="brief-data-help">{{ brief.data_help }}</p></div>
+    <div class="brief-wide"><label for="brief-referral">{{ brief.referral }}</label><input id="brief-referral" name="referral" maxlength="200"></div>
+  </div>
+  </details>
+  <p class="brief-help">{{ brief.attribution }}</p>
+  <p class="brief-help" id="brief-privacy">{{ brief.privacy }}</p>
+  <button class="btn btn--primary" type="submit" aria-describedby="brief-privacy">{{ brief.prepare }}</button>
+  <p id="brief-status" role="status" aria-live="polite" tabindex="-1"></p>
+  <section class="brief-result" id="brief-result" hidden aria-labelledby="brief-result-title">
+    <h3 id="brief-result-title" tabindex="-1">{{ brief.result }}</h3>
+    <p class="brief-help">{{ brief.result_help }}</p>
+    <label for="brief-draft">{{ brief.draft_label }}</label>
+    <textarea id="brief-draft" readonly spellcheck="false"></textarea>
+    <div class="conversion-actions"><a class="btn btn--primary" id="brief-mailto">{{ brief.send }}</a><button class="btn" type="button" id="brief-copy">{{ brief.copy }}</button></div>
+  </section>
+</form>
+<script src="{{ '/assets/js/project-brief.js' | relative_url }}" defer></script>
