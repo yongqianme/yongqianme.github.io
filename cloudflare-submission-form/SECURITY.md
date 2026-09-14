@@ -11,6 +11,7 @@ This Worker accepts confidential project briefs without exposing a public read A
 - Browser responses deny framing, sniffing, indexing, referrer leakage, and unnecessary browser capabilities through security headers and a restrictive Content Security Policy.
 - A honeypot reduces simple bot traffic without revealing detection.
 - Stored submissions expire after 365 days. A daily scheduled handler removes expired rows.
+- Optional attachments are limited to 10 MB, validated by extension, declared MIME type, and file signature, and stored in a private R2 bucket under random object keys. The retention job deletes both files and rows.
 - There is no administrative or submission-listing route in this Worker.
 
 ## Production checklist

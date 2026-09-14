@@ -1,6 +1,6 @@
 # Qianyong submission form
 
-A standalone Cloudflare Worker that serves a bilingual Physical AI inquiry form at `https://inquiry.omniedge.io`, validates Turnstile server-side, and stores submissions in D1. The public API has no read endpoint. A daily scheduled task removes records after 12 months. Public `workers.dev` and preview hostnames are disabled.
+A standalone Cloudflare Worker that serves a bilingual Physical AI inquiry form at `https://inquiry.omniedge.io`, validates Turnstile server-side, stores submissions in D1, and stores optional validated attachments in a private R2 bucket. The public API has no read endpoint. A daily scheduled task removes records and attachments after 12 months. Public `workers.dev` and preview hostnames are disabled.
 
 ## Local development
 
@@ -14,10 +14,11 @@ A standalone Cloudflare Worker that serves a bilingual Physical AI inquiry form 
 1. Authenticate: `npx wrangler login`.
 2. Create D1: `npx wrangler d1 create submission-form-db`.
 3. Replace `local-development` in `wrangler.jsonc` with the returned database ID.
-4. Create a Turnstile widget restricted to `inquiry.omniedge.io`.
-5. Set secrets with `npx wrangler secret put TURNSTILE_SITE_KEY` and `npx wrangler secret put TURNSTILE_SECRET_KEY`.
-6. Apply the schema: `npx wrangler d1 migrations apply submission-form-db --remote`.
-7. Validate with `npm run check`, then deploy with `npm run deploy`.
+4. Create the private attachment bucket: `npx wrangler r2 bucket create qianyong-inquiry-attachments`.
+5. Create a Turnstile widget restricted to `inquiry.omniedge.io`.
+6. Set secrets with `npx wrangler secret put TURNSTILE_SITE_KEY` and `npx wrangler secret put TURNSTILE_SECRET_KEY`.
+7. Apply the schema: `npx wrangler d1 migrations apply submission-form-db --remote`.
+8. Validate with `npm run check`, then deploy with `npm run deploy`.
 
 Review [SECURITY.md](./SECURITY.md) before production deployment, including the recommended edge rate limit and operator-access controls.
 

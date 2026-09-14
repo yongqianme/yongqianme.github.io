@@ -13,12 +13,21 @@ type Submission = {
   turnstileToken: string;
 };
 
+type ValidatedAttachment = {
+  bytes: ArrayBuffer;
+  contentType: string;
+  extension: string;
+  originalName: string;
+  size: number;
+};
+
 const JSON_HEADERS = {
   "content-type": "application/json; charset=utf-8",
   "cache-control": "no-store",
 };
 
-const MAX_BODY_BYTES = 12_000;
+const MAX_ATTACHMENT_BYTES = 10 * 1024 * 1024;
+const MAX_BODY_BYTES = MAX_ATTACHMENT_BYTES + 32_000;
 const TURNSTILE_ACTION = "physical_ai_inquiry";
 
 function json(body: Record<string, unknown>, status = 200): Response {
@@ -41,7 +50,7 @@ function secure(response: Response): Response {
   return secured;
 }
 
-async function readJsonBody(request: Request): Promise<unknown> {
+async function readBody(request: Request): Promise<Uint8Array> {
   const declaredLength = Number(request.headers.get("content-length") || "0");
   if (!Number.isFinite(declaredLength) || declaredLength > MAX_BODY_BYTES) {
     throw new RangeError("request_too_large");
@@ -49,9 +58,8 @@ async function readJsonBody(request: Request): Promise<unknown> {
   if (!request.body) throw new SyntaxError("missing_body");
 
   const reader = request.body.getReader();
-  const decoder = new TextDecoder();
   let total = 0;
-  let body = "";
+  const chunks: Uint8Array[] = [];
   try {
     while (true) {
       const { done, value } = await reader.read();
@@ -61,13 +69,27 @@ async function readJsonBody(request: Request): Promise<unknown> {
         await reader.cancel();
         throw new RangeError("request_too_large");
       }
-      body += decoder.decode(value, { stream: true });
+      chunks.push(value);
     }
-    body += decoder.decode();
-    return JSON.parse(body);
+    const body = new Uint8Array(total);
+    let offset = 0;
+    for (const chunk of chunks) {
+      body.set(chunk, offset);
+      offset += chunk.byteLength;
+    }
+    return body;
   } finally {
     reader.releaseLock();
   }
+}
+
+async function readFormData(request: Request): Promise<FormData> {
+  const contentType = request.headers.get("content-type") || "";
+  if (!contentType.toLowerCase().startsWith("multipart/form-data;")) {
+    throw new TypeError("invalid_content_type");
+  }
+  const body = await readBody(request);
+  return new Response(body.buffer as ArrayBuffer, { headers: { "content-type": contentType } }).formData();
 }
 
 function text(value: unknown, max: number): string {
@@ -97,6 +119,38 @@ function parseSubmission(value: unknown): Submission | null {
   if (!submission.name || !submission.company || !submission.robotWorkflow) return null;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(submission.email)) return null;
   return submission;
+}
+
+function bytesStartWith(bytes: Uint8Array, signature: number[]): boolean {
+  return signature.every((value, index) => bytes[index] === value);
+}
+
+async function validateAttachment(value: FormDataEntryValue | null): Promise<ValidatedAttachment | null> {
+  if (!(value instanceof File) || (!value.name && value.size === 0)) return null;
+  if (value.size < 1 || value.size > MAX_ATTACHMENT_BYTES) throw new RangeError("attachment_size");
+
+  const name = value.name.replace(/[\\/\u0000-\u001f\u007f]+/g, "_").slice(-180);
+  const extension = name.toLowerCase().match(/\.(log|txt|pdf|jpg|png)$/)?.[1];
+  if (!extension) throw new TypeError("attachment_type");
+
+  const bytes = await value.arrayBuffer();
+  const prefix = new Uint8Array(bytes, 0, Math.min(bytes.byteLength, 512));
+  const declaredType = value.type.toLowerCase();
+  let contentType = "";
+
+  if (extension === "pdf" && bytesStartWith(prefix, [0x25, 0x50, 0x44, 0x46, 0x2d]) && declaredType === "application/pdf") {
+    contentType = "application/pdf";
+  } else if (extension === "jpg" && bytesStartWith(prefix, [0xff, 0xd8, 0xff]) && declaredType === "image/jpeg") {
+    contentType = "image/jpeg";
+  } else if (extension === "png" && bytesStartWith(prefix, [0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]) && declaredType === "image/png") {
+    contentType = "image/png";
+  } else if ((extension === "log" || extension === "txt") && (!declaredType || declaredType === "text/plain") && !prefix.includes(0)) {
+    contentType = "text/plain; charset=utf-8";
+  } else {
+    throw new TypeError("attachment_type");
+  }
+
+  return { bytes, contentType, extension, originalName: name, size: value.size };
 }
 
 async function verifyTurnstile(token: string, request: Request, env: Env): Promise<boolean> {
@@ -129,9 +183,6 @@ async function verifyTurnstile(token: string, request: Request, env: Env): Promi
 }
 
 async function submit(request: Request, env: Env): Promise<Response> {
-  if (!request.headers.get("content-type")?.toLowerCase().startsWith("application/json")) {
-    return json({ ok: false, error: "Content type must be application/json." }, 415);
-  }
   const requestUrl = new URL(request.url);
   if (request.headers.get("origin") !== requestUrl.origin) {
     return json({ ok: false, error: "Request origin is not allowed." }, 403);
@@ -140,16 +191,25 @@ async function submit(request: Request, env: Env): Promise<Response> {
     return json({ ok: false, error: "Submission protection is not configured." }, 503);
   }
 
-  let input: unknown;
+  let form: FormData;
   try {
-    input = await readJsonBody(request);
+    form = await readFormData(request);
   } catch (error) {
     if (error instanceof RangeError) return json({ ok: false, error: "Request too large." }, 413);
+    if (error instanceof TypeError) return json({ ok: false, error: "Content type must be multipart/form-data." }, 415);
     return json({ ok: false, error: "Invalid request." }, 400);
   }
-  const submission = parseSubmission(input);
+  const submission = parseSubmission(Object.fromEntries(form.entries()));
   if (!submission) return json({ ok: false, error: "Check the required fields." }, 422);
   if (submission.website) return json({ ok: true, reference: crypto.randomUUID() }, 201);
+
+  let attachment: ValidatedAttachment | null;
+  try {
+    attachment = await validateAttachment(form.get("attachment"));
+  } catch (error) {
+    if (error instanceof RangeError) return json({ ok: false, error: "Attachment must be 10 MB or smaller." }, 413);
+    return json({ ok: false, error: "Attachment must be a valid LOG, TXT, PDF, JPG, or PNG file." }, 422);
+  }
 
   let human = false;
   try {
@@ -161,26 +221,43 @@ async function submit(request: Request, env: Env): Promise<Response> {
 
   const id = crypto.randomUUID();
   const createdAt = new Date().toISOString();
-  await env.DB.prepare(
-    `INSERT INTO submissions
-      (id, created_at, name, email, company, robot_workflow, business_impact,
-       decision_deadline, available_evidence, referral, locale, expires_at, inquiry_context)
-     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13)`,
-  ).bind(
-    id,
-    createdAt,
-    submission.name,
-    submission.email,
-    submission.company,
-    submission.robotWorkflow,
-    submission.businessImpact || null,
-    submission.decisionDeadline || null,
-    submission.availableEvidence || null,
-    submission.referral || null,
-    submission.locale,
-    new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString(),
-    submission.inquiryContext,
-  ).run();
+  const attachmentKey = attachment ? `${createdAt.slice(0, 10)}/${id}.${attachment.extension}` : null;
+  if (attachment && attachmentKey) {
+    await env.ATTACHMENTS.put(attachmentKey, attachment.bytes, {
+      httpMetadata: { contentType: attachment.contentType },
+    });
+  }
+
+  try {
+    await env.DB.prepare(
+      `INSERT INTO submissions
+        (id, created_at, name, email, company, robot_workflow, business_impact,
+         decision_deadline, available_evidence, referral, locale, expires_at, inquiry_context,
+         attachment_key, attachment_name, attachment_type, attachment_size)
+       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17)`,
+    ).bind(
+      id,
+      createdAt,
+      submission.name,
+      submission.email,
+      submission.company,
+      submission.robotWorkflow,
+      submission.businessImpact || null,
+      submission.decisionDeadline || null,
+      submission.availableEvidence || null,
+      submission.referral || null,
+      submission.locale,
+      new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString(),
+      submission.inquiryContext,
+      attachmentKey,
+      attachment?.originalName || null,
+      attachment?.contentType || null,
+      attachment?.size || null,
+    ).run();
+  } catch (error) {
+    if (attachmentKey) await env.ATTACHMENTS.delete(attachmentKey);
+    throw error;
+  }
 
   console.log(JSON.stringify({ event: "submission_created", id, createdAt }));
   return json({ ok: true, reference: id }, 201);
@@ -208,6 +285,12 @@ export default {
     }
   },
   async scheduled(_controller: ScheduledController, env: Env): Promise<void> {
+    const expired = await env.DB.prepare(
+      "SELECT attachment_key FROM submissions WHERE expires_at IS NOT NULL AND expires_at <= ?1 AND attachment_key IS NOT NULL",
+    ).bind(new Date().toISOString()).all<{ attachment_key: string }>();
+    if (expired.results.length) {
+      await env.ATTACHMENTS.delete(expired.results.map((row) => row.attachment_key));
+    }
     await env.DB.prepare("DELETE FROM submissions WHERE expires_at IS NOT NULL AND expires_at <= ?1")
       .bind(new Date().toISOString())
       .run();

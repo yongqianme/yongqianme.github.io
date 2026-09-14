@@ -13,5 +13,7 @@ translation:
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
 
 {% for post in sorted_posts %}
-  {% include archive-single.html show_image=true %}
+  {% unless post.lang == "zh" %}
+    {% include archive-single.html show_image=true %}
+  {% endunless %}
 {% endfor %}

@@ -41,14 +41,13 @@
     if (!form.reportValidity() || !turnstileToken) return;
     submit.disabled = true;
     status.textContent = locale === 'zh' ? '正在安全提交…' : 'Submitting securely…';
-    var data = Object.fromEntries(new FormData(form).entries());
-    data.locale = locale;
-    data.inquiryContext = inquiryContext;
-    data.turnstileToken = turnstileToken;
+    var data = new FormData(form);
+    data.set('locale', locale);
+    data.set('inquiryContext', inquiryContext);
+    data.set('turnstileToken', turnstileToken);
     fetch('/api/submissions', {
       method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(data)
+      body: data
     }).then(function (response) {
       return response.json().then(function (body) { return { ok: response.ok, body: body }; });
     }).then(function (result) {

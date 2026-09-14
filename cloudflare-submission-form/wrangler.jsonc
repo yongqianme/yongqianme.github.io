@@ -33,5 +33,11 @@
       "database_name": "submission-form-db",
       "database_id": "00d13c83-0bcb-4f68-85e3-4e5e92326251"
     }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "ATTACHMENTS",
+      "bucket_name": "qianyong-inquiry-attachments"
+    }
   ]
 }
