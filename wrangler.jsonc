@@ -1,0 +1,25 @@
+{
+  "$schema": "./cloudflare-submission-form/node_modules/wrangler/config-schema.json",
+  "name": "qianyong-me",
+  "compatibility_date": "2026-09-14",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "qianyong.me",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.qianyong.me",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./_site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
