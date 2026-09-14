@@ -1,20 +1,22 @@
 ---
 layout: conversion
-title: "Physical AI 产品策略与机器人技术尽调"
+title: "Physical AI 产品、部署与技术尽调"
 permalink: /zh/physical-ai/
-excerpt: "面向人形机器人创始人、机器人团队与投资人的独立产品及现场可行性判断。"
+excerpt: "聚焦人形与智能机器人产品决策、部署准备及投资尽调的 Physical AI 业务。"
 lang: zh
 translation:
   en_url: /physical-ai/
 ---
 
-<p class="eyebrow">面向人形机器人创始人、机器人团队与投资人</p>
+<p class="eyebrow">Physical AI 产品与部署业务</p>
 
-# 用现场证据推进下一项机器人决策。
+# 把一项机器人能力转化为面向客户的部署路径。
 
-<p class="conversion-lead">人形机器人可以展示许多能力，但距离产品仍有很长的决策链。我帮助团队明确第一个可信的客户流程，找出演示与部署之间的假设，并决定哪些证据能够支持下一项投入。</p>
+<p class="conversion-lead">我聚焦机器人精彩演示与客户可评估、可部署、可运行、可维护的产品之间的差距。工作从一种机器人配置、一个优先客户流程，以及一项必须由证据推动的决策开始。</p>
 
-<div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/?service=physical-ai#project-brief">沟通产品决策</a><a class="btn" href="/zh/work/#physical-ai-product-leadership">查看相关工作</a></div>
+<div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/?service=physical-ai#project-brief">沟通 Physical AI 决策</a><a class="btn" href="#flagship-sprint">查看核心冲刺服务</a></div>
+
+<p class="conversion-note"><strong>最适合：</strong>正在推进 Alpha、客户试点、投资或部署决策的人形与智能机器人创始人、产品负责人和投资人。</p>
 
 ## 我帮助解决的关键问题
 
@@ -24,9 +26,17 @@ translation:
   <section class="conversion-card"><h3>实际部署</h3><p>客户现场需要完成哪些安装、安全审核、验收、异常恢复、服务与重复运行工作？</p></section>
 </div>
 
-<h2 id="founder-sprint">创始人产品与部署冲刺</h2>
+<span id="founder-sprint"></span>
+<h2 id="flagship-sprint">核心服务：Physical AI 产品与部署冲刺</h2>
 
-适合准备 Alpha、试点、客户承诺或路线图决策的创始人与产品负责人。首先聚焦一种机器人配置和一个优先客户流程。
+这是面向正在准备 Alpha、客户试点、产品承诺或路线图决策的创始人及产品负责人的主要合作方式。在范围、资料访问与访谈安排确认后，初步工作周期为两周。更复杂的验证工作单独界定范围。
+
+### 开始条件
+
+- 一种机器人配置和一个优先客户流程。
+- 已有演示、测试结果、系统架构与产品假设。
+- 可以与承担结果责任的产品或技术负责人沟通。
+- 明确决策日期：团队下一步必须批准、放弃、调整或验证什么？
 
 ### 决策与交付物
 
@@ -34,20 +44,21 @@ translation:
 - **任务边界：** 起止条件、人工参与、异常处理与必要集成。
 - **能力证据图：** 已验证能力、测试条件、证据缺口与可信程度。
 - **数据与自主闭环：** 部署前后所需数据、标注/反馈责任，以及端云假设。
-- **Alpha 验收方案：** 可测量指标、代表性条件、依赖项、负责人及停止/推进标准。
-- **90 天路线图：** 优先处理风险最高的假设，明确决策与责任人。
+- **试点验收评分表：** 可测量指标、代表性条件、依赖项、负责人及停止/推进标准。
+- **90 天风险消除路线图：** 优先处理风险最高的假设，明确决策与责任人。
+- **决策评审：** 记录建议、不同意见、待补证据与下一项承诺的工作会议。
 
-常见起点是一次付费架构冲刺，范围、访问条件、周期与费用通过书面方案约定。服务不包含制造机器人、安全认证，或承诺尚未得到验证的自主能力。
+这是一项付费、固定范围的冲刺服务。开始前，书面方案会明确客户流程、输入资料、访谈、交付物、周期、费用与保密条款。不包含机器人研发、安全认证、法律或财务尽调，也不会承诺尚未验证的自主能力。
 
 [沟通创始人冲刺](/zh/contact/?service=physical-ai#project-brief){: .btn .btn--primary}
 
-### 人形机器人 Alpha 产品路径
+### 可选实施路径
 
-对于需要可配置人形机器人平台的团队，OmniEdge Humanoid Foundry 提供一条独立路径：机器人本体、集成控制、边界清晰的 AI 演示、工业设计选项、配置文档与验收标准。承诺前应先评估平台是否匹配，并审核每项演示的能力证据。
+当冲刺结论支持继续推进时，后续工作可以覆盖试点架构、部署验收、现场诊断与可靠性规划。需要可配置人形机器人平台的团队，可以单独评估 OmniEdge Humanoid Foundry：机器人硬件、集成控制、边界明确的 AI 演示、配置文档和约定验收标准。承诺前会评估平台匹配度及相关证据。
 
 [了解 OmniEdge Humanoid Foundry](https://humanoid.omniedge.io/zh/){: .btn}
 
-<h2 id="technical-diligence">独立技术与商业尽调</h2>
+<h2 id="technical-diligence">Physical AI 技术与商业尽调</h2>
 
 适合评估机器人公司、产品、试点或重大技术投入的投资人和管理团队。目标是形成可用于决策的判断：能力、依赖、部署负担，以及商业计划背后的证据。
 
@@ -69,6 +80,16 @@ translation:
 
 [沟通技术尽调](/zh/contact/?service=diligence#project-brief){: .btn .btn--primary}
 
+## 部署与可靠性
+
+对于已经明确使用场景、正在进入试点或生产环境的机器人团队，我会把同一套证据方法用于系统集成、调试、验收、故障恢复和支持。这是 Physical AI 业务的部署环节，从专项诊断开始，再根据证据界定实施范围。
+
+[查看部署服务](/zh/services/){: .btn}
+
+## 业务聚焦范围
+
+我承接产品定义与现场实际交汇处的工作：人形与智能机器人使用场景、数据和自主能力假设、客户试点、部署准备、技术尽调与机器人可靠性。通用 AI 战略、融资顾问、零部件采购与开放式工程人力支持不在本业务范围内。
+
 ## 为什么是这个视角
 
 我的经验连接了经常被分开评估的三层问题：
@@ -79,4 +100,4 @@ translation:
 
 我也曾在评估一个 700 万美元机器人项目后选择放弃，因为当时平台无法负责地满足地形、续航、感知与支持要求。有效的决策，是在合同把能力缺口变成现场失败之前识别它。[阅读决策过程（英文）](/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/)。
 
-<div class="conversion-cta"><h2>带上决策、证据和时间要求。</h2><p>介绍正在评估的机器人或公司、需要做出的决策、可审核的材料，以及结果负责人。</p><div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/?service=physical-ai#project-brief">准备项目简报</a><a class="btn" href="https://calendly.com/yongqian/introduction">预约初次沟通</a></div></div>
+<div class="conversion-cta"><h2>带上一项决策、已有证据与时间要求。</h2><p>介绍机器人、优先客户流程、已验证内容，以及本次工作必须支持的下一项承诺。</p><div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/?service=physical-ai#project-brief">准备 Physical AI 简报</a><a class="btn" href="https://calendly.com/yongqian/introduction">预约初次沟通</a></div></div>

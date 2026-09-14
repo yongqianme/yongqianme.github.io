@@ -1,20 +1,22 @@
 ---
 layout: conversion
-title: "Physical AI Product Strategy & Robotics Diligence"
+title: "Physical AI Product, Deployment & Diligence"
 permalink: /physical-ai/
-excerpt: "Independent product and field-readiness judgment for humanoid founders, robotics teams, and investors."
+excerpt: "A focused Physical AI practice for humanoid and intelligent-robot product decisions, deployment readiness, and investor diligence."
 lang: en
 translation:
   zh_url: /zh/physical-ai/
 ---
 
-<p class="eyebrow">For humanoid founders, robotics teams, and investors</p>
+<p class="eyebrow">Physical AI product and deployment practice</p>
 
-# Make the next robotics decision with field evidence.
+# Turn one robot capability into a customer-ready deployment path.
 
-<p class="conversion-lead">A humanoid can demonstrate many capabilities before it has a product. I help teams define the first credible customer workflow, expose the assumptions between the demo and deployment, and decide what evidence should unlock the next commitment.</p>
+<p class="conversion-lead">I focus on the gap between an impressive robot demonstration and a product a customer can evaluate, deploy, operate, and support. The work begins with one robot configuration, one priority workflow, and one decision that evidence must unlock.</p>
 
-<div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=physical-ai#project-brief">Discuss a product decision</a><a class="btn" href="/work/#physical-ai-product-leadership">Review relevant work</a></div>
+<div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=physical-ai#project-brief">Discuss a Physical AI decision</a><a class="btn" href="#flagship-sprint">Review the flagship sprint</a></div>
+
+<p class="conversion-note"><strong>Best fit:</strong> humanoid and intelligent-robot founders, product leaders, and investors approaching an alpha, pilot, investment, or deployment decision.</p>
 
 ## The questions I help resolve
 
@@ -24,9 +26,17 @@ translation:
   <section class="conversion-card"><h3>Deployment</h3><p>What must happen at the customer site for installation, safety review, acceptance, recovery, service, and repeatable operation?</p></section>
 </div>
 
-<h2 id="founder-sprint">Founder product and deployment sprint</h2>
+<span id="founder-sprint"></span>
+<h2 id="flagship-sprint">Flagship: Physical AI product and deployment sprint</h2>
 
-Designed for a founder or product leader preparing an alpha, pilot, customer commitment, or roadmap decision. The engagement starts with one robot configuration and one priority workflow.
+This is the primary engagement for a founder or product leader preparing an alpha, customer pilot, product commitment, or roadmap decision. The working plan is two weeks after scope, access, and interviews are agreed. More complex validation is scoped separately.
+
+### Start with
+
+- One robot configuration and one priority customer workflow.
+- Existing demonstrations, test results, architecture, and product assumptions.
+- Access to the accountable product or technical owner.
+- A decision date: what must the team approve, reject, change, or test next?
 
 ### Decisions and deliverables
 
@@ -34,20 +44,21 @@ Designed for a founder or product leader preparing an alpha, pilot, customer com
 - **Task boundary:** start/end conditions, human involvement, exception handling, and required integrations.
 - **Capability-evidence map:** what has been demonstrated, test conditions, missing evidence, and confidence.
 - **Data and autonomy loop:** data required before and during deployment, labeling/feedback responsibilities, and edge/cloud assumptions.
-- **Alpha acceptance plan:** measurable tests, representative conditions, dependencies, owners, and stop/go criteria.
-- **90-day roadmap:** highest-risk assumptions first, with explicit decisions and accountable owners.
+- **Pilot acceptance scorecard:** measurable tests, representative conditions, dependencies, owners, and stop/go criteria.
+- **90-day risk-retirement roadmap:** highest-risk assumptions first, with explicit decisions and accountable owners.
+- **Decision review:** a working session that records the recommendation, dissent, open evidence requests, and next commitment.
 
-The usual starting format is a paid architecture sprint. Scope, access, duration, and fee are agreed in writing. It does not include building a robot, certifying safety, or promising autonomous performance that has not been demonstrated.
+The engagement is a paid, fixed-scope sprint. The proposal defines the workflow, inputs, interviews, deliverables, timing, fee, and confidentiality terms before work begins. It does not include building the robot, certifying safety, conducting legal or financial diligence, or promising autonomous performance that has not been demonstrated.
 
 [Discuss a founder sprint](/contact/?service=physical-ai#project-brief){: .btn .btn--primary}
 
-### Humanoid alpha launch path
+### Optional implementation path
 
-For teams seeking a configurable humanoid platform rather than strategy alone, OmniEdge Humanoid Foundry offers a separate path: robot hardware, integrated controls, bounded AI demonstrations, industrial design options, documented configurations, and agreed acceptance criteria. Platform fit and the evidence for each proposed demonstration should be reviewed before commitment.
+When the sprint supports proceeding, follow-on work can cover pilot architecture, deployment acceptance, field diagnostics, and reliability planning. Teams seeking a configurable humanoid platform can separately evaluate OmniEdge Humanoid Foundry: robot hardware, integrated controls, bounded AI demonstrations, documented configurations, and agreed acceptance criteria. Platform fit and evidence are reviewed before commitment.
 
 [Explore OmniEdge Humanoid Foundry](https://humanoid.omniedge.io/){: .btn}
 
-<h2 id="technical-diligence">Independent technical and commercial diligence</h2>
+<h2 id="technical-diligence">Physical AI technical and commercial diligence</h2>
 
 Designed for investors or leadership teams evaluating a robotics company, product, pilot, or major technical commitment. The goal is a decision-ready view of capability, dependencies, deployment burden, and the evidence behind the commercial plan.
 
@@ -69,6 +80,16 @@ I disclose relevant commercial relationships and scope specialists where deeper 
 
 [Discuss diligence](/contact/?service=diligence#project-brief){: .btn .btn--primary}
 
+## Deployment and reliability
+
+For robot teams with a defined use case entering a pilot or production environment, I apply the same evidence discipline to integration, commissioning, acceptance, fault recovery, and support. This is the deployment arm of the Physical AI practice, with an initial diagnostic and a scoped implementation path.
+
+[Review deployment services](/services/){: .btn}
+
+## What I focus on
+
+I take on work where product definition and field reality meet: humanoid or intelligent-robot use cases, data and autonomy assumptions, customer pilots, deployment readiness, technical diligence, and robot reliability. General AI strategy, fundraising support, component sourcing, and open-ended engineering staffing are outside this practice.
+
 ## Why this perspective
 
 My work connects three layers that are often reviewed separately:
@@ -79,4 +100,4 @@ My work connects three layers that are often reviewed separately:
 
 I also declined a $7M robotics project when available platforms could not responsibly meet its terrain, endurance, perception, and support requirements. The useful decision was to identify the gap before a contract turned it into a field failure. [Read the decision](/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/).
 
-<div class="conversion-cta"><h2>Bring the decision, the evidence, and the deadline.</h2><p>Describe the robot or company under review, the decision you need to make, what can be inspected, and who owns the outcome.</p><div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=physical-ai#project-brief">Prepare a brief</a><a class="btn" href="https://calendly.com/yongqian/introduction">Book an introduction</a></div></div>
+<div class="conversion-cta"><h2>Bring one decision, the available evidence, and the deadline.</h2><p>Describe the robot, the priority customer workflow, what has been demonstrated, and the commitment this work must inform.</p><div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=physical-ai#project-brief">Prepare a Physical AI brief</a><a class="btn" href="https://calendly.com/yongqian/introduction">Book an introduction</a></div></div>

@@ -2,35 +2,35 @@
 main:
 - title: "Home"
   url: /
-- title: "Services"
-  url: /services/
 - title: "Physical AI"
   url: /physical-ai/
+- title: "Deployment"
+  url: /services/
 - title: "Work"
   url: /work/
-- title: "Case Studies"
+- title: "Evidence"
   url: /case-studies/
 - title: "Writing"
   url: /categories/
 - title: "Resume"
   url: /cv/
-- title: "Discuss a Project"
+- title: "Discuss a Decision"
   url: /contact/
 
 zh:
 - title: "首页"
   url: /zh/
-- title: "服务"
-  url: /zh/services/
 - title: "Physical AI"
   url: /zh/physical-ai/
+- title: "部署"
+  url: /zh/services/
 - title: "项目"
   url: /zh/work/
-- title: "案例"
+- title: "证据"
   url: /zh/case-studies/
 - title: "写作"
   url: /zh/writing/
 - title: "履历"
   url: /zh/cv/
-- title: "沟通项目"
+- title: "沟通决策"
   url: /zh/contact/

@@ -1,8 +1,8 @@
 ---
 layout: conversion
 permalink: /
-title: "Robotics & Physical AI Product and Deployment"
-excerpt: "Turn robotics capability into a product that can be tested, deployed, supported, and trusted—with Yong Qian."
+title: "Physical AI Product & Deployment"
+excerpt: "Turn a robot demonstration into a focused Physical AI product with evidence for the first customer deployment."
 lang: en
 translation:
   zh_url: /zh/
@@ -13,14 +13,14 @@ redirect_from:
 
 <div class="conversion-hero">
   <div>
-    <p class="eyebrow">Yong Qian · Robotics & Physical AI</p>
-    <h1>Turn robotics capability into a deployable product.</h1>
-    <p class="conversion-lead">I help humanoid founders, robotics teams, investors, and manufacturers make the decisions between a promising demo and a product customers can test, deploy, support, and trust.</p>
+    <p class="eyebrow">Yong Qian · Physical AI product & deployment</p>
+    <h1>Build the evidence between a robot demo and a deployable product.</h1>
+    <p class="conversion-lead">I help humanoid and intelligent-robot teams choose the first customer workflow, test the assumptions behind it, and build a product, pilot, and acceptance path grounded in field reality.</p>
     <div class="conversion-actions">
-      <a class="btn btn--primary" href="/physical-ai/">For founders & investors</a>
-      <a class="btn" href="/services/">For production teams</a>
+      <a class="btn btn--primary" href="/physical-ai/#flagship-sprint">Review the flagship sprint</a>
+      <a class="btn" href="/contact/?service=physical-ai#project-brief">Discuss a decision</a>
     </div>
-    <p class="conversion-note">Product strategy, field-readiness judgment, technical diligence, and production recovery.</p>
+    <p class="conversion-note">Focused on Physical AI product definition, deployment readiness, technical diligence, and robot reliability.</p>
   </div>
   <aside class="conversion-panel" aria-label="The first engagement">
     <p class="eyebrow">The deployment test</p>
@@ -30,7 +30,7 @@ redirect_from:
       <li>Separate demonstrated capability from unverified assumptions.</li>
       <li>Build the evidence, deployment, and acceptance path.</li>
     </ol>
-    <a href="/physical-ai/">See the founder and investor engagements →</a>
+    <a href="/physical-ai/">See the Physical AI practice →</a>
   </aside>
 </div>
 
@@ -40,12 +40,12 @@ redirect_from:
   <div><strong>China · Europe · U.S.</strong><span>Product building and field delivery across markets</span></div>
 </div>
 
-## Choose the decision you need to make
+## One focus, three decision points
 
 <div class="conversion-grid">
-  <section class="conversion-card"><p class="eyebrow">Humanoid founders</p><h3>What should the robot do first?</h3><p>Define the first customer workflow, task boundary, data loop, autonomy assumptions, and evidence required for an alpha product.</p><a href="/physical-ai/#founder-sprint">Explore the founder sprint →</a></section>
-  <section class="conversion-card"><p class="eyebrow">Robotics investors</p><h3>Which claims survive field scrutiny?</h3><p>Test capability evidence, system dependencies, deployment readiness, service burden, and the commercial assumptions behind the roadmap.</p><a href="/physical-ai/#technical-diligence">Explore technical diligence →</a></section>
-  <section class="conversion-card"><p class="eyebrow">Production teams</p><h3>Why is the system not stable?</h3><p>Investigate recurring faults, commissioning blockers, cycle-time variation, acceptance, and difficult robot/PLC/vision handoffs.</p><a href="/services/">Explore production recovery →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Build</p><h3>What should the robot do first?</h3><p>For founders and product leaders: define one valuable customer workflow, its task boundary, data loop, autonomy assumptions, and alpha evidence.</p><a href="/physical-ai/#flagship-sprint">Review the product and deployment sprint →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Invest</p><h3>Which claims survive field scrutiny?</h3><p>For investors and boards: test capability evidence, system dependencies, deployment burden, service load, and roadmap assumptions.</p><a href="/physical-ai/#technical-diligence">Review technical diligence →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Deploy</p><h3>Will the system work at the customer site?</h3><p>For robot teams entering pilots or production: define integration, operating conditions, acceptance, recovery, and support before scale.</p><a href="/services/">Review deployment services →</a></section>
 </div>
 
 ## The operator perspective

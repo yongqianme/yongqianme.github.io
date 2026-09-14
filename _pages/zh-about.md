@@ -1,8 +1,8 @@
 ---
 layout: conversion
 permalink: /zh/
-title: "机器人与 Physical AI 产品及部署"
-excerpt: "与 Yong Qian 一起，把机器人能力转化为可测试、可部署、可维护且值得信任的产品。"
+title: "Physical AI 产品与部署"
+excerpt: "把机器人演示转化为聚焦的 Physical AI 产品，并为首个客户部署建立证据。"
 lang: zh
 translation:
   en_url: /
@@ -10,17 +10,17 @@ translation:
 
 <div class="conversion-hero">
   <div>
-    <p class="eyebrow">Yong Qian · 机器人与 Physical AI</p>
-    <h1>把机器人能力转化为可部署的产品。</h1>
-    <p class="conversion-lead">我帮助人形机器人创始人、机器人团队、投资人和制造企业，完成从演示到产品之间的关键决策：客户能否测试、部署、维护并信任这套系统。</p>
-    <div class="conversion-actions"><a class="btn btn--primary" href="/zh/physical-ai/">面向创始人与投资人</a><a class="btn" href="/zh/services/">面向生产团队</a></div>
-    <p class="conversion-note">产品策略、现场可行性判断、技术尽调与产线改善。</p>
+    <p class="eyebrow">Yong Qian · Physical AI 产品与部署</p>
+    <h1>建立从机器人演示到可部署产品之间的证据。</h1>
+    <p class="conversion-lead">我帮助人形与智能机器人团队选择第一个客户流程，检验关键假设，并基于现场实际建立产品、试点与验收路径。</p>
+    <div class="conversion-actions"><a class="btn btn--primary" href="/zh/physical-ai/#flagship-sprint">查看核心冲刺服务</a><a class="btn" href="/zh/contact/?service=physical-ai#project-brief">沟通一项决策</a></div>
+    <p class="conversion-note">聚焦 Physical AI 产品定义、部署准备、技术尽调与机器人可靠性。</p>
   </div>
   <aside class="conversion-panel" aria-label="首次合作">
     <p class="eyebrow">部署检验</p>
     <h2>离开演示环境后，哪些条件必须成立？</h2>
     <ol><li>明确第一个有价值的任务与运行环境。</li><li>区分已验证的能力与尚未证明的假设。</li><li>建立证据、部署与验收路径。</li></ol>
-    <a href="/zh/physical-ai/">查看创始人与投资人服务 →</a>
+    <a href="/zh/physical-ai/">查看 Physical AI 业务 →</a>
   </aside>
 </div>
 
@@ -30,12 +30,12 @@ translation:
   <div><strong>中国 · 欧洲 · 美国</strong><span>跨市场产品建设与现场交付</span></div>
 </div>
 
-## 选择您需要推进的决策
+## 一个业务重点，三个决策节点
 
 <div class="conversion-grid">
-  <section class="conversion-card"><p class="eyebrow">人形机器人创始人</p><h3>机器人首先应该做什么？</h3><p>明确第一个客户流程、任务边界、数据闭环、自主能力假设，以及 Alpha 产品所需的证据。</p><a href="/zh/physical-ai/#founder-sprint">了解创始人冲刺 →</a></section>
-  <section class="conversion-card"><p class="eyebrow">机器人投资人</p><h3>哪些技术主张经得起现场检验？</h3><p>评估能力证据、系统依赖、部署成熟度、服务负担与路线图背后的商业假设。</p><a href="/zh/physical-ai/#technical-diligence">了解技术尽调 →</a></section>
-  <section class="conversion-card"><p class="eyebrow">生产团队</p><h3>系统为什么无法稳定运行？</h3><p>排查重复故障、调试阻碍、节拍波动、验收，以及机器人、PLC 与视觉之间的衔接问题。</p><a href="/zh/services/">了解产线改善 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">产品建设</p><h3>机器人首先应该做什么？</h3><p>面向创始人和产品负责人：明确一个有价值的客户流程、任务边界、数据闭环、自主能力假设与 Alpha 证据。</p><a href="/zh/physical-ai/#flagship-sprint">查看产品与部署冲刺 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">投资判断</p><h3>哪些技术主张经得起现场检验？</h3><p>面向投资人与董事会：评估能力证据、系统依赖、部署负担、服务成本与路线图假设。</p><a href="/zh/physical-ai/#technical-diligence">查看技术尽调 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">客户部署</p><h3>系统能否在客户现场运行？</h3><p>面向进入试点或生产的机器人团队：在规模化之前明确集成、工况、验收、恢复与支持要求。</p><a href="/zh/services/">查看部署服务 →</a></section>
 </div>
 
 ## 来自一线运营者的视角

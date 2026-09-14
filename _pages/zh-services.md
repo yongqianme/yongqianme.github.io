@@ -1,52 +1,54 @@
 ---
 layout: conversion
-title: "机器人专项诊断与产线改善"
+title: "Physical AI 部署与机器人可靠性"
 permalink: /zh/services/
-excerpt: "围绕一个工艺开展专项诊断，明确运行基线、故障原因、行动优先级与可衡量的验收标准。"
+excerpt: "面向 Physical AI 与智能机器人系统的部署诊断、试点验收和可靠性支持。"
 lang: zh
 translation:
   en_url: /services/
 ---
 
-<p class="eyebrow">机器人专项诊断与产线改善</p>
+<p class="eyebrow">Physical AI 业务的部署环节</p>
 
-# 找到原因，明确下一步。
+# 让机器人离开演示环境后仍能工作。
 
-<p class="conversion-lead">当机器人问题影响产出或拖延验收时，从证据开始。我帮助团队厘清问题、比较可行的干预方案，并约定如何判断改善是否有效。</p>
+<p class="conversion-lead">当智能机器人进入客户试点或生产环境，系统集成、运行条件、异常恢复和支持方式都会成为产品要求。我帮助团队建立证据、解决部署阻碍，并定义可衡量的验收标准。</p>
 
-<div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/#project-brief">沟通诊断需求</a><a class="btn" href="/zh/services/sample-diagnostic/">预览交付物</a></div>
+<div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/?service=diagnostic#project-brief">沟通部署需求</a><a class="btn" href="/zh/physical-ai/#flagship-sprint">先评估产品准备度</a></div>
 
-## 从一个现场、一个明确的工艺范围开始
+## 从一种机器人、一个流程和一个现场开始
 
-初步诊断以约两周的工作周期设计，在约定范围并具备数据访问条件后开始。实际周期取决于现场访问、生产安排和可用证据。工作开始前，通过书面方案确认范围与费用。
+部署诊断以约两周的工作周期设计，在约定范围并具备资料访问条件后开始，适用于进入试点、验收或实际运行的明确机器人流程。实际周期取决于现场访问、运行窗口和可用证据。开始前通过书面方案确认范围与费用。
 
 <div class="conversion-grid">
-  <section class="conversion-card"><h3>01 · 建立基线</h3><p>梳理故障、节拍、停机、运行条件与过往干预措施，与运营团队确认问题对生产的影响。</p></section>
-  <section class="conversion-card"><h3>02 · 排查原因</h3><p>检查相关机器人、PLC、视觉、工装与操作流程。区分证据和假设，明确有针对性的验证测试。</p></section>
-  <section class="conversion-card"><h3>03 · 制定改善计划</h3><p>按影响、可行性和依赖条件排列行动优先级，明确责任人，以及如何测量和验收改善结果。</p></section>
+  <section class="conversion-card"><h3>01 · 明确部署边界</h3><p>记录客户任务、环境、人工角色、系统集成、预期结果，以及现有演示所代表的运行条件。</p></section>
+  <section class="conversion-card"><h3>02 · 找到系统缺口</h3><p>检查机器人、控制、感知、数据、工装、连接与人员交互，区分已观察证据和假设，确定下一组测试。</p></section>
+  <section class="conversion-card"><h3>03 · 建立验收路径</h3><p>按照风险、影响和依赖条件排列产品与现场行动，明确责任人，以及进入、继续或停止试点所需的证据。</p></section>
 </div>
 
 ## 您将获得
 
-- **运行基线：** 工艺边界、已有测量数据及证据缺口。
+- **部署基线：** 任务与环境边界、已有测量数据、依赖条件及证据缺口。
 - **技术发现：** 已观察到的故障、可能原因和必要的验证测试。
 - **行动优先级：** 建议措施、依赖条件、责任分工与初步工作量。
-- **验收清单：** 约定指标、测试条件、审核负责人和交接要求。
+- **试点验收清单：** 约定指标、代表性测试条件、审核负责人、异常恢复和交接要求。
 - **决策讨论：** 与团队逐项回顾结果、下一步和未解决的不确定性。
 
 [查看诊断报告示例](/zh/services/sample-diagnostic/){: .btn}
 
 ## 什么情况适合开展诊断？
 
-您有具体的生产或部署问题、明确的负责人、相关运行信息，以及需要推进的决策。常见起点包括反复停机、节拍不稳定、调试受阻或故障处理周期过长。
+Physical AI 或智能机器人产品已经有明确流程、责任人和相关运行信息，并且需要推进试点或部署决策。常见起点包括系统集成受阻、任务完成不稳定、反复停机、恢复不安全或过慢、验收延迟，以及服务要求不清晰。
+
+本业务不提供通用工厂优化或开放式维修人力。只有当工业机器人项目能够验证或改善与 Physical AI 相关的机器人产品、部署方法或可靠性模型时，才适合合作。
 
 首次沟通只需要概括性说明。详细日志、布局与商业信息，可在约定范围和保密要求后，通过双方认可的渠道提供。
 
-## 从诊断到实施
+## 从部署诊断到实施
 
 诊断是一项独立服务。您的团队可以使用结果自行推进，也可以一起讨论产线改善项目。如果问题已经明确，可直接从审核已有证据、确定干预范围开始。
 
-### 产线改善项目
+### 部署改善项目
 
 对于范围明确、已有运行基线的工艺，以三个月作为初步规划周期。最终安排取决于现场访问、工程复杂度和生产窗口。
 
@@ -60,7 +62,7 @@ translation:
 
 设备采购和主要第三方工作会单独列明。每份方案明确覆盖设备、支持时间、变更流程、付款节点与验收责任。运行目标基于证据及可控制的条件约定。
 
-[沟通产线改善项目](/zh/contact/?service=recovery#project-brief){: .btn .btn--primary}
+[沟通部署改善项目](/zh/contact/?service=recovery#project-brief){: .btn .btn--primary}
 
 ### 交接后的可靠性支持
 
@@ -74,6 +76,6 @@ translation:
 <details><summary>可以远程开始吗？</summary><p>初步沟通可以基于您的说明与已有数据。正式方案会明确必要的现场工作与访问条件。</p></details>
 <details><summary>是否保证具体节省金额？</summary><p>性能目标需要明确的运行基线、工况和技术上可行的措施。诊断会先将这些假设与条件说明清楚，再讨论实施承诺。</p></details>
 <details><summary>如果已经明确问题，可以直接实施吗？</summary><p>可以讨论范围明确的干预工作。首先确认已有证据、责任和验收标准，避免重复团队已完成的工作。</p></details>
-<details><summary>可以讨论 Physical AI 或技术尽调吗？</summary><p>可以。也欢迎沟通产品策略、现场可行性评估与技术尽调，请说明您需要做出的决策。</p></details>
+<details><summary>如果使用场景还没有明确怎么办？</summary><p>请先从 Physical AI 产品与部署冲刺开始。团队选定客户流程、识别产品假设，并明确现场证据需要支持的决策后，部署工作才真正有价值。</p></details>
 
-<div class="conversion-cta"><h2>从您需要解决的问题开始。</h2><p>介绍工艺、影响与决策时间要求。</p><div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/#project-brief">准备项目简报</a><a class="btn" href="https://calendly.com/yongqian/introduction">预约初次沟通</a></div></div>
+<div class="conversion-cta"><h2>带上机器人、客户流程、现场和验收决策。</h2><p>介绍已经展示的能力、目标环境中失败或尚未确定的部分，以及团队必须做出决策的时间。</p><div class="conversion-actions"><a class="btn btn--primary" href="/zh/contact/?service=diagnostic#project-brief">准备部署简报</a><a class="btn" href="/zh/physical-ai/">查看 Physical AI 业务</a></div></div>
