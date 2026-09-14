@@ -16,11 +16,15 @@ translation:
 
 <div class="conversion-actions"><a class="btn btn--primary" href="https://calendly.com/yongqian/introduction">Book an introduction</a><a class="btn" href="mailto:qianyong@qianyong.me">Email Yong directly</a></div>
 
-Prefer email? Write to [qianyong@qianyong.me](mailto:qianyong@qianyong.me), or use the brief builder below. You can also connect on [LinkedIn](https://www.linkedin.com/in/yongqian).
+Prefer email? Write to [qianyong@qianyong.me](mailto:qianyong@qianyong.me), or use the secure form below. You can also connect on [LinkedIn](https://www.linkedin.com/in/yongqian).
 
-<h2 id="project-brief">Prepare a project brief</h2>
+<h2 id="project-brief">Submit a confidential project brief</h2>
 
-{% include project-brief.html %}
+Use the standalone intake form for project details. Submissions are protected by Cloudflare Turnstile, stored privately, and automatically deleted after 12 months.
+
+<a class="btn btn--primary" href="https://inquiry.qianyong.me/?lang=en&amp;service=diagnostic">Open secure submission form</a>
+
+Please do not include passwords, access tokens, export-controlled material, or other secrets. If the brief is a fit, I will reply by email to arrange the next step.
 
 ## What happens next
 

@@ -1,0 +1,17 @@
+{
+  "name": "qianyong-submission-form",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "tsc --noEmit && wrangler deploy --dry-run --outdir dist",
+    "types": "wrangler types",
+    "dev": "wrangler dev --local",
+    "db:local": "wrangler d1 migrations apply submission-form-db --local",
+    "deploy": "wrangler deploy --minify"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "typescript": "7.0.2",
+    "wrangler": "4.131.2"
+  }
+}

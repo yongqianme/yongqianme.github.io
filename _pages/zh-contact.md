@@ -16,11 +16,15 @@ translation:
 
 <div class="conversion-actions"><a class="btn btn--primary" href="https://calendly.com/yongqian/introduction">预约初次沟通</a><a class="btn" href="mailto:qianyong@qianyong.me">直接发送邮件</a></div>
 
-您可以直接发送邮件至 [qianyong@qianyong.me](mailto:qianyong@qianyong.me)，或使用下方工具准备简报。也欢迎通过 [LinkedIn](https://www.linkedin.com/in/yongqian) 联系。
+您可以直接发送邮件至 [qianyong@qianyong.me](mailto:qianyong@qianyong.me)，或使用下方安全表单提交简报。也欢迎通过 [LinkedIn](https://www.linkedin.com/in/yongqian) 联系。
 
-<h2 id="project-brief">准备项目简报</h2>
+<h2 id="project-brief">提交保密项目简报</h2>
 
-{% include project-brief.html %}
+请通过独立表单提交项目情况。表单使用 Cloudflare Turnstile 防滥用，内容仅作项目评估，并会在 12 个月后自动删除。
+
+<a class="btn btn--primary" href="https://inquiry.qianyong.me/?lang=zh&amp;service=diagnostic">打开安全提交表单</a>
+
+请勿提交密码、访问令牌、出口管制材料或其他敏感凭据。如项目匹配，我会通过邮件联系并安排下一步。
 
 ## 接下来如何推进
 
