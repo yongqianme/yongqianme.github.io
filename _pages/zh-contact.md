@@ -1,6 +1,6 @@
 ---
 layout: conversion
-title: "沟通您的机器人项目"
+title: "沟通机器人决策或项目"
 permalink: /zh/contact/
 excerpt: "向 Yong Qian 介绍机器人生产问题或预约初次沟通。准备包含工艺、业务影响与时间要求的项目简报。"
 lang: zh
@@ -10,9 +10,9 @@ translation:
 
 <p class="eyebrow">开始沟通</p>
 
-# 哪个环节需要改善？
+# 哪项决策需要一个明确的下一步？
 
-<p class="conversion-lead">介绍受影响的工艺、团队观察到的问题，以及需要推进的决策。我们可以一起判断，下一步适合开展诊断、范围明确的干预，还是专项顾问讨论。</p>
+<p class="conversion-lead">介绍需要推进的决策、涉及的机器人、公司或工艺，以及现有证据。我们可以判断下一步适合创始人冲刺、技术尽调、产线诊断，还是范围明确的改善项目。</p>
 
 <div class="conversion-actions"><a class="btn btn--primary" href="https://calendly.com/yongqian/introduction">预约初次沟通</a><a class="btn" href="mailto:qianyong@qianyong.me">直接发送邮件</a></div>
 
@@ -26,11 +26,11 @@ translation:
 
 收到咨询后，我会先了解问题并判断是否适合合作，再通过沟通明确范围和所需信息。如果适合开展付费服务，工作开始前会通过书面方案确认交付物、责任、时间与费用。
 
-[查看诊断范围](/zh/services/)
+[查看 Physical AI 服务](/zh/physical-ai/) · [查看产线服务](/zh/services/)
 
 <h2 id="other-conversations">其他沟通主题</h2>
 
-也欢迎沟通 Physical AI 产品策略、现场可行性评估、技术尽调与工业基础设施。投资人、创始人和团队可以通过邮件说明需要帮助做出的决策。演讲与媒体邀约请注明主题和时间。
+如果是人形机器人产品，请介绍优先客户流程、现有能力、Alpha 或试点目标，以及最不确定的假设。如果是投资尽调，请介绍公司或产品阶段、投资决策、可审核材料、时间与独立性要求。如果是生产项目，请介绍受影响的工艺、运营影响、已尝试措施和时间要求。
 
 **Strategy Advisory Session：USD $1,000 / 30 分钟。** 这是一项独立的专项顾问服务；上方初次沟通链接用于讨论需求是否匹配及合作范围。
 

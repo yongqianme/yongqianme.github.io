@@ -17,6 +17,8 @@ Examples to use in permitted outreach:
 - LinkedIn field note: `https://qianyong.me/services/?utm_source=linkedin&utm_medium=organic&utm_campaign=production_diagnostic`
 - Partner introduction: `https://qianyong.me/services/?utm_source=partner&utm_medium=referral&utm_campaign=production_diagnostic`
 - Existing-customer expansion: `https://qianyong.me/contact/?service=recovery&utm_source=customer&utm_medium=referral&utm_campaign=expansion`
+- Humanoid founder outreach: `https://qianyong.me/physical-ai/?utm_source=linkedin&utm_medium=outbound&utm_campaign=founder_sprint`
+- Investor introduction: `https://qianyong.me/physical-ai/?utm_source=partner&utm_medium=referral&utm_campaign=robotics_diligence`
 
 Use generic campaign names, not personal information or confidential customer names. Ask direct-email and calendar leads how they heard about you if the source is missing.
 

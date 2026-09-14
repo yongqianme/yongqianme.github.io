@@ -10,13 +10,27 @@ translation:
 
 这些案例说明 Yong Qian 如何处理机器人和 Physical AI 产品问题：先明确使用场景，再评估数据、部署条件、维护方式和商业风险。
 
+[查看创始人与投资人服务](/zh/physical-ai/){: .btn .btn--primary}
+
+## 人形机器人 Alpha 定义：OmniEdge Humanoid Foundry
+
+**背景：** 希望推出早期人形机器人产品的团队，往往需要分别协调机器人平台、控制系统、演示、工业设计、配置记录与客户验收。
+
+**决策：** 围绕一次付费架构冲刺，定义一种有记录的机器人配置、边界清晰的 AI 演示、明确的依赖条件，以及 Alpha 里程碑的验收证据。
+
+**结果：** 将 OmniEdge Humanoid Foundry 定义为从平台选择到客户可评审 Alpha 配置的一条统一路径。此处不声称已有公开的客户部署结果。
+
+**创始人 / 投资人信号：** Yong 以当前可定义、可演示、可验收的内容组织产品，同时明确未来能力与依赖。
+
+[了解 Humanoid Foundry](https://humanoid.omniedge.io/zh/){: .btn}
+
 ## Physical AI 产品定义：人形机器人、数据采集与老人陪伴机器人概念
 
 **背景：** 在 Spirit AI，Yong 参与人形机器人产品规划和路线图工作。在隐身创业项目中，他把客户需求整理为 IoT、SaaS、AI 和机器人方向的产品需求。围绕 AroOne / 77z，他参与老人陪伴机器人概念的产品讨论。
 
 **工作重点：** 明确硬件能力、AI 成熟度、数据需求、隐私要求、使用场景和客户价值。
 
-**结果：** 形成更清晰的早期用例、任务边界、自主能力范围和数据采集策略。
+**结果：** 形成更清晰的早期用例方向、任务边界、自主能力范围和数据采集策略。客户名称、指标与内部材料未公开。
 
 [查看 Physical AI 工作](/zh/work/#physical-ai-product-leadership){: .btn}
 
@@ -57,6 +71,6 @@ DeepFashion 展示了 Yong 在机器人之外的 AI 产品经验：验证需求�
 
 [阅读构建故事](/posts/2025/06/DeepFashion-My-Journey-from-Idea-to-Sale){: .btn}
 
-## 沟通类似的问题
+## 沟通类似的决策
 
-如果您的生产或部署问题需要明确下一步，可[了解专项诊断](/zh/services/)或[准备项目简报](/zh/contact/#project-brief)。
+如果人形机器人路线图、机器人投资、生产问题或部署承诺需要明确下一步，可[查看合作路径](/zh/physical-ai/)或[准备项目简报](/zh/contact/#project-brief)。

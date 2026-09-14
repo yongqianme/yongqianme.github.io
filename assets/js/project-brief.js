@@ -9,7 +9,7 @@
   var fields = Array.prototype.slice.call(form.querySelectorAll('[name]'));
   var reference = '';
   var service = new URLSearchParams(location.search).get('service');
-  if (['recovery', 'support', 'diagnostic'].indexOf(service) === -1) service = '';
+  if (['recovery', 'support', 'diagnostic', 'physical-ai', 'diligence', 'humanoid-foundry'].indexOf(service) === -1) service = '';
 
   form.addEventListener('input', function (event) {
     if (fields.indexOf(event.target) === -1) return;

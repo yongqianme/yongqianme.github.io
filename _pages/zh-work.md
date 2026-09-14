@@ -10,6 +10,9 @@ translation:
 
 Yong 的工作经历主要分为三条线：工业机器人现场部署、软硬件产品建设，以及 Physical AI 相关产品定义。下面列出的项目不是完整清单，而是最能说明其机器人、工业技术和产品经验的部分。
 
+[面向人形机器人创始人](/zh/physical-ai/#founder-sprint){: .btn .btn--primary}
+[面向机器人投资人](/zh/physical-ai/#technical-diligence){: .btn}
+
 ## 职业主线
 
 - **机器人现场经验**：部署、调试、故障排查、稼动率、安全、客户验收和售后支持。
@@ -107,3 +110,4 @@ DeepFashion 说明了 Yong 在机器人之外的 AI 产品经验：进入新行�
 
 [查看书籍](/zh/books/){: .btn}
 [查看案例](/zh/case-studies/){: .btn}
+[沟通 Physical AI 决策](/zh/contact/?service=physical-ai#project-brief){: .btn .btn--primary}

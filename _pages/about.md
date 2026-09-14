@@ -1,8 +1,8 @@
 ---
 layout: conversion
 permalink: /
-title: "Robotics Deployment & Production Recovery"
-excerpt: "Resolve costly robotics deployment and production problems with Yong Qian. Start with a focused diagnostic and a measurable recovery plan."
+title: "Robotics & Physical AI Product and Deployment"
+excerpt: "Turn robotics capability into a product that can be tested, deployed, supported, and trusted—with Yong Qian."
 lang: en
 translation:
   zh_url: /zh/
@@ -13,59 +13,59 @@ redirect_from:
 
 <div class="conversion-hero">
   <div>
-    <p class="eyebrow">Yong Qian · Robotics & Industrial Automation</p>
-    <h1>Get your robots ready for real production.</h1>
-    <p class="conversion-lead">Recurring downtime. Unstable cycle times. A deployment that cannot pass acceptance. I help manufacturing teams find the cause and define a practical path to reliable operation.</p>
+    <p class="eyebrow">Yong Qian · Robotics & Physical AI</p>
+    <h1>Turn robotics capability into a deployable product.</h1>
+    <p class="conversion-lead">I help humanoid founders, robotics teams, investors, and manufacturers make the decisions between a promising demo and a product customers can test, deploy, support, and trust.</p>
     <div class="conversion-actions">
-      <a class="btn btn--primary" href="/contact/#project-brief">Discuss your production problem</a>
-      <a class="btn" href="/services/">Explore the diagnostic</a>
+      <a class="btn btn--primary" href="/physical-ai/">For founders & investors</a>
+      <a class="btn" href="/services/">For production teams</a>
     </div>
-    <p class="conversion-note">For plant leaders, machine builders, and robotics teams.</p>
+    <p class="conversion-note">Product strategy, field-readiness judgment, technical diligence, and production recovery.</p>
   </div>
   <aside class="conversion-panel" aria-label="The first engagement">
-    <p class="eyebrow">Start with clarity</p>
-    <h2>One process. A focused diagnostic.</h2>
+    <p class="eyebrow">The deployment test</p>
+    <h2>What must be true outside the demo?</h2>
     <ol>
-      <li>Establish the operating baseline and cost of the problem.</li>
-      <li>Identify likely causes and the evidence needed to test them.</li>
-      <li>Leave with prioritized actions and an acceptance plan.</li>
+      <li>Define the first valuable task and operating environment.</li>
+      <li>Separate demonstrated capability from unverified assumptions.</li>
+      <li>Build the evidence, deployment, and acceptance path.</li>
     </ol>
-    <a href="/services/sample-diagnostic/">See what the deliverable looks like →</a>
+    <a href="/physical-ai/">See the founder and investor engagements →</a>
   </aside>
 </div>
 
 <div class="conversion-proof" aria-label="Relevant experience">
-  <div><strong>20+ years</strong><span>Robotics and automation experience</span></div>
-  <div><strong>Field to cloud</strong><span>Robots, PLCs, industrial connectivity, and software</span></div>
-  <div><strong>Global experience</strong><span>China, Germany, and the United States</span></div>
+  <div><strong>20+ years</strong><span>Robotics deployment and automation</span></div>
+  <div><strong>3 exits</strong><span>Industrial IoT, edge networking, and applied AI</span></div>
+  <div><strong>China · Europe · U.S.</strong><span>Product building and field delivery across markets</span></div>
 </div>
 
-## Where I can help
+## Choose the decision you need to make
 
 <div class="conversion-grid">
-  <section class="conversion-card"><h3>Stabilize a production process</h3><p>Investigate recurring faults, cycle-time variation, and difficult handoffs between robots, controls, vision, and operators.</p></section>
-  <section class="conversion-card"><h3>Move toward acceptance</h3><p>Clarify commissioning blockers, technical responsibilities, and the tests needed to establish deployment readiness.</p></section>
-  <section class="conversion-card"><h3>Make equipment serviceable</h3><p>Review diagnostics, remote access, and support workflows so the right expert can act on the right information.</p></section>
+  <section class="conversion-card"><p class="eyebrow">Humanoid founders</p><h3>What should the robot do first?</h3><p>Define the first customer workflow, task boundary, data loop, autonomy assumptions, and evidence required for an alpha product.</p><a href="/physical-ai/#founder-sprint">Explore the founder sprint →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Robotics investors</p><h3>Which claims survive field scrutiny?</h3><p>Test capability evidence, system dependencies, deployment readiness, service burden, and the commercial assumptions behind the roadmap.</p><a href="/physical-ai/#technical-diligence">Explore technical diligence →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Production teams</p><h3>Why is the system not stable?</h3><p>Investigate recurring faults, commissioning blockers, cycle-time variation, acceptance, and difficult robot/PLC/vision handoffs.</p><a href="/services/">Explore production recovery →</a></section>
 </div>
 
-## Experience grounded in the field
+## The operator perspective
 
 <div class="conversion-grid">
-  <section class="conversion-card"><h3>Automotive deployment</h3><p>Robotics programming, commissioning, troubleshooting, and customer support through Stäubli, Frimo, and global automotive programs.</p><a href="/case-studies/#global-automotive-robotics-deployment">Read the deployment background →</a></section>
-  <section class="conversion-card"><h3>Industrial infrastructure</h3><p>Built JIEQI / Jaybox for industrial remote service and OmniEdge for distributed-device connectivity.</p><a href="/work/#industrial-to-cloud-infrastructure">Explore the products →</a></section>
-  <section class="conversion-card"><h3>Independent technical judgment</h3><p>Declined a $7M robotics opportunity when the required field performance exceeded the available technology.</p><a href="/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/">Read the decision →</a></section>
+  <section class="conversion-card"><h3>Humanoid product definition</h3><p>Product vision, roadmaps, data-collector strategy, bounded demonstrations, and privacy-first robot concepts.</p><a href="/work/#physical-ai-product-leadership">Review Physical AI work →</a></section>
+  <section class="conversion-card"><h3>Automotive field deployment</h3><p>Programming, commissioning, troubleshooting, and acceptance in production environments where safety, uptime, and quality matter.</p><a href="/case-studies/#global-automotive-robotics-deployment">Read the deployment background →</a></section>
+  <section class="conversion-card"><h3>Founder and infrastructure depth</h3><p>Built and exited industrial IoT, edge networking, and applied AI products; OmniEdge reached 7K+ users across 26 countries.</p><a href="/work/#industrial-to-cloud-infrastructure">Review the operating track record →</a></section>
 </div>
 
-## A clear first step
+## Judgment before commitment
 
-Start with a conversation about the process, the business impact, and what your team has already tried. If there is a fit, I will propose a bounded diagnostic with agreed access requirements, deliverables, timing, and fee. You can use the findings with your own team or discuss a separately scoped implementation.
+I declined a $7M quadruped deployment after evaluating the platforms against the terrain, endurance, perception, and support requirements. The commercial opportunity did not make the field capability ready. That same discipline guides product roadmaps, investment diligence, and production decisions.
 
-[View scope and deliverables](/services/){: .btn}
+[Read the field-readiness decision](/posts/2025/04/Why-I-Walked-Away-from-a-$7-Million-Robotics-Deal/){: .btn}
 
 <div class="conversion-cta">
-  <h2>Which production problem needs a clear next step?</h2>
-  <p>Share the process, the issue, and the deadline. An initial brief is enough to start.</p>
-  <div class="conversion-actions"><a class="btn btn--primary" href="/contact/#project-brief">Prepare a project brief</a><a class="btn" href="https://calendly.com/yongqian/introduction">Book an introduction</a></div>
+  <h2>What decision must your team make next?</h2>
+  <p>Share the robot, the claim or workflow under review, the evidence available, and the decision deadline.</p>
+  <div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=physical-ai#project-brief">Prepare a brief</a><a class="btn" href="https://calendly.com/yongqian/introduction">Book an introduction</a></div>
 </div>
 
-For Physical AI product strategy, investor diligence, or executive advisory, [get in touch](/contact/#other-conversations). Explore my [full work history](/work/), [résumé](/cv/), and [writing](/categories/).
+Explore my [full work history](/work/), [case studies](/case-studies/), [résumé](/cv/), and [writing](/categories/).

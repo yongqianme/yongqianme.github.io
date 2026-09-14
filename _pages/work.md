@@ -10,6 +10,9 @@ translation:
 
 Yong's work shows a rare operator arc: industrial robotics field deployment, hardware/software product building, and Physical AI product leadership across global markets. The projects below are not a complete archive; they are the strongest evidence for senior robotics, Physical AI, and deep-tech product leadership.
 
+[For humanoid founders](/physical-ai/#founder-sprint){: .btn .btn--primary}
+[For robotics investors](/physical-ai/#technical-diligence){: .btn}
+
 ## Career Through-Line
 
 - **Field robotics judgment**: production deployment, commissioning, troubleshooting, uptime, safety, acceptance, and customer trust.
@@ -128,3 +131,4 @@ The books are part of the operating portfolio because they document products and
 
 [Explore Books](/books/){: .btn}
 [View Case Studies](/case-studies/){: .btn}
+[Discuss a Physical AI decision](/contact/?service=physical-ai#project-brief){: .btn .btn--primary}

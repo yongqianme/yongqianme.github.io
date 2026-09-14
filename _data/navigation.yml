@@ -4,6 +4,8 @@ main:
   url: /
 - title: "Services"
   url: /services/
+- title: "Physical AI"
+  url: /physical-ai/
 - title: "Work"
   url: /work/
 - title: "Case Studies"
@@ -20,6 +22,8 @@ zh:
   url: /zh/
 - title: "服务"
   url: /zh/services/
+- title: "Physical AI"
+  url: /zh/physical-ai/
 - title: "项目"
   url: /zh/work/
 - title: "案例"
