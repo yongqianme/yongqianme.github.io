@@ -1,24 +1,26 @@
 ---
 layout: conversion
-title: "Physical AI Deployment & Robot Reliability"
+title: "Core Program: Physical AI Deployment & Production Recovery"
 permalink: /services/
-excerpt: "Deployment diagnostics, pilot acceptance, and reliability support for Physical AI and intelligent-robot systems."
+excerpt: "A paid diagnostic, bounded deployment-recovery program, and reliability support for valuable robot workflows."
 lang: en
 translation:
   zh_url: /zh/services/
 ---
 
-<p class="eyebrow">The deployment arm of the Physical AI practice</p>
+<p class="eyebrow">The core commercial program</p>
 
-# Make the robot work beyond the demonstration.
+# Diagnose. Recover. Stabilize.
 
-<p class="conversion-lead">When an intelligent robot moves into a customer pilot or production environment, integration, operating conditions, recovery, and support become product requirements. I help teams establish the evidence, resolve deployment blockers, and define measurable acceptance.</p>
+<p class="conversion-lead">One program moves a costly Physical AI deployment from evidence to recovery and reliable operation. Start with a paid diagnostic. Proceed only when the problem, intervention, economics, responsibilities, and acceptance test can be defined.</p>
 
-<div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=diagnostic#project-brief">Discuss a deployment</a><a class="btn" href="/physical-ai/#flagship-sprint">Start with product readiness</a></div>
+<div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=diagnostic#project-brief">Discuss the diagnostic</a><a class="btn" href="/services/sample-diagnostic/">Preview the deliverable</a></div>
 
-## Start with one robot, one workflow, and one site
+<h2 id="diagnostic">Stage 1 · Deployment diagnostic</h2>
 
-The initial deployment diagnostic is designed around a two-week working period after scope and data access are agreed. It fits a defined robot workflow entering a pilot, acceptance test, or live operation. Timing depends on site access, operating windows, and available evidence. Scope and fee are confirmed in writing before work starts.
+**Planning price: $30K · Two weeks · One robot workflow at one site**
+
+The diagnostic begins after scope and data access are agreed. It fits a defined robot workflow entering a pilot, acceptance test, or live operation. Timing depends on site access, operating windows, and available evidence. Final scope, fee, payment terms, and delivery-cost boundaries are confirmed in writing before work starts.
 
 <div class="conversion-grid">
   <section class="conversion-card"><h3>01 · Define the deployment boundary</h3><p>Record the customer task, environment, human role, integrations, expected output, and the conditions represented by existing demonstrations.</p></section>
@@ -36,9 +38,11 @@ The initial deployment diagnostic is designed around a two-week working period a
 
 [See a sample report outline](/services/sample-diagnostic/){: .btn}
 
-## Is this a fit?
+## Qualification before a proposal
 
-This is most useful when a Physical AI or intelligent-robot product has a defined workflow, a responsible owner, access to relevant operating information, and a pilot or deployment decision to make. Common starting points are integration blockers, inconsistent task completion, recurring stops, unsafe or slow recovery, acceptance delays, and unclear service requirements.
+This is most useful when a Physical AI or intelligent-robot product has a defined workflow, a responsible owner, access to operating evidence, material economic impact, a budget path, and a deployment decision within 90 days. Common starting points are integration blockers, inconsistent task completion, recurring stops, unsafe or slow recovery, acceptance delays, and unclear service requirements.
+
+For a recovery program with a $400K planning price, the working qualification threshold is a customer-validated path to at least $1.2M in annual benefit. That threshold guides whether deeper scoping is sensible; it is not a savings guarantee.
 
 This practice does not provide general factory optimization or open-ended maintenance staffing. Industrial robotics work is accepted when it tests or improves a robot product, deployment method, or reliability model relevant to Physical AI.
 
@@ -48,9 +52,11 @@ A high-level description is enough for the first conversation. Detailed logs, la
 
 The diagnostic is a standalone engagement. Your team can implement the findings, or we can scope a production-recovery program together. If the problem is already understood, we can start by reviewing your evidence and defining the intervention directly.
 
-### Deployment recovery program
+<h3 id="recovery">Stage 2 · Deployment-recovery program</h3>
 
-For a bounded process with an agreed baseline, the planning starting point is a three-month program. Site access, engineering complexity, and production windows determine the final schedule.
+**Planning price: $400K · Three months · After diagnostic or equivalent evidence**
+
+For a bounded robot workflow with an agreed baseline, the planning starting point is a three-month program. Site access, engineering complexity, partner capacity, and production windows determine the final schedule.
 
 | Phase | Work and deliverable | Decision gate |
 |---|---|---|
@@ -64,7 +70,9 @@ Equipment purchases and major third-party work are separately identified. Every 
 
 [Discuss a deployment recovery program](/contact/?service=recovery#project-brief){: .btn .btn--primary}
 
-### Reliability support after handover
+<h3 id="support">Stage 3 · Reliability support after handover</h3>
+
+**Planning price: $100K · Three-month block · Billed on agreed milestones**
 
 For teams that need continuity after implementation, we can agree a three-month support block covering scheduled reliability reviews, a prioritized issue backlog, and bounded remote troubleshooting. Covered assets, response windows, included hours, site visits, and escalation responsibilities are written into the scope. An extension follows a review of the remaining need.
 
@@ -76,6 +84,10 @@ For teams that need continuity after implementation, we can agree a three-month 
 <details><summary>Can the work begin remotely?</summary><p>An initial review can use your description and available data. The proposal will identify any on-site work required and the access needed to complete it.</p></details>
 <details><summary>Do you guarantee a particular savings figure?</summary><p>Any performance target needs an agreed baseline, operating conditions, and a technically supportable intervention. The diagnostic makes those assumptions visible before implementation commitments.</p></details>
 <details><summary>What if we already know the problem?</summary><p>We can discuss a directly scoped intervention. The first step is to confirm the evidence, responsibilities, and acceptance criteria rather than repeat work your team has completed.</p></details>
-<details><summary>What if the use case is not yet defined?</summary><p>Start with the Physical AI product and deployment sprint. Deployment work becomes useful after the team selects a customer workflow, identifies the product assumptions, and knows which decision the field evidence must support.</p></details>
+<details><summary>What if the use case is not yet defined?</summary><p>The core program is not ready to start. First select a customer workflow and identify the decision that field evidence must support. A short introduction can establish whether there is enough scope for a paid diagnostic.</p></details>
+
+## One-business boundary
+
+Product framing and investor diligence are handled only when they strengthen a deployment diagnostic or test the same field-readiness evidence. Hardware resale, a new humanoid platform, general AI consulting, and unrelated factory optimization are not part of this program. This keeps sales, delivery partners, evidence templates, and follow-on revenue centered on one repeatable problem.
 
 <div class="conversion-cta"><h2>Bring the robot, workflow, site, and acceptance decision.</h2><p>Share what has been demonstrated, what fails or remains uncertain in the target environment, and when the team must decide.</p><div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=diagnostic#project-brief">Prepare a deployment brief</a><a class="btn" href="/physical-ai/">Review the Physical AI practice</a></div></div>

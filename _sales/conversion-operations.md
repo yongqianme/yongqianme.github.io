@@ -22,15 +22,16 @@ Examples to use in permitted outreach:
 
 Use generic campaign names, not personal information or confidential customer names. Ask direct-email and calendar leads how they heard about you if the source is missing.
 
-## Physical AI focus rules
+## One-core-business rules
 
-- **Primary customer:** a humanoid or intelligent-robot founder or product leader within 90 days of an alpha, customer pilot, or deployment decision.
-- **Primary offer:** the two-week Physical AI product and deployment sprint. Lead with this offer in outreach, introductions, and calls.
-- **Secondary offer:** independent Physical AI technical and commercial diligence for investors, boards, and leadership teams.
-- **Downstream work:** deployment diagnostics, acceptance, recovery, and reliability support when tied to a defined robot product and customer workflow.
-- **Decline or refer:** general AI strategy, fundraising support, component sourcing, open-ended engineering staffing, and factory optimization unrelated to a robot product or deployment model.
+- **Core business:** Physical AI Deployment & Production Recovery.
+- **Primary customers:** robot companies with a blocked customer deployment and industrial operators with a costly robot workflow, each with a decision inside 90 days.
+- **Entry offer:** a two-week deployment diagnostic with a $30K planning price. Equivalent documented evidence allows direct implementation scoping, as required by the annual plan's direct/partner acquisition route.
+- **Expansion path:** a three-month deployment-recovery program with a $400K planning price, followed where justified by a three-month $100K reliability block.
+- **Diagnostic variants:** founder product-readiness and investor diligence questions are accepted only when they test the same workflow, deployment, evidence, and economic model.
+- **Decline or refer:** standalone strategy sessions, general AI strategy, fundraising support, hardware resale, component sourcing, open-ended engineering staffing, and factory optimization unrelated to a robot deployment.
 
-For the next 90 days, direct at least 70% of proactive business-development time to the primary customer and flagship sprint. Use deployment work to produce field evidence and follow-on revenue, not as a separate general automation identity. Review the ratio each Friday using qualified pipeline value and time spent, not page traffic alone.
+For the next 90 days, direct all proactive business-development time to the core business. Existing profitable obligations can continue, but every new outbound campaign, partner conversation, qualification call, and proposal must enter the same diagnostic-to-recovery funnel. Review compliance each Friday using qualified pipeline value and founder time, not page traffic.
 
 ## Pipeline register template
 
@@ -41,7 +42,7 @@ Keep completed records in a private CRM or private document, not this public rep
 
 Stages: received, qualifying, qualified, meeting held, proposal sent, won, lost. Use one record per opportunity; link additional sites without counting the same budget twice.
 
-Qualification means a named sponsor, defined robot and customer workflow, accessible evidence, a product/investment/deployment decision within 90 days, credible economic impact, budget path, and decision date. A generated draft, mailto click, or calendar click is not a received or qualified inquiry. Record a meeting as held only after it takes place. Count won work when an agreement is signed; record cash separately when collected.
+Qualification means a named sponsor, defined robot and customer workflow, accessible operating evidence, a deployment decision within 90 days, credible economic impact, budget path, and decision date. A $400K recovery opportunity should have a customer-validated path to at least $1.2M in annual benefit. A generated draft, mailto click, or calendar click is not a received or qualified inquiry. Record a meeting as held only after it takes place. Count won work when an agreement is signed; record cash separately when collected.
 
 ## Friday review
 

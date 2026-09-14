@@ -1,8 +1,8 @@
 ---
 layout: conversion
-title: "Discuss a Physical AI Decision"
+title: "Discuss a Physical AI Deployment"
 permalink: /contact/
-excerpt: "Share a Physical AI product, investment, or deployment decision with Yong Qian."
+excerpt: "Qualify one costly Physical AI deployment problem for a paid diagnostic."
 lang: en
 translation:
   zh_url: /zh/contact/
@@ -10,9 +10,9 @@ translation:
 
 <p class="eyebrow">Start a conversation</p>
 
-# Which Physical AI decision needs evidence next?
+# Is there a costly robot deployment we can diagnose?
 
-<p class="conversion-lead">Tell me which robot and customer workflow are involved, what has been demonstrated, and which product, investment, pilot, or deployment commitment must be made. We can establish whether the flagship sprint, technical diligence, or deployment diagnostic fits.</p>
+<p class="conversion-lead">Share one robot workflow, its operating impact, the evidence available, the accountable owner, and the decision deadline. We will assess fit for a paid deployment diagnostic, or scope implementation directly when equivalent evidence already exists.</p>
 
 <div class="conversion-actions"><a class="btn btn--primary" href="https://calendly.com/yongqian/introduction">Book an introduction</a><a class="btn" href="mailto:qianyong@qianyong.me">Email Yong directly</a></div>
 
@@ -26,13 +26,11 @@ Prefer email? Write to [qianyong@qianyong.me](mailto:qianyong@qianyong.me), or u
 
 I will review your inquiry to understand the problem and fit. We can then clarify the scope and information needed in a conversation. If a paid engagement makes sense, you will receive a written proposal covering deliverables, responsibilities, timing, and fee before work starts.
 
-[Review the flagship Physical AI sprint](/physical-ai/#flagship-sprint) · [Review deployment services](/services/)
+[Review the core program, scope, and planning prices](/services/)
 
 <h2 id="other-conversations">Other conversations</h2>
 
-For a humanoid or intelligent-robot product, describe the priority customer workflow, present capability, alpha or pilot milestone, and the assumption creating the most uncertainty. For investment diligence, describe the company or product stage, decision, access available, timing, and any independence requirements. For deployment work, describe the robot, site workflow, operating impact, prior interventions, and acceptance deadline.
-
-**Strategy Advisory Session: USD $1,000 / 30 minutes.** This is a separate, focused advisory engagement; the introduction link above is for discussing fit and scope.
+For a robot company, describe the priority customer workflow, current capability, pilot or production milestone, and the deployment assumption creating the most uncertainty. For an industrial operator, describe the affected workflow, economic impact, prior interventions, and acceptance deadline. For investor diligence, explain the deployment claim under review and the operating evidence available; it will be scoped only as a diagnostic variant.
 
 ## About Yong
 

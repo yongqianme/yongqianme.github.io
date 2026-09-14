@@ -1,8 +1,8 @@
 ---
 layout: conversion
 permalink: /zh/
-title: "Physical AI 产品与部署"
-excerpt: "把机器人演示转化为聚焦的 Physical AI 产品，并为首个客户部署建立证据。"
+title: "Physical AI 部署与生产恢复"
+excerpt: "推动 Physical AI 系统从客户试点走向可衡量的生产验收与稳定运行。"
 lang: zh
 translation:
   en_url: /
@@ -10,17 +10,17 @@ translation:
 
 <div class="conversion-hero">
   <div>
-    <p class="eyebrow">Yong Qian · Physical AI 产品与部署</p>
-    <h1>建立从机器人演示到可部署产品之间的证据。</h1>
-    <p class="conversion-lead">我帮助人形与智能机器人团队选择第一个客户流程，检验关键假设，并基于现场实际建立产品、试点与验收路径。</p>
-    <div class="conversion-actions"><a class="btn btn--primary" href="/zh/physical-ai/#flagship-sprint">查看核心冲刺服务</a><a class="btn" href="/zh/contact/?service=physical-ai#project-brief">沟通一项决策</a></div>
-    <p class="conversion-note">聚焦 Physical AI 产品定义、部署准备、技术尽调与机器人可靠性。</p>
+    <p class="eyebrow">Yong Qian · Physical AI 部署与生产恢复</p>
+    <h1>推动 Physical AI 从试点走向生产。</h1>
+    <p class="conversion-lead">我帮助机器人公司和工业团队诊断部署缺口，恢复受阻或不稳定的系统，并达到可衡量的客户验收。从一个范围明确的诊断开始，再决定实施与可靠性支持。</p>
+    <div class="conversion-actions"><a class="btn btn--primary" href="/zh/services/">查看核心方案</a><a class="btn" href="/zh/contact/?service=diagnostic#project-brief">沟通部署需求</a></div>
+    <p class="conversion-note">一个核心业务：诊断 → 部署恢复 → 可靠性支持。</p>
   </div>
   <aside class="conversion-panel" aria-label="首次合作">
-    <p class="eyebrow">部署检验</p>
-    <h2>离开演示环境后，哪些条件必须成立？</h2>
-    <ol><li>明确第一个有价值的任务与运行环境。</li><li>区分已验证的能力与尚未证明的假设。</li><li>建立证据、部署与验收路径。</li></ol>
-    <a href="/zh/physical-ai/">查看 Physical AI 业务 →</a>
+    <p class="eyebrow">首次付费合作</p>
+    <h2>两周部署诊断</h2>
+    <ol><li>建立客户流程与经济影响基线。</li><li>区分已观察到的系统缺口与假设。</li><li>交付包含成本的恢复与验收方案。</li></ol>
+    <a href="/zh/services/#diagnostic">查看范围与商业模式 →</a>
   </aside>
 </div>
 
@@ -30,12 +30,12 @@ translation:
   <div><strong>中国 · 欧洲 · 美国</strong><span>跨市场产品建设与现场交付</span></div>
 </div>
 
-## 一个业务重点，三个决策节点
+## 一个核心业务，三个付费阶段
 
 <div class="conversion-grid">
-  <section class="conversion-card"><p class="eyebrow">产品建设</p><h3>机器人首先应该做什么？</h3><p>面向创始人和产品负责人：明确一个有价值的客户流程、任务边界、数据闭环、自主能力假设与 Alpha 证据。</p><a href="/zh/physical-ai/#flagship-sprint">查看产品与部署冲刺 →</a></section>
-  <section class="conversion-card"><p class="eyebrow">投资判断</p><h3>哪些技术主张经得起现场检验？</h3><p>面向投资人与董事会：评估能力证据、系统依赖、部署负担、服务成本与路线图假设。</p><a href="/zh/physical-ai/#technical-diligence">查看技术尽调 →</a></section>
-  <section class="conversion-card"><p class="eyebrow">客户部署</p><h3>系统能否在客户现场运行？</h3><p>面向进入试点或生产的机器人团队：在规模化之前明确集成、工况、验收、恢复与支持要求。</p><a href="/zh/services/">查看部署服务 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">诊断</p><h3>两周 · 规划价格 3 万美元</h3><p>建立运行基线、量化问题、验证根因与准备度证据，并形成包含成本的验收方案。</p><a href="/zh/services/#diagnostic">查看诊断 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">恢复</p><h3>三个月 · 规划价格 40 万美元</h3><p>与合格交付伙伴协调范围明确的干预、调试、测量、客户验收与交接。</p><a href="/zh/services/#recovery">查看恢复项目 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">稳定</p><h3>三个月 · 规划价格 10 万美元</h3><p>交接后提供定期可靠性复盘、范围明确的排障、部署审核和问题清单管理。</p><a href="/zh/services/#support">查看可靠性支持 →</a></section>
 </div>
 
 ## 来自一线运营者的视角

@@ -1,8 +1,8 @@
 ---
 layout: conversion
 permalink: /
-title: "Physical AI Product & Deployment"
-excerpt: "Turn a robot demonstration into a focused Physical AI product with evidence for the first customer deployment."
+title: "Physical AI Deployment & Production Recovery"
+excerpt: "Move Physical AI systems from customer pilot to measurable production acceptance and reliable operation."
 lang: en
 translation:
   zh_url: /zh/
@@ -13,24 +13,24 @@ redirect_from:
 
 <div class="conversion-hero">
   <div>
-    <p class="eyebrow">Yong Qian · Physical AI product & deployment</p>
-    <h1>Build the evidence between a robot demo and a deployable product.</h1>
-    <p class="conversion-lead">I help humanoid and intelligent-robot teams choose the first customer workflow, test the assumptions behind it, and build a product, pilot, and acceptance path grounded in field reality.</p>
+    <p class="eyebrow">Yong Qian · Physical AI deployment & production recovery</p>
+    <h1>Move Physical AI from pilot to production.</h1>
+    <p class="conversion-lead">I help robot companies and industrial teams diagnose deployment gaps, recover blocked or unstable systems, and reach measurable customer acceptance. One bounded diagnostic leads to an implementation decision, then reliability support where needed.</p>
     <div class="conversion-actions">
-      <a class="btn btn--primary" href="/physical-ai/#flagship-sprint">Review the flagship sprint</a>
-      <a class="btn" href="/contact/?service=physical-ai#project-brief">Discuss a decision</a>
+      <a class="btn btn--primary" href="/services/">Review the core program</a>
+      <a class="btn" href="/contact/?service=diagnostic#project-brief">Discuss a deployment</a>
     </div>
-    <p class="conversion-note">Focused on Physical AI product definition, deployment readiness, technical diligence, and robot reliability.</p>
+    <p class="conversion-note">One business: diagnostic → deployment recovery → reliability support.</p>
   </div>
   <aside class="conversion-panel" aria-label="The first engagement">
-    <p class="eyebrow">The deployment test</p>
-    <h2>What must be true outside the demo?</h2>
+    <p class="eyebrow">The first paid engagement</p>
+    <h2>Two-week deployment diagnostic</h2>
     <ol>
-      <li>Define the first valuable task and operating environment.</li>
-      <li>Separate demonstrated capability from unverified assumptions.</li>
-      <li>Build the evidence, deployment, and acceptance path.</li>
+      <li>Baseline the customer workflow and economic impact.</li>
+      <li>Separate observed system gaps from assumptions.</li>
+      <li>Deliver a costed recovery and acceptance plan.</li>
     </ol>
-    <a href="/physical-ai/">See the Physical AI practice →</a>
+    <a href="/services/#diagnostic">Review scope and commercial model →</a>
   </aside>
 </div>
 
@@ -40,12 +40,12 @@ redirect_from:
   <div><strong>China · Europe · U.S.</strong><span>Product building and field delivery across markets</span></div>
 </div>
 
-## One focus, three decision points
+## One business, three paid stages
 
 <div class="conversion-grid">
-  <section class="conversion-card"><p class="eyebrow">Build</p><h3>What should the robot do first?</h3><p>For founders and product leaders: define one valuable customer workflow, its task boundary, data loop, autonomy assumptions, and alpha evidence.</p><a href="/physical-ai/#flagship-sprint">Review the product and deployment sprint →</a></section>
-  <section class="conversion-card"><p class="eyebrow">Invest</p><h3>Which claims survive field scrutiny?</h3><p>For investors and boards: test capability evidence, system dependencies, deployment burden, service load, and roadmap assumptions.</p><a href="/physical-ai/#technical-diligence">Review technical diligence →</a></section>
-  <section class="conversion-card"><p class="eyebrow">Deploy</p><h3>Will the system work at the customer site?</h3><p>For robot teams entering pilots or production: define integration, operating conditions, acceptance, recovery, and support before scale.</p><a href="/services/">Review deployment services →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Diagnose</p><h3>Two weeks · planning price $30K</h3><p>Establish the operating baseline, quantify the problem, test root-cause and readiness evidence, and produce a costed acceptance plan.</p><a href="/services/#diagnostic">Review the diagnostic →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Recover</p><h3>Three months · planning price $400K</h3><p>Coordinate bounded interventions, commissioning, measurement, customer acceptance, and handover with qualified delivery partners.</p><a href="/services/#recovery">Review the recovery program →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Stabilize</p><h3>Three months · planning price $100K</h3><p>Provide scheduled reliability reviews, bounded troubleshooting, deployment reviews, and an owned issue backlog after handover.</p><a href="/services/#support">Review reliability support →</a></section>
 </div>
 
 ## The operator perspective
