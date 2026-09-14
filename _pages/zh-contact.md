@@ -22,7 +22,7 @@ translation:
 
 请通过独立表单提交项目情况。表单使用 Cloudflare Turnstile 防滥用，内容仅作项目评估，并会在 12 个月后自动删除。
 
-<a class="btn btn--primary" href="https://inquiry.qianyong.me/?lang=zh&amp;service=diagnostic">打开安全提交表单</a>
+<a class="btn btn--primary" href="https://inquiry.omniedge.io/?lang=zh&amp;service=diagnostic">打开安全提交表单</a>
 
 请勿提交密码、访问令牌、出口管制材料或其他敏感凭据。如项目匹配，我会通过邮件联系并安排下一步。
 

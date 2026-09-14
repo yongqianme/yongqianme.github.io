@@ -8,7 +8,7 @@
   "preview_urls": false,
   "routes": [
     {
-      "pattern": "inquiry.qianyong.me",
+      "pattern": "inquiry.omniedge.io",
       "custom_domain": true
     }
   ],
@@ -31,7 +31,7 @@
     {
       "binding": "DB",
       "database_name": "submission-form-db",
-      "database_id": "local-development"
+      "database_id": "00d13c83-0bcb-4f68-85e3-4e5e92326251"
     }
   ]
 }

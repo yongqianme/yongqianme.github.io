@@ -22,7 +22,7 @@ Prefer email? Write to [qianyong@qianyong.me](mailto:qianyong@qianyong.me), or u
 
 Use the standalone intake form for project details. Submissions are protected by Cloudflare Turnstile, stored privately, and automatically deleted after 12 months.
 
-<a class="btn btn--primary" href="https://inquiry.qianyong.me/?lang=en&amp;service=diagnostic">Open secure submission form</a>
+<a class="btn btn--primary" href="https://inquiry.omniedge.io/?lang=en&amp;service=diagnostic">Open secure submission form</a>
 
 Please do not include passwords, access tokens, export-controlled material, or other secrets. If the brief is a fit, I will reply by email to arrange the next step.
 
