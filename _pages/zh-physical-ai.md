@@ -8,13 +8,13 @@ translation:
   en_url: /physical-ai/
 ---
 
-<p class="eyebrow">一个专业的 Physical AI 业务</p>
+<p class="eyebrow">Physical AI 实践</p>
 
 # 在失败会造成经济损失的场景部署 Physical AI。
 
-<p class="conversion-lead">Physical AI 部署与生产恢复业务帮助机器人公司和工业客户诊断高成本部署缺口，实施范围明确的恢复项目，并让已验收系统稳定运行。产品判断、现场工程和技术尽调共用同一种证据方法，并服务于同一个交付业务。</p>
+<p class="conversion-lead">Physical AI 部署与生产恢复业务帮助机器人公司和工业客户诊断高成本部署缺口，实施范围明确的恢复项目，并让已验收系统稳定运行。</p>
 
-<div class="conversion-actions"><a class="btn btn--primary" href="/zh/services/">查看核心方案</a><a class="btn" href="/zh/contact/?service=diagnostic#project-brief">沟通部署需求</a></div>
+<div class="conversion-actions"><a class="btn btn--primary" href="/zh/services/">了解部署支持</a><a class="btn" href="/zh/contact/?service=diagnostic#project-brief">沟通部署需求</a></div>
 
 <p class="conversion-note"><strong>最适合：</strong>有明确负责人、一个机器人流程、可访问运行证据、重大经济影响，并需要在 90 天内决策。</p>
 
@@ -27,23 +27,17 @@ translation:
 </div>
 
 <span id="founder-sprint"></span><span id="flagship-sprint"></span>
-## 核心业务如何运作
+## 合作方式
 
 当问题或干预措施尚不明确时，从付费部署诊断开始。已有同等运行证据的团队可以直接界定实施范围。诊断可以转化为部署恢复项目，再进入范围明确的可靠性支持；诊断结果也可独立使用。
 
-| 阶段 | 规划范围 | 商业目的 |
-|---|---|---|
-| 诊断 | 两周 / 3 万美元 | 建立影响基线、识别系统缺口、验证可行性，并形成包含成本的验收方案 |
-| 恢复 | 三个月 / 40 万美元 | 实施约定干预、调试、测量、验收与交接 |
-| 稳定 | 三个月 / 10 万美元 | 持续开展可靠性复盘、范围明确的排障与问题清单管理 |
-
-价格是用于资格判断和书面范围界定的起始假设。客户条件、访问权限、复杂度和合作伙伴交付决定最终方案。硬件与主要第三方集成由客户直接采购。
+范围、周期、费用与交付安排在初次沟通后私下确认。
 
 [查看完整核心方案](/zh/services/){: .btn .btn--primary}
 
 <h2 id="technical-diligence">面向创始人与投资人：同一种证据方法</h2>
 
-对于创始人，诊断会检验所选流程、系统架构、部署负担和客户价值是否足以支持生产承诺。对于投资人或董事会，同一种方法会形成关于能力、依赖、交付经济性和商业计划证据的决策判断。技术尽调只作为诊断的一种形式选择性承接，不构成独立业务线。
+对于创始人，诊断会检验所选流程、系统架构、部署负担和客户价值是否足以支持生产承诺。对于投资人或董事会，同一种方法会形成关于能力、依赖、交付经济性和商业计划证据的决策判断。
 
 ### 审核范围
 

@@ -1,6 +1,6 @@
 ---
 layout: conversion
-title: "Core Program: Physical AI Deployment & Production Recovery"
+title: "Physical AI Deployment & Production Recovery"
 permalink: /services/
 excerpt: "A paid diagnostic, bounded deployment-recovery program, and reliability support for valuable robot workflows."
 lang: en
@@ -8,7 +8,7 @@ translation:
   zh_url: /zh/services/
 ---
 
-<p class="eyebrow">The core commercial program</p>
+<p class="eyebrow">Deployment support</p>
 
 # Diagnose. Recover. Stabilize.
 
@@ -18,7 +18,6 @@ translation:
 
 <h2 id="diagnostic">Stage 1 · Deployment diagnostic</h2>
 
-**Planning price: $30K · Two weeks · One robot workflow at one site**
 
 The diagnostic begins after scope and data access are agreed. It fits a defined robot workflow entering a pilot, acceptance test, or live operation. Timing depends on site access, operating windows, and available evidence. Final scope, fee, payment terms, and delivery-cost boundaries are confirmed in writing before work starts.
 
@@ -42,7 +41,6 @@ The diagnostic begins after scope and data access are agreed. It fits a defined 
 
 This is most useful when a Physical AI or intelligent-robot product has a defined workflow, a responsible owner, access to operating evidence, material economic impact, a budget path, and a deployment decision within 90 days. Common starting points are integration blockers, inconsistent task completion, recurring stops, unsafe or slow recovery, acceptance delays, and unclear service requirements.
 
-For a recovery program with a $400K planning price, the working qualification threshold is a customer-validated path to at least $1.2M in annual benefit. That threshold guides whether deeper scoping is sensible; it is not a savings guarantee.
 
 This practice does not provide general factory optimization or open-ended maintenance staffing. Industrial robotics work is accepted when it tests or improves a robot product, deployment method, or reliability model relevant to Physical AI.
 
@@ -54,7 +52,6 @@ The diagnostic is a standalone engagement. Your team can implement the findings,
 
 <h3 id="recovery">Stage 2 · Deployment-recovery program</h3>
 
-**Planning price: $400K · Three months · After diagnostic or equivalent evidence**
 
 For a bounded robot workflow with an agreed baseline, the planning starting point is a three-month program. Site access, engineering complexity, partner capacity, and production windows determine the final schedule.
 
@@ -72,7 +69,6 @@ Equipment purchases and major third-party work are separately identified. Every 
 
 <h3 id="support">Stage 3 · Reliability support after handover</h3>
 
-**Planning price: $100K · Three-month block · Billed on agreed milestones**
 
 For teams that need continuity after implementation, we can agree a three-month support block covering scheduled reliability reviews, a prioritized issue backlog, and bounded remote troubleshooting. Covered assets, response windows, included hours, site visits, and escalation responsibilities are written into the scope. An extension follows a review of the remaining need.
 
@@ -85,9 +81,5 @@ For teams that need continuity after implementation, we can agree a three-month 
 <details><summary>Do you guarantee a particular savings figure?</summary><p>Any performance target needs an agreed baseline, operating conditions, and a technically supportable intervention. The diagnostic makes those assumptions visible before implementation commitments.</p></details>
 <details><summary>What if we already know the problem?</summary><p>We can discuss a directly scoped intervention. The first step is to confirm the evidence, responsibilities, and acceptance criteria rather than repeat work your team has completed.</p></details>
 <details><summary>What if the use case is not yet defined?</summary><p>The core program is not ready to start. First select a customer workflow and identify the decision that field evidence must support. A short introduction can establish whether there is enough scope for a paid diagnostic.</p></details>
-
-## One-business boundary
-
-Product framing and investor diligence are handled only when they strengthen a deployment diagnostic or test the same field-readiness evidence. Hardware resale, a new humanoid platform, general AI consulting, and unrelated factory optimization are not part of this program. This keeps sales, delivery partners, evidence templates, and follow-on revenue centered on one repeatable problem.
 
 <div class="conversion-cta"><h2>Bring the robot, workflow, site, and acceptance decision.</h2><p>Share what has been demonstrated, what fails or remains uncertain in the target environment, and when the team must decide.</p><div class="conversion-actions"><a class="btn btn--primary" href="/contact/?service=diagnostic#project-brief">Prepare a deployment brief</a><a class="btn" href="/physical-ai/">Review the Physical AI practice</a></div></div>

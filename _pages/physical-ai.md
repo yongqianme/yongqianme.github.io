@@ -8,13 +8,13 @@ translation:
   zh_url: /zh/physical-ai/
 ---
 
-<p class="eyebrow">One specialized Physical AI business</p>
+<p class="eyebrow">Physical AI in practice</p>
 
 # Deploy Physical AI where failure has an economic consequence.
 
-<p class="conversion-lead">Physical AI Deployment & Production Recovery helps robot companies and industrial customers diagnose costly deployment gaps, execute bounded recovery programs, and stabilize accepted systems. Product questions, field engineering, and technical diligence use one evidence method and feed one delivery business.</p>
+<p class="conversion-lead">Physical AI Deployment & Production Recovery helps robot companies and industrial customers diagnose costly deployment gaps, execute bounded recovery programs, and stabilize accepted systems.</p>
 
-<div class="conversion-actions"><a class="btn btn--primary" href="/services/">Review the core program</a><a class="btn" href="/contact/?service=diagnostic#project-brief">Discuss a deployment</a></div>
+<div class="conversion-actions"><a class="btn btn--primary" href="/services/">Explore deployment support</a><a class="btn" href="/contact/?service=diagnostic#project-brief">Discuss a deployment</a></div>
 
 <p class="conversion-note"><strong>Best fit:</strong> a named owner, one robot workflow, accessible operating evidence, material economic impact, and a decision within 90 days.</p>
 
@@ -27,23 +27,17 @@ translation:
 </div>
 
 <span id="founder-sprint"></span><span id="flagship-sprint"></span>
-## How the core business works
+## Working together
 
 Start with a paid deployment diagnostic when the problem or intervention remains uncertain. Teams with equivalent operating evidence can scope implementation directly. A diagnostic can lead to a deployment-recovery program and then a bounded reliability-support block; it also remains useful on its own.
 
-| Stage | Planning scope | Commercial purpose |
-|---|---|---|
-| Diagnose | Two weeks / $30K | Baseline impact, identify system gaps, test feasibility, and define a costed acceptance plan |
-| Recover | Three months / $400K | Execute agreed interventions, commissioning, measurement, acceptance, and handover |
-| Stabilize | Three months / $100K | Maintain reliability reviews, bounded troubleshooting, and an owned issue backlog |
-
-Prices are starting hypotheses for qualification and written scoping. Customer conditions, access, complexity, and partner delivery determine the final proposal. Customers purchase hardware and major third-party integration directly.
+Scope, timing, fees, and delivery arrangements are agreed privately after an initial discussion.
 
 [Review the complete program](/services/){: .btn .btn--primary}
 
 <h2 id="technical-diligence">For founders and investors: one evidence method</h2>
 
-For a founder, the diagnostic tests whether the selected workflow, system architecture, deployment burden, and customer value can support a production commitment. For an investor or board, the same method provides a decision-ready view of capability, dependencies, delivery economics, and the evidence behind the commercial plan. Technical diligence is accepted selectively as a diagnostic variant; it is not a separate business line.
+For a founder, the diagnostic tests whether the selected workflow, system architecture, deployment burden, and customer value can support a production commitment. For an investor or board, the same method provides a decision-ready view of capability, dependencies, delivery economics, and the evidence behind the commercial plan.
 
 ### Review areas
 

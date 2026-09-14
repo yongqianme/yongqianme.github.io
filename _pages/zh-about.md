@@ -13,14 +13,14 @@ translation:
     <p class="eyebrow">Yong Qian · Physical AI 部署与生产恢复</p>
     <h1>推动 Physical AI 从试点走向生产。</h1>
     <p class="conversion-lead">我帮助机器人公司和工业团队诊断部署缺口，恢复受阻或不稳定的系统，并达到可衡量的客户验收。从一个范围明确的诊断开始，再决定实施与可靠性支持。</p>
-    <div class="conversion-actions"><a class="btn btn--primary" href="/zh/services/">查看核心方案</a><a class="btn" href="/zh/contact/?service=diagnostic#project-brief">沟通部署需求</a></div>
-    <p class="conversion-note">一个核心业务：诊断 → 部署恢复 → 可靠性支持。</p>
+    <div class="conversion-actions"><a class="btn btn--primary" href="/zh/services/">了解部署支持</a><a class="btn" href="/zh/contact/?service=diagnostic#project-brief">沟通部署需求</a></div>
+    <p class="conversion-note">具体范围与商务条款在私下沟通中确认。</p>
   </div>
   <aside class="conversion-panel" aria-label="首次合作">
     <p class="eyebrow">首次付费合作</p>
     <h2>两周部署诊断</h2>
     <ol><li>建立客户流程与经济影响基线。</li><li>区分已观察到的系统缺口与假设。</li><li>交付包含成本的恢复与验收方案。</li></ol>
-    <a href="/zh/services/#diagnostic">查看范围与商业模式 →</a>
+    <a href="/zh/services/#diagnostic">沟通合作范围 →</a>
   </aside>
 </div>
 
@@ -30,12 +30,12 @@ translation:
   <div><strong>中国 · 欧洲 · 美国</strong><span>跨市场产品建设与现场交付</span></div>
 </div>
 
-## 一个核心业务，三个付费阶段
+## 我可以提供的帮助
 
 <div class="conversion-grid">
-  <section class="conversion-card"><p class="eyebrow">诊断</p><h3>两周 · 规划价格 3 万美元</h3><p>建立运行基线、量化问题、验证根因与准备度证据，并形成包含成本的验收方案。</p><a href="/zh/services/#diagnostic">查看诊断 →</a></section>
-  <section class="conversion-card"><p class="eyebrow">恢复</p><h3>三个月 · 规划价格 40 万美元</h3><p>与合格交付伙伴协调范围明确的干预、调试、测量、客户验收与交接。</p><a href="/zh/services/#recovery">查看恢复项目 →</a></section>
-  <section class="conversion-card"><p class="eyebrow">稳定</p><h3>三个月 · 规划价格 10 万美元</h3><p>交接后提供定期可靠性复盘、范围明确的排障、部署审核和问题清单管理。</p><a href="/zh/services/#support">查看可靠性支持 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">诊断</p><h3>了解部署现状</h3><p>建立运行基线、量化问题、验证根因与准备度证据，并形成包含成本的验收方案。</p><a href="/zh/services/#diagnostic">查看诊断 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">恢复</p><h3>解决部署阻碍</h3><p>与合格交付伙伴协调范围明确的干预、调试、测量、客户验收与交接。</p><a href="/zh/services/#recovery">查看恢复项目 →</a></section>
+  <section class="conversion-card"><p class="eyebrow">稳定</p><h3>改善运行可靠性</h3><p>交接后提供定期可靠性复盘、范围明确的排障、部署审核和问题清单管理。</p><a href="/zh/services/#support">查看可靠性支持 →</a></section>
 </div>
 
 ## 来自一线运营者的视角

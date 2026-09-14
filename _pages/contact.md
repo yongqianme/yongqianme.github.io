@@ -26,7 +26,7 @@ Prefer email? Write to [qianyong@qianyong.me](mailto:qianyong@qianyong.me), or u
 
 I will review your inquiry to understand the problem and fit. We can then clarify the scope and information needed in a conversation. If a paid engagement makes sense, you will receive a written proposal covering deliverables, responsibilities, timing, and fee before work starts.
 
-[Review the core program, scope, and planning prices](/services/)
+[Discuss project scope](/services/)
 
 <h2 id="other-conversations">Other conversations</h2>
 

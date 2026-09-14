@@ -17,10 +17,10 @@ redirect_from:
     <h1>Move Physical AI from pilot to production.</h1>
     <p class="conversion-lead">I help robot companies and industrial teams diagnose deployment gaps, recover blocked or unstable systems, and reach measurable customer acceptance. One bounded diagnostic leads to an implementation decision, then reliability support where needed.</p>
     <div class="conversion-actions">
-      <a class="btn btn--primary" href="/services/">Review the core program</a>
+      <a class="btn btn--primary" href="/services/">Explore deployment support</a>
       <a class="btn" href="/contact/?service=diagnostic#project-brief">Discuss a deployment</a>
     </div>
-    <p class="conversion-note">One business: diagnostic → deployment recovery → reliability support.</p>
+    <p class="conversion-note">Scope and commercial terms are discussed privately.</p>
   </div>
   <aside class="conversion-panel" aria-label="The first engagement">
     <p class="eyebrow">The first paid engagement</p>
@@ -30,7 +30,7 @@ redirect_from:
       <li>Separate observed system gaps from assumptions.</li>
       <li>Deliver a costed recovery and acceptance plan.</li>
     </ol>
-    <a href="/services/#diagnostic">Review scope and commercial model →</a>
+    <a href="/services/#diagnostic">Discuss scope →</a>
   </aside>
 </div>
 
@@ -40,12 +40,12 @@ redirect_from:
   <div><strong>China · Europe · U.S.</strong><span>Product building and field delivery across markets</span></div>
 </div>
 
-## One business, three paid stages
+## How I can help
 
 <div class="conversion-grid">
-  <section class="conversion-card"><p class="eyebrow">Diagnose</p><h3>Two weeks · planning price $30K</h3><p>Establish the operating baseline, quantify the problem, test root-cause and readiness evidence, and produce a costed acceptance plan.</p><a href="/services/#diagnostic">Review the diagnostic →</a></section>
-  <section class="conversion-card"><p class="eyebrow">Recover</p><h3>Three months · planning price $400K</h3><p>Coordinate bounded interventions, commissioning, measurement, customer acceptance, and handover with qualified delivery partners.</p><a href="/services/#recovery">Review the recovery program →</a></section>
-  <section class="conversion-card"><p class="eyebrow">Stabilize</p><h3>Three months · planning price $100K</h3><p>Provide scheduled reliability reviews, bounded troubleshooting, deployment reviews, and an owned issue backlog after handover.</p><a href="/services/#support">Review reliability support →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Diagnose</p><h3>Understand the deployment</h3><p>Establish the operating baseline, quantify the problem, test root-cause and readiness evidence, and produce a costed acceptance plan.</p><a href="/services/#diagnostic">Review the diagnostic →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Recover</p><h3>Resolve deployment blockers</h3><p>Coordinate bounded interventions, commissioning, measurement, customer acceptance, and handover with qualified delivery partners.</p><a href="/services/#recovery">Review the recovery program →</a></section>
+  <section class="conversion-card"><p class="eyebrow">Stabilize</p><h3>Improve reliability</h3><p>Provide scheduled reliability reviews, bounded troubleshooting, deployment reviews, and an owned issue backlog after handover.</p><a href="/services/#support">Review reliability support →</a></section>
 </div>
 
 ## The operator perspective

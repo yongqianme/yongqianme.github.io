@@ -4,7 +4,7 @@ main:
   url: /
 - title: "Physical AI"
   url: /physical-ai/
-- title: "Core Program"
+- title: "Services"
   url: /services/
 - title: "Work"
   url: /work/
@@ -22,7 +22,7 @@ zh:
   url: /zh/
 - title: "Physical AI"
   url: /zh/physical-ai/
-- title: "核心方案"
+- title: "服务"
   url: /zh/services/
 - title: "项目"
   url: /zh/work/
