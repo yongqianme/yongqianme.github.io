@@ -144,8 +144,13 @@ async function validateAttachment(value: FormDataEntryValue | null): Promise<Val
     contentType = "image/jpeg";
   } else if (extension === "png" && bytesStartWith(prefix, [0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]) && declaredType === "image/png") {
     contentType = "image/png";
-  } else if ((extension === "log" || extension === "txt") && (!declaredType || declaredType === "text/plain") && !prefix.includes(0)) {
-    contentType = "text/plain; charset=utf-8";
+  } else if ((extension === "log" || extension === "txt") && (!declaredType || declaredType === "text/plain")) {
+    try {
+      new TextDecoder("utf-8", { fatal: true }).decode(bytes);
+      contentType = "text/plain; charset=utf-8";
+    } catch {
+      throw new TypeError("attachment_type");
+    }
   } else {
     throw new TypeError("attachment_type");
   }
