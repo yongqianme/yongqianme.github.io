@@ -9,209 +9,133 @@ redirect_from:
   - /resume
 ---
 
-GLOBAL ROBOTICS & PHYSICAL AI PRODUCT LEADER
+PHYSICAL AI & ROBOTICS PRODUCT EXECUTIVE
 ----
 
-Industrial automation founder, field deployment executive, and cross-border deep-tech builder.
+20+ years across industrial robotics, field deployment, edge infrastructure, and AI products. Founder with three exits. Built products and led teams across China, Europe, and the United States—from automotive production systems and industrial IoT to global edge networking and humanoid robotics.
 
-Yong Qian is a robotics and Physical AI product leader with 20+ years across industrial robotics, automotive automation, edge computing, IoT, SaaS, and applied AI. His career connects three rare operating muscles: field robotics deployment, hands-on hardware/software product building, and founder-level commercialization across China, Europe, and the United States.
+**20+ Years Robotics & Automation · 3 Exits · 7K+ Users / 26 Countries · China–Europe–U.S. · Humanoid + Industrial Robotics · Hardware → Edge → Cloud → AI**
 
-He has built and exited ventures in industrial connectivity, open-source edge networking, and AIGC SaaS. He brings a practical Physical AI lens to product leadership: define the real use case, understand the robot's deployment environment, build the data and infrastructure loop, and judge whether the technology can survive outside a demo.
+Yong Qian works at the point where robotics R&D must become a product customers can deploy, operate, and trust. He combines field experience in commissioning and production support with product strategy, technical architecture, commercialization, and cross-border leadership. His operating principle is simple: a demo is not a product.
 
 
-CORE VALUE
+PROFESSIONAL EXPERIENCE
 ----
 
-- **Physical AI product judgment**: Translates robotics R&D into use cases, task boundaries, data loops, roadmap priorities, and commercially credible product direction.
-- **Field deployment depth**: 20+ years around industrial robots, PLCs, vision systems, commissioning, troubleshooting, customer acceptance, uptime, safety, and manufacturing quality.
-- **Founder execution**: Built and exited products across hardware/software, industrial IoT, mesh networking SaaS, AIGC, and robotics-related consulting.
-- **Cross-border operating range**: Worked with customers, teams, and partners across China, Germany, the U.S., Mexico, and broader Asia-Europe-North America markets.
-- **Full-stack technical fluency**: Comfortable across mechanical systems, robot programming, industrial controls, embedded/edge devices, cloud services, AI workflows, and GTM.
+### Istituto Marangoni, Shanghai, China — Tutor | Current
+
+- Mentor students at the intersection of AI, product development, entrepreneurship, and the creative industries.
+- Bring operating experience from robotics, AIGC, and 0-to-1 product building into industry-focused education.
+
+### ARTOP GROUP, Shanghai, China — External Chief Design Consultant | Current
+
+- Advise on robotics and intelligent-hardware product direction, connecting customer needs, industrial design, engineering constraints, and commercialization.
+- Help shape products from early concept through a credible design and delivery path.
+
+### JetX — Robotics Chief Product Officer | Current
+
+- Lead product strategy for robotic vehicle-care and autonomous-fleet infrastructure spanning automation, charging support, IoT connectivity, and operational software.
+- Translate fleet workflows and field requirements into product priorities for reliable, scalable deployment.
+
+### Independent / qianyong.me — Principal, Physical AI Product & Deployment Strategy | 2025 to Present
+
+- Advise robotics and industrial teams on product definition, deployment readiness, production recovery, edge architecture, and commercialization.
+- Define credible first use cases, task boundaries, data loops, acceptance criteria, and field evidence for Physical AI products.
+- Evaluated and declined a $7M robotics opportunity when the available platform could not responsibly meet the deployment requirements, protecting the customer from an unworkable commitment.
+
+### Spirit AI, Beijing, China — Head of Products / Robotics Product Manager | September 2025 to November 2025
+
+- Owned product vision, roadmap, requirements, and execution planning for next-generation humanoid robots, data-collector products, and supporting infrastructure.
+- Translated hardware capability, AI readiness, customer workflows, and field constraints into deployable product requirements.
+- Bridged R&D, engineering, and product execution across use-case definition, data strategy, system architecture, and commercialization.
+
+### Stealth Startups — Director of Products, Contract | July 2025 to August 2025
+
+- Converted customer needs into launchable product concepts spanning IoT, SaaS, AI, humanoid robotics, and data-collector platforms.
+- Defined target users, initial product scope, task boundaries, hardware/software architecture, and launch requirements.
+
+### OmniEdge Inc, Austin, U.S. — Founder & CEO / CPO | September 2021 to April 2025
+
+- Built an open-source peer-to-peer mesh networking SaaS to 7,000+ users across 26 countries and completed a strategic exit.
+- Shipped across Linux, Windows, macOS, iOS, Android, Docker, Synology, OpenWrt, GitHub Actions, and AWS; contributed directly to critical product components and documentation.
+- Built and led a distributed team across Australia, Canada, Malaysia, Macao, Germany, the United States, and China, with members from AMD, Alibaba, and other global technology companies.
+- Created and exited DeepFashion.us, an AIGC SaaS for personalized generative design models, and led robotics consulting engagements that improved automotive equipment stability and yield.
+
+### JIEQI EdgeComputing Co., Ltd., Hangzhou, China — Founder & CEO | September 2018 to February 2021
+
+- Built industrial IoT hardware and SaaS for secure remote access to PLCs, robots, vision systems, and industrial equipment.
+- Designed the hardware-to-cloud product around industrial routers, WireGuard connectivity, AWS, and native iOS, Windows, and Android applications.
+- Raised outside capital, recruited an international team, and built enterprise relationships with Frimo, Stäubli, Adient, Grupo Antolin, and the industrial automation ecosystem.
+
+### Frimo (Germany) GmbH — Robotics Programmer / APAC Field Deployment Lead | December 2012 to September 2018
+
+- Delivered automotive automation programs across Asia and Europe, coordinating headquarters, regional teams, suppliers, and international OEM customers.
+- Commissioned, debugged, and supported systems integrating industrial robots, PLCs, offline programming, process equipment, and machine vision.
+- Led field troubleshooting, localization, customer acceptance, and production support for complex manufacturing programs.
+
+### Frimo (Shanghai), China — Automation Engineer | April 2010 to May 2012
+
+- Directed industrial robotics projects from concept, feasibility, simulation, and offline programming through deployment and production support.
+- Developed localization solutions for China-market customer requirements and delivered on-site system integration.
+
+### Stäubli, Hangzhou, China — Robotics Technical Support | April 2006 to March 2010
+
+- Early member of Stäubli's China robotics operation, responsible for field service, troubleshooting, repair, pre-sales, feasibility, integration support, and customer training across China and Asia-Pacific.
+- Designed and developed China's first no-code industrial robotics laser-cutting system.
 
 
-SELECTED PHYSICAL AI EXPERIENCE
+EXECUTIVE CAPABILITIES
 ----
 
-### Humanoid Robotics Product Leadership
-
-- Led product vision, strategy, and roadmap work for next-generation humanoid robotics at Spirit AI, connecting hardware capability, AI readiness, field deployment constraints, and market-facing product definition.
-- Helped define what the robot should do first, what data loop it needs, how much autonomy belongs on-device, and how to avoid overpromising capability before field readiness.
-
-### Stealth Startup Physical AI Product Definition
-
-- Translated customer needs into product direction across IoT, SaaS, AI, and robotics, including humanoid robots and data-collector platforms.
-- Clarified early product wedges, target users, task boundaries, hardware/software architecture, and data-collection strategy for emerging Physical AI products.
-
-### AroOne / 77z Elder-Care Companion Robot Concept
-
-- Contributed product and commercialization thinking around AroOne / 77z, a privacy-first elder-care companion robot concept combining hardware, embedded intelligence, and on-device AI.
-- Focused the concept around trust, privacy, useful daily interaction, and realistic home-care workflows rather than treating elder-care robotics as a simple demo problem.
-
-### Field-Readiness Judgment
-
-- Evaluated a $7M robotics opportunity and declined to proceed when the deployment requirements exceeded the available platform's responsible field capability.
-- Demonstrated a core leadership principle for Physical AI: protect customer trust by separating impressive demos from systems that can be deployed, supported, and accepted in real environments.
+- **Physical AI product leadership:** Humanoid robotics, use-case definition, task boundaries, data collection, edge/cloud architecture, roadmap ownership, and field-readiness decisions.
+- **Robotics deployment:** Robot programming, PLCs, machine vision, commissioning, debugging, safety, reliability, customer acceptance, and production recovery.
+- **0-to-1 product building:** Hardware/software systems, industrial IoT, edge networking, AI SaaS, product architecture, fundraising, team building, and founder-led GTM.
+- **Cross-border operations:** Product, engineering, customer, and partner leadership across China, Germany, the United States, Mexico, and distributed international teams.
 
 
-OPERATING EXPERIENCE
+SELECTED IMPACT
 ----
 
-### Spirit AI, Beijing, China, September 2025 to November 2025, Head of Products & Robotics Product Manager
-
-- Owned product vision, strategy, roadmap, requirements, and execution planning for next-generation humanoid robots, Data Collector products, and supporting system infrastructure.
-- Translated hardware, AI, and real-world application requirements into collection and product specifications for deployable robotics systems.
-- Bridged R&D, engineering, and product execution to convert advanced robotics concepts into deployable multi-industry solutions.
-
-### Stealth Startups, July 2025 to August 2025, Director of Products (Contract)
-
-- Converted customer needs into launchable product concepts using IoT, SaaS, and AI capabilities.
-- Defined early product direction, user needs, implementation scope, and practical launch requirements for startup-stage products.
-
-### OmniEdge Inc, Austin, U.S., September 2021 to April 2025, Founder & CEO / CPO
-
-#### Ventures Built And Exited
-
-- **OmniEdge (OSS mesh VPN SaaS)**: Designed, built, and scaled an open-source peer-to-peer mesh VPN SaaS for secure private networking across distributed devices. Grew to 7,000+ users across 26 countries and completed a strategic exit.
-- **DeepFashion.us (AIGC SaaS)**: Created an AI platform enabling designers to train personalized generative models and accelerate creative design workflows. Exited.
-- **Robotics consulting**: Led automation improvement projects for top-tier automotive suppliers in the U.S., Mexico, and China, improving equipment stability and yield rates and contributing to tens of millions in client savings.
-
-#### Product & Technical Leadership
-
-- Owned end-to-end product design, technical architecture, market strategy, and GTM.
-- Shipped multi-platform applications across Linux, Windows, macOS, iOS, Android, Docker, Synology, OpenWrt, GitHub Actions, and AWS.
-- Built critical product components directly, including GitHub Actions integrations, OpenWrt packages, Docker applications, front-end interfaces, and documentation systems.
-- Drove business development through founder-led GTM, community growth, content, LinkedIn, and Twitter.
-
-#### Team & Execution
-
-- Built and led a distributed, multi-national team with members from AMD, Alibaba, and other global technology backgrounds.
-- Managed product, engineering, and business development across Australia, Canada, Malaysia, Macao, Germany, the U.S., and China.
-
-### JIEQI EdgeComputing Co., Ltd., Hangzhou, China, September 2018 to February 2021, Founder & CEO
-
-#### Product & Market
-
-- Built and scaled an industrial IoT SaaS connecting machine vendors, PLCs, robots, and industrial vision systems to secure remote service networks.
-- Designed and deployed an integrated hardware + software platform using industrial routers, WireGuard-based connectivity, AWS, and native apps for iOS, Windows, and Android.
-- Turned field-service pain into a product wedge for machine builders and industrial automation teams.
-
-#### Fundraising & Business Development
-
-- Raised capital from private funds and venture capital.
-- Built enterprise relationships with Frimo GmbH, Staubli Group, Adient, Grupo Antolin, and industrial automation ecosystems.
-
-#### Team
-
-- Recruited internationally across the U.K., Germany, the U.S., and China, including Oxford and Cambridge graduates.
-- Coordinated distributed product, engineering, and operations teams.
-
-### Frimo (Germany) GmbH, December 2012 to September 2018, Robotics Programmer / APAC Field Deployment Lead
-
-- Delivered global automotive automation programs across Asia and Europe, coordinating between headquarters, regional teams, suppliers, and international OEM clients.
-- Deployed, commissioned, debugged, and supported robotic automation systems integrating industrial robots, PLCs, offline programming, process equipment, and vision systems.
-- Served as a regional technical bridge for complex customer delivery, field troubleshooting, localization, acceptance, and production support.
-
-### Frimo (Shanghai), April 2010 to May 2012, Automation Engineer
-
-- Directed industrial robotics automation projects across concept, feasibility, simulation, offline programming, deployment, and post-launch support.
-- Delivered on-site customer support and integration for advanced automation systems.
-- Developed technical localization solutions independently for China-market customer requirements.
-
-### Staubli Hangzhou, Hangzhou, China, April 2006 to March 2010, Robotics Technical Support
-
-- Early member of Staubli's robotics division in China, responsible for post-sale service, troubleshooting, repair, and customer support across China and Asia-Pacific markets.
-- Provided pre-sales support, requirements refinement, feasibility studies, and technical training for integrators.
-- Designed and developed China's first no-code industrial robotics laser cutting system.
+- **Three exits:** OmniEdge, DeepFashion.us, and JIEQI EdgeComputing across open-source SaaS, AIGC, and industrial IoT.
+- **Global product scale:** 7,000+ OmniEdge users across 26 countries.
+- **Automotive deployment:** Delivered automation work in BMW, Audi, Mercedes-Benz, Tesla, Ford, Hyundai, and global supplier environments.
+- **Field judgment:** Declined a $7M robotics deal when the technology could not meet the required deployment standard.
+- **Industrial innovation:** Built integrated IIoT products and an early no-code robotic laser-cutting system.
 
 
-VENTURES BUILT & EXITED
+PATENTS & SELECTED CREDENTIALS
 ----
 
-| Venture | Sector | Role | Outcome |
-|---|---|---|---|
-| OmniEdge | Open-source mesh VPN / edge networking SaaS | Founder & CEO / CPO | Strategic exit |
-| DeepFashion.us | AIGC / creative AI SaaS | Founder | Exit |
-| JIEQI EdgeComputing | Industrial IoT / hardware + SaaS | Founder & CEO | Exit |
-
-
-DOMAIN EXPERTISE
-----
-
-- **Robotics & automation**: Industrial robots, automotive automation, robot programming, commissioning, troubleshooting, safety, uptime, acceptance, and production support.
-- **Physical AI & embodied systems**: Humanoid robot product strategy, data-collector platforms, on-device AI, privacy-first robot concepts, and field-readiness evaluation.
-- **Industrial IoT & edge computing**: Hardware/software systems connecting PLCs, robots, industrial vision, routers, cloud services, and remote service workflows.
-- **AI & AIGC**: Generative AI products, personalized model training, model fine-tuning workflows, GPU infrastructure, and AI-assisted product development.
-- **Networking & infrastructure**: Peer-to-peer mesh VPN, WireGuard, device identity, Docker, OpenWrt, multi-platform clients, and edge-to-cloud orchestration.
-- **Founder and GTM execution**: 0-to-1 product definition, fundraising, hiring, international teams, founder-led sales, community growth, and exits.
-
-
-INVESTMENT FOCUS
-----
-
-- **Thesis**: Physical AI at the infrastructure layer - embodied intelligence compute, robotics software stacks, industrial data engines, edge-to-cloud systems, and tools that make robots deployable.
-- **Stage**: Pre-seed to Series A, with preference for technical founders with deep domain knowledge.
-- **Value-add**: Architecture review, prototyping judgment, GTM strategy for hardware/software products, China-U.S.-Europe market navigation, and introductions across industrial and robotics ecosystems.
-
-
-BOOKS, PUBLICATIONS & SPEECHES
-----
-
-### Books
-
-* How to Build Fashion AI SaaS From Scratch [Amazon](https://www.amazon.com/build-Fashion-Scratch-step-step-ebook/dp/B0F8WBNSPP)
-* Building Your Enterprise Peer-to-Peer VPN SaaS from Scratch [Amazon](https://www.amazon.com/Building-Enterprise-Peer-Peer-Scratch-ebook/dp/B0F8YSG1WW)
-
-### Publications
-
-* "White Paper on Supply Chain Innovation and Application Based on Industrial Internet" (Editorial Board Member) [[Link](http://www.aii-alliance.org/index/c145/n2702.html)]
-* Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value, 2018, Tsinghua University [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
-* Leveraging the Power of Modular Design for Enhanced Manufacturing Efficiency [[Link](/files/Modular-Design-of-Machine.pdf)]
-
-### Speeches & Presentations
-
-* OmniEdge: Bring Intranet on the Internet, 2022, Bocconi University, Milan [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
-* AI is Facilitating the Growth of Next-Generation Designers, 2024, China Fashion Summit, Beijing [[Link](https://www.youtube.com/watch?v=4wSYxFmf4vM&t=10s)]
-
-
-NOTABLE PROJECTS
-----
-
-- **AroOne / 77z elder-care companion robot concept**: Privacy-first Physical AI product concept for care, daily interaction, on-device AI, and home trust.
-- **Spirit AI humanoid robotics**: Product vision, strategy, roadmap, use-case definition, and field-readiness thinking for next-generation humanoid robots.
-- **OmniEdge platform**: Open-source mesh VPN private network with 7,000+ users globally.
-- **JIEQI / Jaybox industrial IoT**: Industrial routers, secure remote access, SaaS, and mobile apps for PLCs, robots, and industrial machine service.
-- **DeepFashion.us**: AI platform for personalized generative design models.
-- **Automotive robotics**: Automation solutions for BMW, Audi, Mercedes-Benz, Tesla, Ford, Hyundai, and top-tier suppliers.
-- **VAL LASER**: First global rollout of a no-code robotics laser cutting system.
-- **High Voltage Security IIoT System**: CT-powered sensors, industrial routers, SaaS, and mobile apps for high-voltage electricity transmission.
+- **Industrial Controller**, CN305878600S, issued June 26, 2020 — controller for industrial process parameters, remote control, rapid machine deployment, and failure prediction.
+- **Industrial Controller**, CN305301146S, issued August 13, 2019 — industrial IoT controller for collecting and deploying machine process data.
+- Machine Learning, Stanford Online, 2017; FANUC Robot Programming, 2011; ABB Robotics & IRC5 Advanced Application Training, 2010.
 
 
 EDUCATION
 ----
 
-### Master in Commerce Management and Marketing, 2023-2024
+### Master in Commerce Management and Marketing | 2023–2024
 
-- Escuela de Negocios Europea de Barcelona / Universidad Isabel I, Spain
+Escuela de Negocios Europea de Barcelona / Universidad Isabel I, Spain
 
-### Bachelor's Degree in Machine Design and its Automation, 2002-2006
+### Bachelor's Degree in Machine Design and its Automation | 2002–2006
 
-- Henan University of Science & Technology, China
+Henan University of Science & Technology, China
+
+
+SELECTED PUBLICATIONS & SPEAKING
+----
+
+- *White Paper on Supply Chain Innovation and Application Based on Industrial Internet*, Editorial Board Member, 2021. [[Link](http://www.aii-alliance.org/index/c145/n2702.html)]
+- *Industrial Robots Empowered by Internet Technologies: How to Increase Core Added Value*, Tsinghua University, Beijing, 2018. [[Link](https://mp.weixin.qq.com/s/2VkoWdY9KRkDBAjkCC4imw)]
+- *OmniEdge: Bring Intranet on the Internet*, ntopconf, Bocconi University, Milan, 2022. [[Link](https://www.ntop.org/ntopconf2022/?lang=en)]
+- *AI Is Facilitating the Growth of Next-Generation Designers*, China Fashion Summit, Beijing, 2024. [[Link](https://www.youtube.com/watch?v=4wSYxFmf4vM&t=10s)]
+- *Leveraging the Power of Modular Design for Enhanced Manufacturing Efficiency*. [[Link](/files/Modular-Design-of-Machine.pdf)]
 
 
 ADDITIONAL INFORMATION
 ----
 
-### Languages
-
-- Chinese (Native)
-- English (Full Professional Proficiency)
-- Spanish (Beginner)
-
-### Global Footprint
-
-Lived and worked across China, Germany, and the United States. Ongoing relationships across Asia, Europe, and North America for cross-border product building, business development, deal sourcing, and portfolio support.
-
-### Community
-
-* roboticsfaq.com - Non-profit robotics community, 2012-2016
-* xulung.com - Non-profit engineer training platform, 2015-2017
+- **Languages:** Chinese (native), English (professional working proficiency), Spanish (elementary proficiency).
+- **Global footprint:** Lived and worked in China, Germany, and the United States, with operating experience across Asia, Europe, and North America.
+- **Community:** Founded roboticsfaq.com, a nonprofit robotics community (2012–2016), and xulung.com, a nonprofit engineering training platform (2015–2017).
