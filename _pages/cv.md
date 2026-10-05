@@ -24,8 +24,7 @@ PROFESSIONAL EXPERIENCE
 
 ### Istituto Marangoni, Shanghai, China — Tutor | Current
 
-- Mentor students at the intersection of AI, product development, entrepreneurship, and the creative industries.
-- Bring operating experience from robotics, AIGC, and 0-to-1 product building into industry-focused education.
+- Part-Time Tutor, AI × Fashion and Fashion × Robotics
 
 ### ARTOP GROUP, Shanghai, China — External Chief Design Consultant | Current
 
@@ -34,8 +33,7 @@ PROFESSIONAL EXPERIENCE
 
 ### JetX — Robotics Chief Product Officer | Current
 
-- Lead product strategy for robotic vehicle-care and autonomous-fleet infrastructure spanning automation, charging support, IoT connectivity, and operational software.
-- Translate fleet workflows and field requirements into product priorities for reliable, scalable deployment.
+- Define and build humanoid robot
 
 ### Independent / qianyong.me — Principal, Physical AI Product & Deployment Strategy | 2025 to Present
 
