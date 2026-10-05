@@ -12,6 +12,8 @@ main:
   url: /case-studies/
 - title: "Writing"
   url: /categories/
+- title: "Books"
+  url: /books/
 - title: "Resume"
   url: /cv/
 - title: "Discuss a Decision"
@@ -30,6 +32,8 @@ zh:
   url: /zh/case-studies/
 - title: "写作"
   url: /zh/writing/
+- title: "书籍"
+  url: /zh/books/
 - title: "履历"
   url: /zh/cv/
 - title: "沟通决策"
