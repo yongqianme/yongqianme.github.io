@@ -8,7 +8,25 @@ translation:
   zh_url: /zh/books/
 ---
 
-These books document products and transitions Yong Qian has personally built, led, released, or lived through: Fashion AI SaaS, enterprise P2P VPN SaaS, and the founder-to-leadership career transition.
+These books draw on products, transitions, and lives Yong Qian has personally built, led, or lived through—from robotics, entrepreneurship, and family to Fashion AI SaaS, enterprise P2P VPN SaaS, and the founder-to-leadership career transition.
+
+## The Road Is Yours
+
+<img src="/images/book-road-is-yours.webp" alt="The Road Is Yours by Yong Qian" width="260">
+
+A novel about an engineer who spends decades building robots, commissioning factories across continents, founding companies, losing them, and starting again—before a broken car on a California road forces him to reconsider ambition, family, and the finite time available to each of us.
+
+**What it explores:** Engineering, entrepreneurship, immigration, ambition, family, responsibility, and the choices that define a life across China, Germany, and the United States.
+
+### Buy Chinese Version:
+
+- [在 Apple Books 购买](https://books.apple.com/us/book/%E8%B7%AF%E5%9C%A8%E4%BD%A0%E6%89%8B%E4%B8%AD/id6816967067){: .btn .btn--primary}
+
+### Buy English Version:
+
+- [Buy on Amazon](https://a.co/d/0gKhG80h){: .btn .btn--primary}
+- [Buy on Apple Books](https://books.apple.com/us/book/the-road-is-yours/id6816007365){: .btn .btn--primary}
+
 
 ## How to Build Fashion AI SaaS From Scratch
 
@@ -40,6 +58,10 @@ A career guide for founders, co-founders, and early startup leaders moving into 
 
 [Buy on Amazon](https://a.co/d/dZXyVUV){: .btn .btn--primary}
 
+[Buy on Apple](https://books.apple.com/us/book/the-complete-guide-to-former-founder-employment-success/id6817230261){: .btn .btn--primary}
+
+
+
 ## Traditional Chinese Edition
 
 **前創始人求職成功完全指南：克服偏見，獲得夢想職位** brings the founder-career transition guidance to Traditional Chinese readers.
@@ -48,6 +70,6 @@ A career guide for founders, co-founders, and early startup leaders moving into 
 
 ## Author Thesis
 
-The common thread across these books is practical commercialization. They are not theory-first books. They come from building, launching, selling, exiting, hiring, debugging, and explaining products under real constraints.
+The common thread across these books is lived experience: building, launching, selling, exiting, hiring, debugging, crossing borders, raising a family, and deciding what deserves our finite time.
 
 [Publications](/publications/){: .btn}
