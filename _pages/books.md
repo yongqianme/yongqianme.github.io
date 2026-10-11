@@ -18,11 +18,15 @@ A novel about an engineer who spends decades building robots, commissioning fact
 
 **What it explores:** Engineering, entrepreneurship, immigration, ambition, family, responsibility, and the choices that define a life across China, Germany, and the United States.
 
-### Buy Chinese Version:
+### Chinese Edition
+
+<img src="/images/book-road-is-yours-zh.webp" alt="路在你手中" width="260">
+
+**路在你手中**
 
 - [在 Apple Books 购买](https://books.apple.com/us/book/%E8%B7%AF%E5%9C%A8%E4%BD%A0%E6%89%8B%E4%B8%AD/id6816967067){: .btn .btn--primary}
 
-### Buy English Version:
+### English Edition
 
 - [Buy on Amazon](https://a.co/d/0gKhG80h){: .btn .btn--primary}
 - [Buy on Apple Books](https://books.apple.com/us/book/the-road-is-yours/id6816007365){: .btn .btn--primary}
@@ -48,7 +52,7 @@ Written by Yong Qian, founder of OmniEdge, based on real-world experience design
 
 [Buy on Amazon](https://www.amazon.com/Building-Enterprise-Peer-Peer-Scratch-ebook/dp/B0F8YSG1WW){: .btn .btn--primary}
 
-## The Complete Guide to Former Founder Employment Success
+## From Founder To Employment
 
 <img src="/images/book-founder-employment.webp" alt="The Complete Guide to Former Founder Employment Success" width="260">
 
@@ -60,11 +64,25 @@ A career guide for founders, co-founders, and early startup leaders moving into 
 
 [Buy on Apple](https://books.apple.com/us/book/the-complete-guide-to-former-founder-employment-success/id6817230261){: .btn .btn--primary}
 
+### Simplified Chinese Edition
 
+<img src="/images/book-founder-employee-zh-hans.webp" alt="从创办人到员工：选择并获得下一份工作的实用行动指南" width="260">
 
-## Traditional Chinese Edition
+**从创办人到员工：选择并获得下一份工作的实用行动指南**
 
-**前創始人求職成功完全指南：克服偏見，獲得夢想職位** brings the founder-career transition guidance to Traditional Chinese readers.
+A practical action guide for founders choosing and securing their next role as an employee.
+
+[Buy on Apple Books](https://books.apple.com/us/book/id6821250340){: .btn .btn--primary}
+
+### Traditional Chinese Edition
+
+<img src="/images/book-founder-employee-zh-hant.webp" alt="從創辦人到員工：選擇並獲得下一份工作的實用行動指南" width="260">
+
+**從創辦人到員工：選擇並獲得下一份工作的實用行動指南**
+
+A Traditional Chinese edition of the practical action guide for moving from founder to employee.
+
+[Buy on Apple Books](https://books.apple.com/us/book/id6821244183){: .btn .btn--primary}
 
 [Buy on Amazon](https://www.amazon.com/dp/B0H2JPTLJL){: .btn .btn--primary}
 
