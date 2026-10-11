@@ -1,5 +1,5 @@
 ---
-title: The Impact of Leadership Departures on Zhiyuan Robotics’ Trajectory in 2026
+title: "AgiBot in 2026: Leadership Departures and the Swancor Deal"
 date: '2025-08-06'
 permalink: "/posts/2025/08/the-impact-of-leadership-departures-fcf/"
 categories:

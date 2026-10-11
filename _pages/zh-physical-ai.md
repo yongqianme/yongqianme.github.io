@@ -4,6 +4,7 @@ title: "Physical AI 部署与生产恢复"
 permalink: /zh/physical-ai/
 excerpt: "一个专业业务，推动高价值机器人流程从试点阻碍走向可衡量的生产验收。"
 lang: zh
+schema_type: Service
 translation:
   en_url: /physical-ai/
 ---

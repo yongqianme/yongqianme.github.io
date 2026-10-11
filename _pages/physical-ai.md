@@ -4,6 +4,7 @@ title: "Physical AI Deployment & Production Recovery"
 permalink: /physical-ai/
 excerpt: "One specialized business that moves valuable robot workflows from pilot friction to measurable production acceptance."
 lang: en
+schema_type: Service
 translation:
   zh_url: /zh/physical-ai/
 ---

@@ -66,9 +66,14 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Yong Qian"
+  links:
+    - "https://www.linkedin.com/in/yongqian"
+    - "https://github.com/yongqianme"
+    - "https://x.com/yongqianme"
+    - "https://www.youtube.com/@yongqianme"
+    - "https://yongqianme.substack.com"
 
 
 # Analytics
@@ -128,6 +133,8 @@ include:
 exclude:
   - _plans
   - _sales
+  - cloudflare-site
+  - cloudflare-submission-form
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -145,12 +152,19 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - config
+  - docker-compose.yml
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
+  - scripts
+  - talkmap.ipynb
+  - talkmap.py
+  - test
   - tmp
   - vendor
+  - wrangler.jsonc
 keep_files:
   - .git
   - .svn

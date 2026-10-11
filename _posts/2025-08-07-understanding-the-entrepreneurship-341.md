@@ -1,5 +1,5 @@
 ---
-title: Understanding the Entrepreneurship Penalty
+title: "The Entrepreneurship Penalty: A Short Note"
 date: '2025-08-07'
 permalink: "/posts/2025/08/understanding-the-entrepreneurship-341/"
 categories:
