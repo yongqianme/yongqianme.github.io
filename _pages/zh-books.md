@@ -18,11 +18,13 @@ translation:
 
 **内容主题：** 工程、创业、移民、野心、家庭、责任，以及一个人在中国、德国和美国之间如何选择自己的人生道路。
 
-### 中文版购买
+### 中文版
 
 - [在 Apple Books 购买](https://books.apple.com/us/book/%E8%B7%AF%E5%9C%A8%E4%BD%A0%E6%89%8B%E4%B8%AD/id6816967067){: .btn .btn--primary}
 
-### Buy English Version:
+### 英文版
+
+<img src="/images/book-road-is-yours.webp" alt="The Road Is Yours by Yong Qian" width="260">
 
 - [Buy on Amazon](https://a.co/d/0gKhG80h){: .btn .btn--primary}
 - [Buy on Apple Books](https://books.apple.com/us/book/the-road-is-yours/id6816007365){: .btn .btn--primary}
@@ -55,7 +57,27 @@ translation:
 
 [Buy on Apple](https://books.apple.com/us/book/the-complete-guide-to-former-founder-employment-success/id6817230261){: .btn .btn--primary}
 
-## 繁体中文版
+### 简体中文版
+
+<img src="/images/book-founder-employee-zh-hans.webp" alt="《从创办人到员工：选择并获得下一份工作的实用行动指南》" width="260">
+
+**从创办人到员工：选择并获得下一份工作的实用行动指南**
+
+为从创业者转向组织内岗位的人提供选择并获得下一份工作的实用行动方法。
+
+[在 Apple Books 购买](https://books.apple.com/us/book/id6821250340){: .btn .btn--primary}
+
+### 繁体中文版
+
+<img src="/images/book-founder-employee-zh-hant.webp" alt="《從創辦人到員工：選擇並獲得下一份工作的實用行動指南》" width="260">
+
+**從創辦人到員工：選擇並獲得下一份工作的實用行動指南**
+
+面向繁体中文读者的创办人转向员工角色实用行动指南。
+
+[在 Apple Books 购买](https://books.apple.com/us/book/id6821244183){: .btn .btn--primary}
+
+### 其他繁体中文版
 
 **前創始人求職成功完全指南：克服偏見，獲得夢想職位** 是上述创始人职业转型内容的繁体中文版本。
 
