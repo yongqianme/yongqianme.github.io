@@ -44,8 +44,10 @@ jobs:
           ! grep -R "localhost:4000" _site --include='*.html'
 
       - name: Deploy to Cloudflare
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy
+          wranglerVersion: "4.149.0"
+          packageManager: npm
+          command: deploy --config wrangler.jsonc
