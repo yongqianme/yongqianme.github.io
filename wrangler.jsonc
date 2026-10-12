@@ -5,11 +5,8 @@
   "preview_urls": false,
   "routes": [
     {
-      "pattern": "qianyong.me",
-      "custom_domain": true
-    },
-    {
-      "pattern": "www.qianyong.me",
+      "pattern": "demo.qianyong.me",
+      "zone_name": "qianyong.me",
       "custom_domain": true
     }
   ],

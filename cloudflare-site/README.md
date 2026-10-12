@@ -2,7 +2,7 @@
 
 The site remains a Jekyll application. GitHub Actions builds it and deploys the generated `_site` directory through Cloudflare Workers Static Assets. No application-framework rewrite is required.
 
-The production Worker serves `qianyong.me` and `www.qianyong.me`. The confidential inquiry form remains a separate Worker at `inquiry.omniedge.io`.
+The staging Worker serves `demo.qianyong.me`. The production `qianyong.me` and `www.qianyong.me` DNS records remain untouched. The confidential inquiry form remains a separate Worker at `inquiry.omniedge.io`.
 
 ## One-time setup
 
@@ -10,7 +10,7 @@ The production Worker serves `qianyong.me` and `www.qianyong.me`. The confidenti
 2. Create a scoped API token allowed to deploy Workers and manage the `qianyong.me` custom-domain routes.
 3. Add `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` as GitHub Actions repository secrets.
 4. Run the **Deploy site to Cloudflare** workflow manually.
-5. Verify canonical URLs, redirects, `/robots.txt`, `/sitemap.xml`, `/feed.xml`, `/llms.txt`, and both language trees before disabling GitHub Pages.
+5. Verify `https://demo.qianyong.me`, redirects, `/robots.txt`, `/sitemap.xml`, `/feed.xml`, `/llms.txt`, and both language trees before planning a separate production traffic migration.
 
 ## Local validation
 
