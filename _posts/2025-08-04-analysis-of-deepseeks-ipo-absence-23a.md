@@ -1,6 +1,5 @@
 ---
-title: Analysis of DeepSeek’s IPO Absence Amid China’s AI and Embodied Intelligence
-  Boom
+title: "DeepSeek, IPO Expectations, and Embodied Intelligence: A Policy and Market Brief"
 date: '2025-08-04'
 permalink: "/posts/2025/08/analysis-of-deepseeks-ipo-absence-23a/"
 categories:

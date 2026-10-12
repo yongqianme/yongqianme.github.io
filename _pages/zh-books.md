@@ -4,6 +4,7 @@ title: "书籍"
 permalink: /zh/books/
 author_profile: false
 lang: zh
+schema_type: BookCollection
 translation:
   en_url: /books/
 ---

@@ -4,6 +4,7 @@ title: "Physical AI Deployment & Production Recovery"
 permalink: /services/
 excerpt: "A paid diagnostic, bounded deployment-recovery program, and reliability support for valuable robot workflows."
 lang: en
+schema_type: Service
 translation:
   zh_url: /zh/services/
 ---

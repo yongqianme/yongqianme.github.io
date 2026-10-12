@@ -4,7 +4,6 @@
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
-{% assign seo_url = seo_url | default: site.github.url %}
 
 {% if page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
@@ -14,8 +13,9 @@
   {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
 
+{% assign canonical_path = page.canonical_url | default: page.url %}
 {% if site.url %}
-  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
+  {% assign canonical_url = canonical_path | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
@@ -24,6 +24,8 @@
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
+
+<meta name="description" content="{{ seo_description }}">
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
 {% if seo_author %}
@@ -44,12 +46,22 @@
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
 {% if seo_url %}
-  <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
-  <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+  <link rel="canonical" href="{{ canonical_path | prepend: seo_url | replace: "/index.html", "/" }}">
+  <meta property="og:url" content="{{ canonical_path | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if page.excerpt %}
+{% if seo_description %}
   <meta property="og:description" content="{{ seo_description }}">
+{% endif %}
+
+{% if page.translation.zh_url %}
+  <link rel="alternate" hreflang="en" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+  <link rel="alternate" hreflang="zh-Hans" href="{{ page.translation.zh_url | prepend: seo_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+{% elsif page.translation.en_url %}
+  <link rel="alternate" hreflang="en" href="{{ page.translation.en_url | prepend: seo_url }}">
+  <link rel="alternate" hreflang="zh-Hans" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.translation.en_url | prepend: seo_url }}">
 {% endif %}
 
 {% if site.twitter.username %}
@@ -112,17 +124,69 @@
   </script>
 {% endif %}
 
-{% if site.social %}
-  <script type="application/ld+json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
+      "@type": "Person",
+      "@id": {{ seo_url | append: "/#person" | jsonify }},
+      "name": {{ site.social.name | default: site.name | jsonify }},
+      "url": {{ seo_url | append: "/" | jsonify }},
+      "jobTitle": "Physical AI and Robotics Product Executive",
+      "sameAs": {{ site.social.links | jsonify }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ seo_url | append: "/#website" | jsonify }},
+      "url": {{ seo_url | append: "/" | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": ["en", "zh-Hans"],
+      "publisher": { "@id": {{ seo_url | append: "/#person" | jsonify }} }
     }
-  </script>
-{% endif %}
+    {% if page.collection == "posts" %},
+    {
+      "@type": "BlogPosting",
+      "@id": {{ canonical_url | append: "#article" | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      {% if page.modified %}"dateModified": {{ page.modified | date_to_xmlschema | jsonify }},{% endif %}
+      "inLanguage": {{ page.lang | default: "en" | jsonify }},
+      "author": { "@id": {{ seo_url | append: "/#person" | jsonify }} },
+      "isPartOf": { "@id": {{ seo_url | append: "/#website" | jsonify }} }
+    }
+    {% endif %}
+    {% if page.schema_type == "Service" %},
+    {
+      "@type": "Service",
+      "@id": {{ canonical_url | append: "#service" | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "serviceType": "Physical AI deployment diagnostics and production recovery",
+      "provider": { "@id": {{ seo_url | append: "/#person" | jsonify }} },
+      "areaServed": ["China", "Europe", "United States"]
+    }
+    {% endif %}
+    {% if page.schema_type == "BookCollection" %},
+    {
+      "@type": "ItemList",
+      "@id": {{ canonical_url | append: "#books" | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "itemListElement": [
+        { "@type": "Book", "position": 1, "name": "The Road Is Yours", "author": { "@id": {{ seo_url | append: "/#person" | jsonify }} } },
+        { "@type": "Book", "position": 2, "name": "From Founder to Employee", "author": { "@id": {{ seo_url | append: "/#person" | jsonify }} } },
+        { "@type": "Book", "position": 3, "name": "How to Build Fashion AI SaaS From Scratch", "author": { "@id": {{ seo_url | append: "/#person" | jsonify }} } },
+        { "@type": "Book", "position": 4, "name": "Building Your Enterprise Peer-to-Peer VPN SaaS from Scratch", "author": { "@id": {{ seo_url | append: "/#person" | jsonify }} } }
+      ]
+    }
+    {% endif %}
+  ]
+}
+</script>
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />

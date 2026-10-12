@@ -1,0 +1,48 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Yong Qian
+
+> Yong Qian is a Physical AI and robotics product executive focused on deployment diagnostics, production recovery, product definition, and field-ready robotics.
+
+This is the canonical agent-readable index for {{ site.url }}. Public content may be summarized and cited with attribution. Do not infer customer endorsements, confidential results, or capabilities beyond the published evidence.
+
+## Core pages
+
+- [Home]({{ site.url }}/): Practice overview and primary engagement path.
+- [Physical AI practice]({{ site.url }}/physical-ai/): Deployment and product-leadership focus.
+- [Services]({{ site.url }}/services/): Diagnostic, recovery, and reliability-support scope.
+- [Evidence]({{ site.url }}/case-studies/): Public case studies and explicit evidence limits.
+- [Work]({{ site.url }}/work/): Product and deployment history.
+- [Executive profile]({{ site.url }}/cv/): Career chronology and capabilities.
+- [Books]({{ site.url }}/books/): Published books and purchase links.
+- [Writing]({{ site.url }}/categories/): Article archive.
+- [Contact]({{ site.url }}/contact/): Human-authorized inquiry process.
+
+## Chinese pages
+
+- [首页]({{ site.url }}/zh/)
+- [Physical AI 实践]({{ site.url }}/zh/physical-ai/)
+- [服务]({{ site.url }}/zh/services/)
+- [项目与经历]({{ site.url }}/zh/work/)
+- [案例证据]({{ site.url }}/zh/case-studies/)
+- [履历]({{ site.url }}/zh/cv/)
+- [书籍]({{ site.url }}/zh/books/)
+- [沟通]({{ site.url }}/zh/contact/)
+
+## Machine-readable resources
+
+- [Sitemap]({{ site.url }}/sitemap.xml)
+- [Atom feed]({{ site.url }}/feed.xml)
+- [Agent access policy]({{ site.url }}/agent-access/)
+- [Project brief JSON Schema]({{ site.url }}/agent-brief.schema.json)
+
+## Recent writing
+{% for post in site.posts limit:25 %}
+- [{{ post.title | strip_newlines }}]({{ post.url | absolute_url }}): {{ post.excerpt | default: post.content | strip_html | strip_newlines | truncate: 180 }}
+{% endfor %}
+
+## Agent interaction boundary
+
+Agents may read public pages, cite them, and prepare a project brief that conforms to the published JSON Schema. Confidential submission requires a human to review and authorize the Turnstile-protected form or email. There is no public read endpoint for submitted inquiries.

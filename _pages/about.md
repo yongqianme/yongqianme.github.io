@@ -4,6 +4,7 @@ permalink: /
 title: "Physical AI Deployment & Production Recovery"
 excerpt: "Move Physical AI systems from customer pilot to measurable production acceptance and reliable operation."
 lang: en
+schema_type: Service
 translation:
   zh_url: /zh/
 redirect_from:

@@ -1,6 +1,5 @@
 ---
-title: Zhiyuan Robotics' Acquisition Strategy Dramatic Industry Shifts Driven by Capital
-  Leaps and Ecosystem Overhaul
+title: "Zhiyuan Robotics’ Acquisition Strategy: A Capital and Ecosystem Brief"
 date: '2025-08-13'
 permalink: "/posts/2025/08/zhiyuan-robotics-acquisition-strategy-cdc/"
 categories:

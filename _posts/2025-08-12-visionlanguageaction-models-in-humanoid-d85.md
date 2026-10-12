@@ -1,6 +1,5 @@
 ---
-title: Vision–Language–Action Models in Humanoid Robotics Practical Limits, Strategic
-  Bets, and Market Implications
+title: "Vision–Language–Action Models in Humanoid Robotics: A Short Commentary"
 date: '2025-08-12'
 permalink: "/posts/2025/08/visionlanguageaction-models-in-humanoid-d85/"
 categories:

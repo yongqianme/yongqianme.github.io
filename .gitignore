@@ -8,3 +8,7 @@ _site/
 .DS_Store
 _plans/
 _sales/
+cloudflare-submission-form/.dev.vars
+cloudflare-submission-form/.wrangler/
+cloudflare-submission-form/dist/
+cloudflare-submission-form/node_modules/

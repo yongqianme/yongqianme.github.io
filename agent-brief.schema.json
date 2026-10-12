@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qianyong.me/agent-brief.schema.json",
+  "title": "Yong Qian Physical AI project brief",
+  "description": "A machine-readable structure for preparing, but not autonomously submitting, a Physical AI deployment inquiry.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "email", "company", "robotWorkflow", "humanAuthorizationRequired"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1, "maxLength": 100 },
+    "email": { "type": "string", "format": "email", "maxLength": 160 },
+    "company": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "robotWorkflow": { "type": "string", "minLength": 1, "maxLength": 2000 },
+    "businessImpact": { "type": "string", "maxLength": 500 },
+    "decisionDeadline": { "type": "string", "maxLength": 160 },
+    "availableEvidence": { "type": "string", "maxLength": 1000 },
+    "referral": { "type": "string", "maxLength": 200 },
+    "inquiryContext": {
+      "type": "string",
+      "enum": ["diagnostic", "recovery", "support", "physical-ai", "diligence"]
+    },
+    "locale": { "type": "string", "enum": ["en", "zh"], "default": "en" },
+    "humanAuthorizationRequired": {
+      "const": true,
+      "description": "The brief must be reviewed and submitted by an authorized human through the secure form or email."
+    }
+  }
+}

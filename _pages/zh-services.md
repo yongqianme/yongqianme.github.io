@@ -4,6 +4,7 @@ title: "Physical AI 部署与生产恢复"
 permalink: /zh/services/
 excerpt: "针对高价值机器人流程的付费诊断、范围明确的部署恢复与可靠性支持。"
 lang: zh
+schema_type: Service
 translation:
   en_url: /services/
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'JAKA Robotics: Can China’s Cobot Champion Deliver Post-IPO?'
+title: "JAKA Robotics Post-IPO: An Industrial IoT Founder’s View"
 date: '2025-08-08'
 permalink: "/posts/2025/08/jaka-robotics-can-chinas-cobot-champion-136/"
 categories:

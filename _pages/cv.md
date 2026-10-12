@@ -31,9 +31,9 @@ PROFESSIONAL EXPERIENCE
 - Advise on robotics and intelligent-hardware product direction, connecting customer needs, industrial design, engineering constraints, and commercialization.
 - Help shape products from early concept through a credible design and delivery path.
 
-### JetX — Robotics Chief Product Officer | Current
+### JetX — Humanoid Robotics Product Manager | Current
 
-- Define and build humanoid robot
+- Define product requirements, customer workflows, and delivery priorities for a humanoid robot program.
 
 ### Independent / qianyong.me — Principal, Physical AI Product & Deployment Strategy | 2025 to Present
 
